@@ -6,24 +6,35 @@ import sys
 import time
 import os
 import pickle
+import numpy as np
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # nltk.download('punkt')  # if necessary...
 
+import tensorflow as tf
+
+dir_path = os.path.dirname(os.path.abspath(__file__))
 
 stemmer = nltk.stem.porter.PorterStemmer()
 remove_punctuation_map = dict((ord(char), None) for char in string.punctuation)
 
+@tf.keras.utils.register_keras_serializable()
+def simple_standardization(input_data):
+  lowercase = tf.strings.lower(input_data)
+  return lowercase
 
-def find_second_underscore(text):
-    counter = 0
-    for i in range(len(text)):
-        if text[i] == "_":
-            counter += 1
-        if counter == 2:
-            return i
+model = tf.keras.models.load_model(os.path.join(dir_path, "../deep_learning/classification_model"))
 
+labels = ["Biological chemistry",
+          "Inorganic chemistry", 
+          "Organic chemistry", 
+          "Physical chemistry"]
+
+
+def predict_field(text):
+    ilabel = np.argmax(model.predict([text])[0])
+    return labels[ilabel]
 
 def prune_text_general(text):
     out = text
@@ -72,33 +83,21 @@ def cosine_sim(text1, text2):
 
 def categorise(filename):
     input_file = FileParser(filename)
+    path = os.path.join(os.path.dirname(dir_path), "data_harvesting/similarity_data/")
+    branch = predict_field(" ".join(input_file)) 
+    path = os.path.join(path, "chemistry", branch.lower().replace(" ","_"))
     subject_name = []
     text_string = []
     similarity_scores = []
-    # path = "/home/cdt1901/Projects/text_similarity/training_data"
-    # for dir in os.listdir(path):
-    #     for file in os.listdir(path + "/" + dir):
-    #         subject_name.append(dir + "_" + file)
-    #         with open(path + "/"+ dir + "/" + file, 'r') as f:
-    #             data = f.read().replace('\n', '')
-    #             text_string.append(data)
-    #             similarity_scores.append(cosine_sim(data, eq_worksheet))
-
-    with open("textbooks", "rb") as f:
-        textbooks = pickle.load(f)
-
-    for subj, text in textbooks.items():
-        subject_name.append(subj)
-        similarity_scores.append(cosine_sim(text, input_file))
+    for filename in os.listdir(path):
+        subject_name.append(filename)
+        with open(os.path.join(path,filename), 'r') as f:
+            data = f.read().replace('\n', '')
+            text_string.append(data)
+            similarity_scores.append(cosine_sim(data, input_file))
 
     similarity_scores, subject_name = (list(t) for t in zip(*sorted(zip(similarity_scores, subject_name))))
-
-    return [
-        re.sub("_", " ", subject_name[-1][: find_second_underscore(subject_name[-1])]).capitalize(),
-        subject_name[-1][find_second_underscore(subject_name[-1]) + 1 :],
-        subject_name[-2][find_second_underscore(subject_name[-2]) + 1 :],
-        subject_name[-3][find_second_underscore(subject_name[-3]) + 1 :],
-    ]
+    return [branch] + subject_name[-1:-4:-1]
 
 
 def main():
