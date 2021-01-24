@@ -71,10 +71,11 @@ def cosine_sim(text1, text2):
 
 
 def categorise(filename):
+    input_file = FileParser(filename)
     subject_name = []
     text_string = []
     similarity_scores = []
-    path = "/home/cdt1901/Projects/text_similarity/training_data"
+    # path = "/home/cdt1901/Projects/text_similarity/training_data"
     # for dir in os.listdir(path):
     #     for file in os.listdir(path + "/" + dir):
     #         subject_name.append(dir + "_" + file)
@@ -88,7 +89,7 @@ def categorise(filename):
 
     for subj, text in textbooks.items():
         subject_name.append(subj)
-        similarity_scores.append(cosine_sim(text, filename))
+        similarity_scores.append(cosine_sim(text, input_file))
 
     similarity_scores, subject_name = (list(t) for t in zip(*sorted(zip(similarity_scores, subject_name))))
 
@@ -103,8 +104,8 @@ def categorise(filename):
 def main():
     # eq_chapter = FileParser("/home/cdt1901/Projects/hackbridge/hex-cambridge/backend/sample_inputs/eq_chapter.pdf")
     # carb_chapter = FileParser("/home/cdt1901/Projects/hackbridge/hex-cambridge/backend/sample_inputs/carbonyl_chapter.pdf")
-    eq_worksheet = FileParser("/home/cdt1901/Projects/hackbridge/hex-cambridge/backend/sample_inputs/Camera_flash.jpg")
-    out = categorise(eq_worksheet)
+    in_file = "/home/cdt1901/Projects/hackbridge/hex-cambridge/backend/sample_inputs/Camera_flash.jpg"
+    out = categorise(in_file)
     print(out)
 
 

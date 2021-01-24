@@ -1,4 +1,5 @@
 from flask import Flask, jsonify
+import task_similarity.categorise as cat
 
 app = Flask(__name__)
 
@@ -17,9 +18,9 @@ app = Flask(__name__)
 
 @app.route("/categories", methods=["GET"])
 def categorise(file):
-    text = FileParser(file)
-    cat = ADAM_AND_RAZ_ML(text)
-    return jsonify({"major": categories[0], "minor": categories[1]})
+    # this is a list, [0] is major category, [1:] are top three minor matches
+    category = cat(text)
+    return jsonify({"major": categories[0], "minor": [categories[1:]]})
 
 
 if __name__ == "__main__":

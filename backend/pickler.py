@@ -46,7 +46,7 @@ def FileParser(filename):
 
 
 def main():
-    path = "/home/cdt1901/Projects/text_similarity/training_data"
+    path = "../data_harvesting/harvested_data/chemistry"
     d = {}
     for dir in os.listdir(path):
         for file in os.listdir(path + "/" + dir):
