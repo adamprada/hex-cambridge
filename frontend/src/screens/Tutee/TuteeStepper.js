@@ -40,7 +40,7 @@ const TuteeStepper = ({ uid, setImageUrl }) => {
       <Typography>
         <Title>Upload your question.</Title>
         <Paragraph>
-          We'll process your file to determine which tutor will be most suitable for helping you. We'll process your file to determine which tutor will be most suitable for helping you.
+          We'll process your file to determine which tutor will be most suitable for helping you.
         </Paragraph>
       </Typography>
       <Dragger name="file" multiple={false} action={async (file) => {

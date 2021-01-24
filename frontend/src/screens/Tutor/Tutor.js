@@ -50,7 +50,7 @@ const Tutor = ({ uid }) => {
                             key: jitsiId,
                             matchId: jitsiId,
                             status: accepted ? <Tag color="green">ACCEPTED</Tag> : <Tag color="orange">PENDING</Tag>,
-                            action: <Button onClick={() => { FirebaseService.getImageUrl(tuteeId).then((url) => { setImageUrl(url) }); setJitsiId(jitsiId) }}>Accept</Button>
+                            action: <Button onClick={() => { FirebaseService.getImageUrl(tuteeId, jitsiId).then((url) => { setImageUrl(url) }); setJitsiId(jitsiId) }}>Accept</Button>
                           }));
                           return <Table columns={columns} dataSource={data} />
                         }
@@ -59,7 +59,7 @@ const Tutor = ({ uid }) => {
                     </FirebaseDatabaseNode>}
                     {jitsiId && <VideoConference jitsiId={jitsiId} />}
                   </Col>
-                  <Col span={12} style={{ padding: 20 }}>
+                  <Col span={12} style={{ padding: 20, height: "100%" }}>
                     {!imageUrl && <FirebaseDatabaseNode path={"users/" + uid}>
                       {d => {
                         if (d.value) {
@@ -84,7 +84,7 @@ const Tutor = ({ uid }) => {
                         opacity={1}
                         lineWidth={3}
                         style={{ position: 'absolute', zIndex: 1000}}/>,
-                      <img src={imageUrl} style={{ zIndex: -1000}}/>
+                      <img src={imageUrl} style={{ zIndex: -1000, height: "100%"}}/>
                     ]}
                   </Col>
                 </Row>
