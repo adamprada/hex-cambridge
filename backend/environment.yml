@@ -1,23 +1,36 @@
-name: hack
+name: textsim
 channels:
   - defaults
 dependencies:
   - _libgcc_mutex=0.1=main
+  - blas=1.0=openblas
   - ca-certificates=2021.1.19=h06a4308_0
   - certifi=2020.12.5=py39h06a4308_0
+  - click=7.1.2=pyhd3eb1b0_0
+  - joblib=1.0.0=pyhd3eb1b0_0
   - ld_impl_linux-64=2.33.1=h53a641e_7
   - libedit=3.1.20191231=h14c3975_1
   - libffi=3.3=he6710b0_2
   - libgcc-ng=9.1.0=hdf63c60_0
+  - libgfortran-ng=7.3.0=hdf63c60_0
+  - libopenblas=0.3.10=h5a2b251_0
   - libstdcxx-ng=9.1.0=hdf63c60_0
   - ncurses=6.2=he6710b0_1
+  - nltk=3.5=py_0
+  - numpy=1.19.2=py39h87658db_0
+  - numpy-base=1.19.2=py39h0f7b65f_0
   - openssl=1.1.1i=h27cfd23_0
   - pip=20.3.3=py39h06a4308_0
   - python=3.9.1=hdb3f193_2
   - readline=8.0=h7b6447c_0
+  - regex=2020.11.13=py39h27cfd23_0
+  - scikit-learn=0.23.2=py39ha9443f7_0
+  - scipy=1.5.2=py39hf56f3a7_0
   - setuptools=51.3.3=py39h06a4308_4
   - sqlite=3.33.0=h62c20be_0
+  - threadpoolctl=2.1.0=pyh5ca1d4c_0
   - tk=8.6.10=hbc83047_0
+  - tqdm=4.55.1=pyhd3eb1b0_0
   - tzdata=2020f=h52ac0ba_0
   - wheel=0.36.2=pyhd3eb1b0_0
   - xz=5.2.5=h7b6447c_0
@@ -45,4 +58,4 @@ dependencies:
     - tzlocal==1.5.1
     - xlrd==1.2.0
     - xlsxwriter==1.3.7
-prefix: /home/cdt1901/miniconda3/envs/hack
+prefix: /home/cdt1901/miniconda3/envs/textsim
