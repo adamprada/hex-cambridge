@@ -6,7 +6,6 @@ import subprocess
 def get_text_from_html(html):
     from bs4 import BeautifulSoup
     soup = BeautifulSoup(html, features="html.parser")
-
     # kill all script and style elements
     for script in soup(["script", "style"]):
         script.extract()    # rip it out
