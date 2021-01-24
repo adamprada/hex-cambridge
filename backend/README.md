@@ -1,0 +1,1 @@
+categorise() in test_similarity.py takes a file as input and returns a major category and the top 3 detailed categories

@@ -97,7 +97,7 @@ def categorise(filename):
         re.sub("_", " ", subject_name[-1][: find_second_underscore(subject_name[-1])]).capitalize(),
         subject_name[-1][find_second_underscore(subject_name[-1]) + 1 :],
         subject_name[-2][find_second_underscore(subject_name[-2]) + 1 :],
-        subject_name[-2][find_second_underscore(subject_name[-2]) + 1 :],
+        subject_name[-3][find_second_underscore(subject_name[-3]) + 1 :],
     ]
 
 
