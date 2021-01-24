@@ -23,8 +23,8 @@ class FirebaseService {
   uploadFile = (uid, file) => {
     return firebase.storage().ref(uid).put(file).then(() => firebase.storage().ref(uid).getDownloadURL()).then(url => url).catch(err => false);
   }
-  getImageUrl = (uid) => {
-    return firebase.storage().ref(uid).getDownloadURL().then(url => url);
+  getImageUrl = (uid, mid) => {
+    return firebase.database().ref('matches/' + mid + '/accepted').set(true).then(() => firebase.storage().ref(uid).getDownloadURL().then(url => url));
   }
 }
 
