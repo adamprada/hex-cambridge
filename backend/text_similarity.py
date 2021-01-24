@@ -80,7 +80,7 @@ def cosine_sim(text1, text2):
 def categorise(filename):
     input_file = FileParser(filename)
     path = os.path.join(os.path.dirname(dir_path), "data_harvesting/similarity_data/")
-    branch = predict_field(" ".join(input_file)) 
+    branch = predict_field(input_file)
     path = os.path.join(path, "chemistry", branch.lower().replace(" ","_"))
     subject_name = []
     text_string = []
@@ -91,7 +91,7 @@ def categorise(filename):
             data = f.read().replace('\n', '')
             text_string.append(data)
             similarity_scores.append(cosine_sim(data, input_file))
-
+    
     similarity_scores, subject_name = (list(t) for t in zip(*sorted(zip(similarity_scores, subject_name))))
     return [branch] + subject_name[-1:-4:-1]
 
