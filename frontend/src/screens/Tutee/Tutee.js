@@ -23,7 +23,7 @@ const Tutee = ({ uid }) => {
             <TuteeStepper uid={uid} setImageUrl={setImageUrl} />
           </Col>
           <Col span={12} style={{ padding: 20, height: "100%" }}>
-            <SketchField width='1024px' 
+            <SketchField width='2048px' 
                          height='768px' 
                          tool={Tools.Pencil}
                          backgroundColor="transparent"

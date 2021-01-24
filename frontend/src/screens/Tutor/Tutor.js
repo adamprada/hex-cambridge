@@ -21,6 +21,11 @@ const columns = [
     key: 'status',
   },
   {
+    title: 'Key Words',
+    key: 'keywords',
+    dataIndex: 'keywords'
+  },
+  {
     title: 'Action',
     dataIndex: 'action',
     key: 'action'
@@ -39,55 +44,61 @@ const Tutor = ({ uid }) => {
         </Menu>
       </Header>
       <Content>
-        
-                <Row type="flex" align="middle" style={{ height: '100%' }}>
-                  <Col span={12} style={{ padding: 20 }}>
-                    {!jitsiId && <FirebaseDatabaseNode path="matches/">
-                      {d => {
-                        if (d.value) {
-                          const matches = Object.values(d.value).filter(m => m.tutorId === uid);
-                          const data = matches.map(({ tuteeId, jitsiId, accepted }) => ({
-                            key: jitsiId,
-                            matchId: jitsiId,
-                            status: accepted ? <Tag color="green">ACCEPTED</Tag> : <Tag color="orange">PENDING</Tag>,
-                            action: <Button onClick={() => { FirebaseService.getImageUrl(tuteeId, jitsiId).then((url) => { setImageUrl(url) }); setJitsiId(jitsiId) }}>Accept</Button>
-                          }));
-                          return <Table columns={columns} dataSource={data} />
-                        }
-                        return null;
-                      }}
-                    </FirebaseDatabaseNode>}
-                    {jitsiId && <VideoConference jitsiId={jitsiId} />}
-                  </Col>
-                  <Col span={12} style={{ padding: 20, height: "100%" }}>
-                    {!imageUrl && <FirebaseDatabaseNode path={"users/" + uid}>
-                      {d => {
-                        if (d.value) {
-                          return (
-                            <Typography>
-                              <Title>Welcome back, {d.value.email}</Title>
-                              <Paragraph>
-                                We will match you according to the skills you listed when you created your account, which include: {d.value.domains}
-                              </Paragraph>
-                            </Typography>
-                          );
-                        }
-                        return null;
-                      }}
-                      </FirebaseDatabaseNode>}
-                    {imageUrl && [
-                      <SketchField width='1024px' 
-                        height='768px' 
-                        tool={Tools.Pencil}
-                        backgroundColor="transparent"
-                        lineColor='black'
-                        opacity={1}
-                        lineWidth={3}
-                        style={{ position: 'absolute', zIndex: 1000}}/>,
-                      <img src={imageUrl} style={{ zIndex: -1000, height: "100%"}}/>
-                    ]}
-                  </Col>
-                </Row>
+        <Row type="flex" align="middle" style={{ height: '100%' }}>
+          <Col span={12} style={{ padding: 20 }}>
+            {!jitsiId && <FirebaseDatabaseNode path="matches/">
+              {d => {
+                if (d.value) {
+                  const matches = Object.values(d.value).filter(m => m.tutorId === uid);
+                  const data = matches.map(({ tuteeId, jitsiId, accepted }) => ({
+                    key: jitsiId,
+                    matchId: jitsiId,
+                    status: accepted ? <Tag color="green">ACCEPTED</Tag> : <Tag color="orange">PENDING</Tag>,
+                    keywords: 'Chemistry',
+                    action: <Button onClick={() => { FirebaseService.getImageUrl(tuteeId, jitsiId).then((url) => { setImageUrl(url) }); setJitsiId(jitsiId) }}>Accept</Button>
+                  }));
+                  if (data[0]) {
+                    data[0]['keywords'] = <p><b>Physical chemistry</b>: "Pressure Dependence of Kp Le Châteliers Principle", "Degree of Dissociation", "Describing a Reaction Equilibria Rates and Energy Changes"</p>;
+                  }
+                  if (data[1]) {
+                    data[1]['keywords'] = <p><b>Inorganic chemistry</b>: "Valence Bond model of Bonding in H_", "The Periodic Table", "HCN"</p>
+                  }
+                  return <Table columns={columns} dataSource={data} />
+                }
+                return null;
+              }}
+            </FirebaseDatabaseNode>}
+            {jitsiId && <VideoConference jitsiId={jitsiId} />}
+          </Col>
+          <Col span={12} style={{ padding: 20, height: "100%" }}>
+            {!imageUrl && <FirebaseDatabaseNode path={"users/" + uid}>
+              {d => {
+                if (d.value) {
+                  return (
+                    <Typography style={{ marginTop: '60%' }}>
+                      <Title>Welcome back, {d.value.email}</Title>
+                      <Paragraph style={{ fontSize: 24 }}>
+                        We will match you according to the skills you listed when you created your account, which include: {JSON.stringify(d.value.domains, null, '\t')}
+                      </Paragraph>
+                    </Typography>
+                  );
+                }
+                return null;
+              }}
+              </FirebaseDatabaseNode>}
+            {imageUrl && [
+              <SketchField width='2048px' 
+                height='768px' 
+                tool={Tools.Pencil}
+                backgroundColor="transparent"
+                lineColor='black'
+                opacity={1}
+                lineWidth={3}
+                style={{ position: 'absolute', zIndex: 1000}}/>,
+              <img src={imageUrl} style={{ zIndex: -1000, height: "100%"}}/>
+            ]}
+          </Col>
+        </Row>
       </Content>
     </Layout>
   );
