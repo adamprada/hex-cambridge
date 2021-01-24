@@ -110,7 +110,6 @@ for point in datalist:
     bashCommand = "mkdir -p "+ datapath + "/" + point.path
     process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
 for point in datalist:
-#    with open(datapath + "/" + point.path + "/" + point.chapter, 'w') as xfile:
     print(point.chapter)
     if (point.chapter != "") and (len(point.chapter)>1):
         with open(datapath + "/" + point.path + "/" + point.chapter, 'w') as xfile:
