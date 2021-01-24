@@ -16,9 +16,6 @@ import tensorflow as tf
 
 dir_path = os.path.dirname(os.path.abspath(__file__))
 
-stemmer = nltk.stem.porter.PorterStemmer()
-remove_punctuation_map = dict((ord(char), None) for char in string.punctuation)
-
 @tf.keras.utils.register_keras_serializable()
 def simple_standardization(input_data):
   lowercase = tf.strings.lower(input_data)
@@ -66,17 +63,16 @@ def FileParser(filename):
 
 
 def stem_tokens(tokens):
+    stemmer = nltk.stem.porter.PorterStemmer()
     return [stemmer.stem(item) for item in tokens]
 
 
 def normalize(text):
+    remove_punctuation_map = dict((ord(char), None) for char in string.punctuation)
     return stem_tokens(nltk.word_tokenize(text.lower().translate(remove_punctuation_map)))
 
-
-vectorizer = TfidfVectorizer(tokenizer=normalize, stop_words="english")
-
-
 def cosine_sim(text1, text2):
+    vectorizer = TfidfVectorizer(tokenizer=normalize, stop_words="english")
     tfidf = vectorizer.fit_transform([text1, text2])
     return ((tfidf * tfidf.T).A)[0, 1]
 
