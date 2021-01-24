@@ -7,7 +7,7 @@ import VideoConference from '../../components/VideoConference';
 import { SketchField, Tools } from 'react-sketch';
 
 const { Header, Content } = Layout;
-const { Title, Text, Paragraph } = Typography;
+const { Title, Paragraph } = Typography;
 
 const columns = [
   {

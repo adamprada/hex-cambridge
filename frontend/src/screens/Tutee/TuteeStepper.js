@@ -43,7 +43,16 @@ const TuteeStepper = ({ uid, setImageUrl }) => {
           We'll process your file to determine which tutor will be most suitable for helping you. We'll process your file to determine which tutor will be most suitable for helping you.
         </Paragraph>
       </Typography>
-      <Dragger name="file" multiple={false} action={async (file) => FirebaseService.uploadFile(uid, file).then((url) => setImageUrl(url)).then(() => next())}>
+      <Dragger name="file" multiple={false} action={async (file) => {
+        FirebaseService.uploadFile(uid, file).then((url) => setImageUrl(url)).then(() => next());
+        fetch("http://127.0.0.1:5000/machine_learning", {
+          method: 'POST',
+          headers: {
+            "Content-Type": "multipart/form-data"
+          },
+          body: file
+        }).then(res => console.log(res))
+      }}>
         <p className="ant-upload-drag-icon">
           <InboxOutlined />
         </p>
@@ -82,9 +91,9 @@ const TuteeStepper = ({ uid, setImageUrl }) => {
               if (data.length > 0) {
                 return <Table columns={columns} dataSource={data} />
               }
-              return <Button type="primary" shape="round" icon={<SearchOutlined />} onClick={() => FirebaseService.findMatch(uid, "asdf")} style={{ width: 200, height: 100, marginTop: 50 }} />;
+              return <Button type="primary" shape="round" icon={<SearchOutlined />} onClick={() => FirebaseService.findMatch(uid, "Chemistry")} style={{ width: 200, height: 100, marginTop: 50 }} />;
             }
-            return <Button type="primary" shape="round" icon={<SearchOutlined />} onClick={() => FirebaseService.findMatch(uid, "asdf")} style={{ width: 200, height: 100, marginTop: 50 }} />;
+            return <Button type="primary" shape="round" icon={<SearchOutlined />} onClick={() => FirebaseService.findMatch(uid, "Chemistry")} style={{ width: 200, height: 100, marginTop: 50 }} />;
           }}
         </FirebaseDatabaseNode>
       </div>

@@ -1,12 +1,11 @@
 import React from 'react';
-import { Layout, Typography, Menu, Row, Col } from 'antd';
+import { Layout, Menu, Row, Col } from 'antd';
 import FirebaseService from '../../services/FirebaseService';
 import logo from '../../logo.svg';
 import TuteeStepper from './TuteeStepper';
 import { SketchField, Tools } from 'react-sketch';
 
 const { Header, Content } = Layout;
-const { Title, Paragraph, Text } = Typography;
 
 const Tutee = ({ uid }) => {
   const [imageUrl, setImageUrl] = React.useState("");
@@ -23,7 +22,7 @@ const Tutee = ({ uid }) => {
           <Col span={12} style={{ padding: 70, height: "60%" }}>
             <TuteeStepper uid={uid} setImageUrl={setImageUrl} />
           </Col>
-          <Col span={12} style={{ padding: 20 }}>
+          <Col span={12} style={{ padding: 20, height: "100%" }}>
             <SketchField width='1024px' 
                          height='768px' 
                          tool={Tools.Pencil}
@@ -32,7 +31,7 @@ const Tutee = ({ uid }) => {
                          opacity={1}
                          lineWidth={3}
                          style={{ position: 'absolute', zIndex: 1000}}/>
-            <img src={imageUrl} style={{ zIndex: -1000}}/>
+            {imageUrl && <img src={imageUrl} style={{ zIndex: -1000, height: "100%"}}/>}
           </Col>
         </Row>
       </Content>
