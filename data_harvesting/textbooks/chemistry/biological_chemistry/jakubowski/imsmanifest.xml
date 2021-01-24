@@ -1,0 +1,2962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imsccv1p1/imscp_v1p1" xmlns:lom="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/resource" xmlns:lomimscc="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/manifest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="cctd0015" xsi:schemaLocation="http://www.imsglobal.org/xsd/imslticc_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticc_v1p0.xsd http://www.imsglobal.org/xsd/imslticp_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticp_v1p0.xsd http://www.imsglobal.org/xsd/imslticm_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticm_v1p0.xsd http://www.imsglobal.org/xsd/imsbasiclti_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imsbasiclti_v1p0p1.xsd">
+    <metadata>
+        <schema>IMS Common Cartridge</schema>
+        <schemaversion>1.1.0</schemaversion>
+    <lomimscc:lom>
+      <lomimscc:general>
+        <lomimscc:title>
+          <lomimscc:string language="en-US">Biochemistry</lomimscc:string>
+        </lomimscc:title>
+      </lomimscc:general>
+    </lomimscc:lom>
+    </metadata>
+    <organizations>
+        <organization identifier="T_1000" structure="rooted-hierarchy">
+        <item identifier="T_00000">
+            <item identifier="T_000001">
+                <title>1: Preface</title>
+                <item identifier="T_000002" identifierref="T_000002_R">
+                    <title>1.1: A. Why Chemical Logic?</title>
+                </item>
+                <item identifier="T_000003" identifierref="T_000003_R">
+                    <title>1.2: B. Updates</title>
+                </item>
+                <item identifier="T_000004" identifierref="T_000004_R">
+                    <title>1.3: C. Introduction to Biochemistry</title>
+                </item>
+                <item identifier="T_000005" identifierref="T_000005_R">
+                    <title>THE HOWS?</title>
+                </item>
+                <item identifier="T_000006" identifierref="T_000006_R">
+                    <title>1.4: D. Biochemistry and Molecular Biology Dictionaries</title>
+                </item>
+                <item identifier="T_000007" identifierref="T_000007_R">
+                    <title>1.5: E. Permissions</title>
+                </item>
+            </item>
+            <item identifier="T_000008">
+                <title>2: The Cell</title>
+                <item identifier="T_000009" identifierref="T_000009_R">
+                    <title>2.1:  An Overview from a Chemistry Perspective</title>
+                </item>
+                <item identifier="T_000010" identifierref="T_000010_R">
+                    <title>2.2: Lipids</title>
+                </item>
+                <item identifier="T_000011" identifierref="T_000011_R">
+                    <title>2.3:  Proteins</title>
+                </item>
+                <item identifier="T_000012" identifierref="T_000012_R">
+                    <title>2.4:  Nucleic Acids</title>
+                </item>
+                <item identifier="T_000013" identifierref="T_000013_R">
+                    <title>2.5:  Carbohydrates</title>
+                </item>
+            </item>
+            <item identifier="T_000014">
+                <title>3: Lipid Structure</title>
+                <item identifier="T_000015" identifierref="T_000015_R">
+                    <title>3.1: Lipid Structure</title>
+                </item>
+                <item identifier="T_000016" identifierref="T_000016_R">
+                    <title>Fatty Acids</title>
+                </item>
+                <item identifier="T_000017" identifierref="T_000017_R">
+                    <title>General Links and References</title>
+                </item>
+                <item identifier="T_000018" identifierref="T_000018_R">
+                    <title>Glycerophospholipid and Sphingolipids</title>
+                </item>
+                <item identifier="T_000019" identifierref="T_000019_R">
+                    <title>Introduction to Lipids</title>
+                </item>
+                <item identifier="T_000020" identifierref="T_000020_R">
+                    <title>Lipids in Archea, Prokaryotes and Eukaryotes</title>
+                </item>
+                <item identifier="T_000021" identifierref="T_000021_R">
+                    <title>3.2: Lipids in Water</title>
+                </item>
+                <item identifier="T_000022" identifierref="T_000022_R">
+                    <title>General Links and References</title>
+                </item>
+                <item identifier="T_000023" identifierref="T_000023_R">
+                    <title>Making Lipsomes in the Lab</title>
+                </item>
+                <item identifier="T_000024" identifierref="T_000024_R">
+                    <title>Micelles and Bilayers</title>
+                </item>
+                <item identifier="T_000025" identifierref="T_000025_R">
+                    <title>Variants of Micelles and Vesicles</title>
+                </item>
+                <item identifier="T_000026" identifierref="T_000026_R">
+                    <title>3.3: Dynamics of Membrane Lipids</title>
+                </item>
+                <item identifier="T_000027" identifierref="T_000027_R">
+                    <title>Dynamics of Membranes</title>
+                </item>
+                <item identifier="T_000028" identifierref="T_000028_R">
+                    <title>General Links and References</title>
+                </item>
+                <item identifier="T_000029" identifierref="T_000029_R">
+                    <title>Lipid Conformational Transitions</title>
+                </item>
+                <item identifier="T_000030" identifierref="T_000030_R">
+                    <title>Lipid Distribution in Cells</title>
+                </item>
+                <item identifier="T_000031" identifierref="T_000031_R">
+                    <title>Lipid Rafts</title>
+                </item>
+                <item identifier="T_000032" identifierref="T_000032_R">
+                    <title>Membrane Permeability</title>
+                </item>
+                <item identifier="T_000033" identifierref="T_000033_R">
+                    <title>Molecular Mechanics and Dynamics</title>
+                </item>
+                <item identifier="T_000034" identifierref="T_000034_R">
+                    <title>A. Introduction to Molecular Mechanics and Molecular Dynamics</title>
+                </item>
+                <item identifier="T_000035" identifierref="T_000035_R">
+                    <title>B. Energy (E), Force (F) and Motion</title>
+                </item>
+                <item identifier="T_000036" identifierref="T_000036_R">
+                    <title>C. Molecular Mechanics</title>
+                </item>
+                <item identifier="T_000037" identifierref="T_000037_R">
+                    <title>D. Bonded Interaction Energy</title>
+                </item>
+                <item identifier="T_000038" identifierref="T_000038_R">
+                    <title>E. Non-Bonded Interaction Energy</title>
+                </item>
+                <item identifier="T_000039" identifierref="T_000039_R">
+                    <title>F. Summary Interactions</title>
+                </item>
+                <item identifier="T_000040" identifierref="T_000040_R">
+                    <title>G. Molecular Dynamics</title>
+                </item>
+                <item identifier="T_000041" identifierref="T_000041_R">
+                    <title>H. Links and Reference</title>
+                </item>
+                <item identifier="T_000042" identifierref="T_000042_R">
+                    <title>Thermodynamics Review</title>
+                </item>
+                <item identifier="T_000043" identifierref="T_000043_R">
+                    <title>A. Reactions and Energy Changes</title>
+                </item>
+                <item identifier="T_000044" identifierref="T_000044_R">
+                    <title>B. Equilibrium Constants</title>
+                </item>
+                <item identifier="T_000045" identifierref="T_000045_R">
+                    <title>C. Change in Free Energy G</title>
+                </item>
+                <item identifier="T_000046" identifierref="T_000046_R">
+                    <title>D. The System, Surroundings, and the Universe - Laws of Thermodynamics</title>
+                </item>
+                <item identifier="T_000047" identifierref="T_000047_R">
+                    <title>E. Summary</title>
+                </item>
+                <item identifier="T_000048" identifierref="T_000048_R">
+                    <title>3.4: Lipids in Water - Thermodynamics</title>
+                </item>
+                <item identifier="T_000049" identifierref="T_000049_R">
+                    <title>Introduction to Chemical Potential</title>
+                </item>
+                <item identifier="T_000050" identifierref="T_000050_R">
+                    <title>Introduction to the Hydrophobic Effect</title>
+                </item>
+                <item identifier="T_000051" identifierref="T_000051_R">
+                    <title>3.5: Lipid Aggregates from Single and Double Chain Amphiphiles</title>
+                </item>
+                <item identifier="T_000052" identifierref="T_000052_R">
+                    <title>3.6: Lipids and Signaling</title>
+                </item>
+                <item identifier="T_000053" identifierref="T_000053_R">
+                    <title>3.7:       Sphingomyelinase Activity Causes Transbilayer Lipid Translocation</title>
+                </item>
+                <item identifier="T_000054" identifierref="T_000054_R">
+                    <title>3.8:        Sphingomyelinase Activity Causes Transbilayer Lipid Translocation</title>
+                </item>
+                <item identifier="T_000055" identifierref="T_000055_R">
+                    <title>Homework Problems - Literature Learning Module:  Lipids 1 KEY</title>
+                </item>
+            </item>
+            <item identifier="T_000056">
+                <title>4: Protein Structure</title>
+                <item identifier="T_000057" identifierref="T_000057_R">
+                    <title>4.1: Amino Acids</title>
+                </item>
+                <item identifier="T_000058" identifierref="T_000058_R">
+                    <title>A1.  Amino Acid Structure</title>
+                </item>
+                <item identifier="T_000059" identifierref="T_000059_R">
+                    <title>Structure and Property of the Naturally-Occurring Amino Acids</title>
+                </item>
+                <item identifier="T_000060" identifierref="T_000060_R">
+                    <title>A10. General Links and References</title>
+                </item>
+                <item identifier="T_000061" identifierref="T_000061_R">
+                    <title>A2. Amino Acid Stereochemistry</title>
+                </item>
+                <item identifier="T_000062" identifierref="T_000062_R">
+                    <title>A3. Amino Acid Charges</title>
+                </item>
+                <item identifier="T_000063" identifierref="T_000063_R">
+                    <title>A4. Introduction to Amino Acid Reactivity</title>
+                </item>
+                <item identifier="T_000064" identifierref="T_000064_R">
+                    <title>A5. Reactions of Lysine</title>
+                </item>
+                <item identifier="T_000065" identifierref="T_000065_R">
+                    <title>A6. Reactions of Cysteine</title>
+                </item>
+                <item identifier="T_000066" identifierref="T_000066_R">
+                    <title>A7. Cysteine Chemistry</title>
+                </item>
+                <item identifier="T_000067" identifierref="T_000067_R">
+                    <title>Oxidation</title>
+                </item>
+                <item identifier="T_000068" identifierref="T_000068_R">
+                    <title>Reduction (Redox) Reactions and Oxidation Numbers</title>
+                </item>
+                <item identifier="T_000069" identifierref="T_000069_R">
+                    <title>A8. Reactions of Histidine</title>
+                </item>
+                <item identifier="T_000070" identifierref="T_000070_R">
+                    <title>A9. In Vivo Post Translational Modification of Amino Acids</title>
+                </item>
+                <item identifier="T_000071" identifierref="T_000071_R">
+                    <title>4.2: Composition, Sequence and Conformational Analysis of Proteins</title>
+                </item>
+                <item identifier="T_000072" identifierref="T_000072_R">
+                    <title>B1. Amino Acid Analysis and Chemical Sequencing</title>
+                </item>
+                <item identifier="T_000073" identifierref="T_000073_R">
+                    <title>B2. Sequence Determination Using Mass Spectrometry</title>
+                </item>
+                <item identifier="T_000074" identifierref="T_000074_R">
+                    <title>B3. Levels of Protein Structure</title>
+                </item>
+                <item identifier="T_000075" identifierref="T_000075_R">
+                    <title>B4. Analysis of Protein Secondary Structure</title>
+                </item>
+                <item identifier="T_000076" identifierref="T_000076_R">
+                    <title>B5. Analysis of Protein Tertiary Structure</title>
+                </item>
+                <item identifier="T_000077" identifierref="T_000077_R">
+                    <title>4.3: Understanding Protein Conformation</title>
+                </item>
+                <item identifier="T_000078" identifierref="T_000078_R">
+                    <title>C1. Main Chain Conformations</title>
+                </item>
+                <item identifier="T_000079" identifierref="T_000079_R">
+                    <title>C2. Secondary Structure</title>
+                </item>
+                <item identifier="T_000080" identifierref="T_000080_R">
+                    <title>C3. Tertiary Structure</title>
+                </item>
+                <item identifier="T_000081" identifierref="T_000081_R">
+                    <title>C4. Common Motifs in Proteins</title>
+                </item>
+                <item identifier="T_000082" identifierref="T_000082_R">
+                    <title>C5. Structual Clases of Proteins</title>
+                </item>
+                <item identifier="T_000083" identifierref="T_000083_R">
+                    <title>C6. Quarternary Structure</title>
+                </item>
+                <item identifier="T_000084" identifierref="T_000084_R">
+                    <title>C7. Recent References</title>
+                </item>
+                <item identifier="T_000085" identifierref="T_000085_R">
+                    <title>4.4: Protein Folding - in Vivo and in Vitro</title>
+                </item>
+                <item identifier="T_000086" identifierref="T_000086_R">
+                    <title>D1. Introduction</title>
+                </item>
+                <item identifier="T_000087" identifierref="T_000087_R">
+                    <title>D2. Protein Folding In Vitro</title>
+                </item>
+                <item identifier="T_000088" identifierref="T_000088_R">
+                    <title>D3. Folding of Single Protein Molecules</title>
+                </item>
+                <item identifier="T_000089" identifierref="T_000089_R">
+                    <title>D4. The Denatured State</title>
+                </item>
+                <item identifier="T_000090" identifierref="T_000090_R">
+                    <title>D5. Multiple Conformations from The Same Sequence</title>
+                </item>
+                <item identifier="T_000091" identifierref="T_000091_R">
+                    <title>D6. Protein Folding In Vivo</title>
+                </item>
+                <item identifier="T_000092" identifierref="T_000092_R">
+                    <title>Do you find biochemistry amazing?</title>
+                </item>
+                <item identifier="T_000093" identifierref="T_000093_R">
+                    <title>D7. Redox Chemistry and Protein Folding</title>
+                </item>
+                <item identifier="T_000094" identifierref="T_000094_R">
+                    <title>D8. Protein Transport Across Membranes</title>
+                </item>
+                <item identifier="T_000095" identifierref="T_000095_R">
+                    <title>D9. Recent References</title>
+                </item>
+                <item identifier="T_000096" identifierref="T_000096_R">
+                    <title>4.5: Laboratory Determination of ΔG° of Protein Unfolding</title>
+                </item>
+                <item identifier="T_000097" identifierref="T_000097_R">
+                    <title>4.6: Thermodynamics and IMF&apos;s in Protein Stability</title>
+                </item>
+                <item identifier="T_000098" identifierref="T_000098_R">
+                    <title>F1. Introduction to Protein Stability</title>
+                </item>
+                <item identifier="T_000099" identifierref="T_000099_R">
+                    <title>F10. Protein Stability in Thermophilic Organisms</title>
+                </item>
+                <item identifier="T_000100" identifierref="T_000100_R">
+                    <title>F11. General Links and References</title>
+                </item>
+                <item identifier="T_000101" identifierref="T_000101_R">
+                    <title>F2. Ion - Ion Interactions</title>
+                </item>
+                <item identifier="T_000102" identifierref="T_000102_R">
+                    <title>F3. Hydrogen Bonding</title>
+                </item>
+                <item identifier="T_000103" identifierref="T_000103_R">
+                    <title>F5. Additives and Their Interactions with Protein Surfaces</title>
+                </item>
+                <item identifier="T_000104" identifierref="T_000104_R">
+                    <title>F6. The Hydrophobic Effect and Change in Heat Capacity</title>
+                </item>
+                <item identifier="T_000105" identifierref="T_000105_R">
+                    <title>F7. Hydrophobic Effect and Protein Denaturation</title>
+                </item>
+                <item identifier="T_000106" identifierref="T_000106_R">
+                    <title>F8. Mutagenesis and Protein Stability</title>
+                </item>
+                <item identifier="T_000107" identifierref="T_000107_R">
+                    <title>F9. Protein Stability and Molecular Orbitals</title>
+                </item>
+                <item identifier="T_000108" identifierref="T_000108_R">
+                    <title>Introduction</title>
+                </item>
+                <item identifier="T_000109" identifierref="T_000109_R">
+                    <title>4.7: G. Predicting Protein Properties From Sequences</title>
+                </item>
+                <item identifier="T_000110" identifierref="T_000110_R">
+                    <title>G1. Introduction to Bioinformatics, Computational Biology and Proteomics</title>
+                </item>
+                <item identifier="T_000111" identifierref="T_000111_R">
+                    <title>G2. Prediction of Secondary Structure</title>
+                </item>
+                <item identifier="T_000112" identifierref="T_000112_R">
+                    <title>G3. Prediction of Hydrophobicity</title>
+                </item>
+                <item identifier="T_000113" identifierref="T_000113_R">
+                    <title>G4. Prediction of Membrane Protein Structure</title>
+                </item>
+                <item identifier="T_000114" identifierref="T_000114_R">
+                    <title>G5. Prediction of Protein Tertiary Structure</title>
+                </item>
+                <item identifier="T_000115" identifierref="T_000115_R">
+                    <title>G6. Proteomics Problem Set 1</title>
+                </item>
+                <item identifier="T_000116" identifierref="T_000116_R">
+                    <title>G7. Proteomics Problem Set 2</title>
+                </item>
+                <item identifier="T_000117" identifierref="T_000117_R">
+                    <title>G8. General Links and References</title>
+                </item>
+                <item identifier="T_000118" identifierref="T_000118_R">
+                    <title>4.8: H. Protein Aggregates and Disease</title>
+                </item>
+                <item identifier="T_000119" identifierref="T_000119_R">
+                    <title>H1. Protein Aggregation</title>
+                </item>
+                <item identifier="T_000120" identifierref="T_000120_R">
+                    <title>H2. Prions and Disease</title>
+                </item>
+                <item identifier="T_000121" identifierref="T_000121_R">
+                    <title>H3. Misfolding and Aggregation Summary</title>
+                </item>
+                <item identifier="T_000122" identifierref="T_000122_R">
+                    <title>H4. Recent Links and References</title>
+                </item>
+                <item identifier="T_000123" identifierref="T_000123_R">
+                    <title>4.9: Steroidogenic Acute Regulatory Protein</title>
+                </item>
+                <item identifier="T_000124" identifierref="T_000124_R">
+                    <title>Steroidogenic Acute Regulatory Protein - KEY</title>
+                </item>
+            </item>
+            <item identifier="T_000125">
+                <title>5: Carbohydrates</title>
+                <item identifier="T_000126" identifierref="T_000126_R">
+                    <title>5.1: Monosaccharaides and Disaccharides</title>
+                </item>
+                <item identifier="T_000127" identifierref="T_000127_R">
+                    <title>A1. Monosaccharides Structures</title>
+                </item>
+                <item identifier="T_000128" identifierref="T_000128_R">
+                    <title>A2. Monosaccharide Isomers</title>
+                </item>
+                <item identifier="T_000129" identifierref="T_000129_R">
+                    <title>A3. Monosaccharide Derivatives</title>
+                </item>
+                <item identifier="T_000130" identifierref="T_000130_R">
+                    <title>A4. Formation of Hemiacetals, Acetals, and Disaccharides</title>
+                </item>
+                <item identifier="T_000131" identifierref="T_000131_R">
+                    <title>A5. Recent Links and References</title>
+                </item>
+                <item identifier="T_000132" identifierref="T_000132_R">
+                    <title>5.2: More Complex Carbohydrates</title>
+                </item>
+                <item identifier="T_000133" identifierref="T_000133_R">
+                    <title>B1. Polysaccharides</title>
+                </item>
+                <item identifier="T_000134" identifierref="T_000134_R">
+                    <title>B2. Cell Walls</title>
+                </item>
+                <item identifier="T_000135" identifierref="T_000135_R">
+                    <title>B3. N-linked Glycoproteins</title>
+                </item>
+                <item identifier="T_000136" identifierref="T_000136_R">
+                    <title>B4. O-linked Glycoproteins</title>
+                </item>
+                <item identifier="T_000137" identifierref="T_000137_R">
+                    <title>B5. Proteoglycans</title>
+                </item>
+                <item identifier="T_000138" identifierref="T_000138_R">
+                    <title>B6. Eukaroytic Cell Membranes</title>
+                </item>
+                <item identifier="T_000139" identifierref="T_000139_R">
+                    <title>B7. Role of Cell Surface Carbohydrates</title>
+                </item>
+                <item identifier="T_000140" identifierref="T_000140_R">
+                    <title>B8. General Links and References</title>
+                </item>
+                <item identifier="T_000141" identifierref="T_000141_R">
+                    <title>5.3: Jeopardy</title>
+                </item>
+                <item identifier="T_000142" identifierref="T_000142_R">
+                    <title>MONO- and DISACCHARIDES</title>
+                </item>
+                <item identifier="T_000143" identifierref="T_000143_R">
+                    <title>CHEMISTRY</title>
+                </item>
+                <item identifier="T_000144" identifierref="T_000144_R">
+                    <title>100</title>
+                </item>
+                <item identifier="T_000145" identifierref="T_000145_R">
+                    <title>150</title>
+                </item>
+                <item identifier="T_000146" identifierref="T_000146_R">
+                    <title>200</title>
+                </item>
+                <item identifier="T_000147" identifierref="T_000147_R">
+                    <title>250</title>
+                </item>
+                <item identifier="T_000148" identifierref="T_000148_R">
+                    <title>50</title>
+                </item>
+                <item identifier="T_000149" identifierref="T_000149_R">
+                    <title>DERIVATIVES</title>
+                </item>
+                <item identifier="T_000150" identifierref="T_000150_R">
+                    <title>100</title>
+                </item>
+                <item identifier="T_000151" identifierref="T_000151_R">
+                    <title>150</title>
+                </item>
+                <item identifier="T_000152" identifierref="T_000152_R">
+                    <title>200</title>
+                </item>
+                <item identifier="T_000153" identifierref="T_000153_R">
+                    <title>250</title>
+                </item>
+                <item identifier="T_000154" identifierref="T_000154_R">
+                    <title>50</title>
+                </item>
+                <item identifier="T_000155" identifierref="T_000155_R">
+                    <title>ISOMERS</title>
+                </item>
+                <item identifier="T_000156" identifierref="T_000156_R">
+                    <title>100</title>
+                </item>
+                <item identifier="T_000157" identifierref="T_000157_R">
+                    <title>150</title>
+                </item>
+                <item identifier="T_000158" identifierref="T_000158_R">
+                    <title>200</title>
+                </item>
+                <item identifier="T_000159" identifierref="T_000159_R">
+                    <title>250</title>
+                </item>
+                <item identifier="T_000160" identifierref="T_000160_R">
+                    <title>50</title>
+                </item>
+                <item identifier="T_000161" identifierref="T_000161_R">
+                    <title>NAMES</title>
+                </item>
+                <item identifier="T_000162" identifierref="T_000162_R">
+                    <title>100</title>
+                </item>
+                <item identifier="T_000163" identifierref="T_000163_R">
+                    <title>150</title>
+                </item>
+                <item identifier="T_000164" identifierref="T_000164_R">
+                    <title>200</title>
+                </item>
+                <item identifier="T_000165" identifierref="T_000165_R">
+                    <title>250</title>
+                </item>
+                <item identifier="T_000166" identifierref="T_000166_R">
+                    <title>50</title>
+                </item>
+                <item identifier="T_000167" identifierref="T_000167_R">
+                    <title>PROJECTIONS</title>
+                </item>
+                <item identifier="T_000168" identifierref="T_000168_R">
+                    <title>100</title>
+                </item>
+                <item identifier="T_000169" identifierref="T_000169_R">
+                    <title>150</title>
+                </item>
+                <item identifier="T_000170" identifierref="T_000170_R">
+                    <title>200</title>
+                </item>
+                <item identifier="T_000171" identifierref="T_000171_R">
+                    <title>250</title>
+                </item>
+                <item identifier="T_000172" identifierref="T_000172_R">
+                    <title>50</title>
+                </item>
+                <item identifier="T_000173" identifierref="T_000173_R">
+                    <title>POLYSACCHARIDES</title>
+                </item>
+                <item identifier="T_000174" identifierref="T_000174_R">
+                    <title>COMPLEX CARBOHYDRATES</title>
+                </item>
+                <item identifier="T_000175" identifierref="T_000175_R">
+                    <title>GAGs</title>
+                </item>
+                <item identifier="T_000176" identifierref="T_000176_R">
+                    <title>100</title>
+                </item>
+                <item identifier="T_000177" identifierref="T_000177_R">
+                    <title>200</title>
+                </item>
+                <item identifier="T_000178" identifierref="T_000178_R">
+                    <title>300</title>
+                </item>
+                <item identifier="T_000179" identifierref="T_000179_R">
+                    <title>400</title>
+                </item>
+                <item identifier="T_000180" identifierref="T_000180_R">
+                    <title>500</title>
+                </item>
+                <item identifier="T_000181" identifierref="T_000181_R">
+                    <title>GLYCOPROTEIN</title>
+                </item>
+                <item identifier="T_000182" identifierref="T_000182_R">
+                    <title>100</title>
+                </item>
+                <item identifier="T_000183" identifierref="T_000183_R">
+                    <title>200</title>
+                </item>
+                <item identifier="T_000184" identifierref="T_000184_R">
+                    <title>300</title>
+                </item>
+                <item identifier="T_000185" identifierref="T_000185_R">
+                    <title>400</title>
+                </item>
+                <item identifier="T_000186" identifierref="T_000186_R">
+                    <title>500</title>
+                </item>
+                <item identifier="T_000187" identifierref="T_000187_R">
+                    <title>PG</title>
+                </item>
+                <item identifier="T_000188" identifierref="T_000188_R">
+                    <title>MEMBRANES</title>
+                </item>
+                <item identifier="T_000189" identifierref="T_000189_R">
+                    <title>100</title>
+                </item>
+                <item identifier="T_000190" identifierref="T_000190_R">
+                    <title>200</title>
+                </item>
+                <item identifier="T_000191" identifierref="T_000191_R">
+                    <title>300</title>
+                </item>
+                <item identifier="T_000192" identifierref="T_000192_R">
+                    <title>400</title>
+                </item>
+                <item identifier="T_000193" identifierref="T_000193_R">
+                    <title>500</title>
+                </item>
+                <item identifier="T_000194" identifierref="T_000194_R">
+                    <title>POLYSACC.</title>
+                </item>
+                <item identifier="T_000195" identifierref="T_000195_R">
+                    <title>100</title>
+                </item>
+                <item identifier="T_000196" identifierref="T_000196_R">
+                    <title>200</title>
+                </item>
+                <item identifier="T_000197" identifierref="T_000197_R">
+                    <title>300</title>
+                </item>
+                <item identifier="T_000198" identifierref="T_000198_R">
+                    <title>400</title>
+                </item>
+                <item identifier="T_000199" identifierref="T_000199_R">
+                    <title>500</title>
+                </item>
+                <item identifier="T_000200" identifierref="T_000200_R">
+                    <title>WALLS</title>
+                </item>
+                <item identifier="T_000201" identifierref="T_000201_R">
+                    <title>100</title>
+                </item>
+                <item identifier="T_000202" identifierref="T_000202_R">
+                    <title>200</title>
+                </item>
+                <item identifier="T_000203" identifierref="T_000203_R">
+                    <title>300</title>
+                </item>
+                <item identifier="T_000204" identifierref="T_000204_R">
+                    <title>400</title>
+                </item>
+                <item identifier="T_000205" identifierref="T_000205_R">
+                    <title>500</title>
+                </item>
+                <item identifier="T_000206" identifierref="T_000206_R">
+                    <title>THIS IS FINAL JEOPARDY</title>
+                </item>
+                <item identifier="T_000207" identifierref="T_000207_R">
+                    <title>5.4: Glycoproteins Biosynthesis and Function</title>
+                </item>
+                <item identifier="T_000208" identifierref="T_000208_R">
+                    <title>D1. Glycoprotein Biosynthesis</title>
+                </item>
+                <item identifier="T_000209" identifierref="T_000209_R">
+                    <title>D2. Glycoprotein Function</title>
+                </item>
+                <item identifier="T_000210" identifierref="T_000210_R">
+                    <title>D3. Glycobiology and Glycomics</title>
+                </item>
+                <item identifier="T_000211" identifierref="T_000211_R">
+                    <title>D4. General Links and References</title>
+                </item>
+                <item identifier="T_000212" identifierref="T_000212_R">
+                    <title>5.5:  Carbohydrates 1</title>
+                </item>
+                <item identifier="T_000213" identifierref="T_000213_R">
+                    <title>Carbohydrates 1 - KEY</title>
+                </item>
+            </item>
+            <item identifier="T_000214">
+                <title>6: DNA</title>
+                <item identifier="T_000215" identifierref="T_000215_R">
+                    <title>6.1: DNA Structure</title>
+                </item>
+                <item identifier="T_000216" identifierref="T_000216_R">
+                    <title>6.2: The Central Dogma of Biology</title>
+                </item>
+                <item identifier="T_000217" identifierref="T_000217_R">
+                    <title>6.3: The Language of DNA</title>
+                </item>
+            </item>
+            <item identifier="T_000218">
+                <title>7: Binding</title>
+                <item identifier="T_000219" identifierref="T_000219_R">
+                    <title>7.1: Introduction to Reversible Binding</title>
+                </item>
+                <item identifier="T_000220" identifierref="T_000220_R">
+                    <title>A1. Reversible Binding of a Ligand to a Macromolecule</title>
+                </item>
+                <item identifier="T_000221" identifierref="T_000221_R">
+                    <title>A2. Interpretation of Binding Analyzes</title>
+                </item>
+                <item identifier="T_000222" identifierref="T_000222_R">
+                    <title>A3. Dimerization and Multiple Binding Sites</title>
+                </item>
+                <item identifier="T_000223" identifierref="T_000223_R">
+                    <title>A4. The Binding Continuum</title>
+                </item>
+                <item identifier="T_000224" identifierref="T_000224_R">
+                    <title>A5. Experimental Analyses of Binding</title>
+                </item>
+                <item identifier="T_000225" identifierref="T_000225_R">
+                    <title>A6. Extreme Binding Affinities</title>
+                </item>
+                <item identifier="T_000226" identifierref="T_000226_R">
+                    <title>A7. Molecular Basis of High Affinity Interactions</title>
+                </item>
+                <item identifier="T_000227" identifierref="T_000227_R">
+                    <title>A8. Links and References</title>
+                </item>
+                <item identifier="T_000228" identifierref="T_000228_R">
+                    <title>7.2: Mathematical Analyses of Binding Graphs</title>
+                </item>
+                <item identifier="T_000229" identifierref="T_000229_R">
+                    <title>B1. Binding of a Single Ligand</title>
+                </item>
+                <item identifier="T_000230" identifierref="T_000230_R">
+                    <title>B2. Binding of Two Identical Ligands</title>
+                </item>
+                <item identifier="T_000231" identifierref="T_000231_R">
+                    <title>7.3: Model Binding Systems</title>
+                </item>
+                <item identifier="T_000232" identifierref="T_000232_R">
+                    <title>C1. Myoglobin, Hemoglobin, and their Ligands</title>
+                </item>
+                <item identifier="T_000233" identifierref="T_000233_R">
+                    <title>C10. Macromolecule Oligomer Formation and Symmetry</title>
+                </item>
+                <item identifier="T_000234" identifierref="T_000234_R">
+                    <title>C11. Conformational and Binding - Examples</title>
+                </item>
+                <item identifier="T_000235" identifierref="T_000235_R">
+                    <title>C12. Free Energy and Cooperativity</title>
+                </item>
+                <item identifier="T_000236" identifierref="T_000236_R">
+                    <title>C13. Links and  References</title>
+                </item>
+                <item identifier="T_000237" identifierref="T_000237_R">
+                    <title>C2. Normal and Cooperative Binding of Dioxygen</title>
+                </item>
+                <item identifier="T_000238" identifierref="T_000238_R">
+                    <title>C3. Mathematical Analysis of Cooperative Binding - Hill Plot</title>
+                </item>
+                <item identifier="T_000239" identifierref="T_000239_R">
+                    <title>C4. Mathematical Analysis of Cooperative Binding - MWC Symmetry Model</title>
+                </item>
+                <item identifier="T_000240" identifierref="T_000240_R">
+                    <title>C5. Mathematical Analysis of Cooperative Binding - KNF Sequential Model</title>
+                </item>
+                <item identifier="T_000241" identifierref="T_000241_R">
+                    <title>C6. Conformational Selection</title>
+                </item>
+                <item identifier="T_000242" identifierref="T_000242_R">
+                    <title>C7. Binding to Intrinsically Disorder Protein and MORFs</title>
+                </item>
+                <item identifier="T_000243" identifierref="T_000243_R">
+                    <title>C8. Binding, Intracellular Granules and Droplets</title>
+                </item>
+                <item identifier="T_000244" identifierref="T_000244_R">
+                    <title>C9. Binding and Linked Equilibria</title>
+                </item>
+                <item identifier="T_000245" identifierref="T_000245_R">
+                    <title>7.4: Binding and the Control of Gene Transcription</title>
+                </item>
+                <item identifier="T_000246" identifierref="T_000246_R">
+                    <title>D1. Introduction to Transcription</title>
+                </item>
+                <item identifier="T_000247" identifierref="T_000247_R">
+                    <title>D10. Epigenetic Control of DNA - Methylation</title>
+                </item>
+                <item identifier="T_000248" identifierref="T_000248_R">
+                    <title>D11. Chromatin Remodeling and Gene Expression</title>
+                </item>
+                <item identifier="T_000249" identifierref="T_000249_R">
+                    <title>D12. Acetylation and Methylation of Histones</title>
+                </item>
+                <item identifier="T_000250" identifierref="T_000250_R">
+                    <title>D13. Control of Gene Expression by RNA</title>
+                </item>
+                <item identifier="T_000251" identifierref="T_000251_R">
+                    <title>D14. Recognition of viral  and bacterial DNA by the immune system</title>
+                </item>
+                <item identifier="T_000252" identifierref="T_000252_R">
+                    <title>D16. Eukaryotic Species Complexity</title>
+                </item>
+                <item identifier="T_000253" identifierref="T_000253_R">
+                    <title>D17. Gene Expression Differences Between Humans and Chimpanzees</title>
+                </item>
+                <item identifier="T_000254" identifierref="T_000254_R">
+                    <title>D18. Links and References</title>
+                </item>
+                <item identifier="T_000255" identifierref="T_000255_R">
+                    <title>D2. Control of Transcription in Prokaryotes</title>
+                </item>
+                <item identifier="T_000256" identifierref="T_000256_R">
+                    <title>D3. Control of Gene Transcription in Eukaryotes</title>
+                </item>
+                <item identifier="T_000257" identifierref="T_000257_R">
+                    <title>D4. DNA Binding Sites</title>
+                </item>
+                <item identifier="T_000258" identifierref="T_000258_R">
+                    <title>D5. DNA Binding Proteins</title>
+                </item>
+                <item identifier="T_000259" identifierref="T_000259_R">
+                    <title>D6. Studying the Interactome</title>
+                </item>
+                <item identifier="T_000260" identifierref="T_000260_R">
+                    <title>D7. Phosphorylation and Control of Gene Expression</title>
+                </item>
+                <item identifier="T_000261" identifierref="T_000261_R">
+                    <title>D8. Classification of Transcription Factors</title>
+                </item>
+                <item identifier="T_000262" identifierref="T_000262_R">
+                    <title>D9. Cooperative Binding of Proteins to DNA</title>
+                </item>
+                <item identifier="T_000263" identifierref="T_000263_R">
+                    <title>Encyclopedia of DNA Elements</title>
+                </item>
+                <item identifier="T_000264" identifierref="T_000264_R">
+                    <title>7.5: New Methods in Drug Development</title>
+                </item>
+                <item identifier="T_000265" identifierref="T_000265_R">
+                    <title>E1. Introduction to Drug Development</title>
+                </item>
+                <item identifier="T_000266" identifierref="T_000266_R">
+                    <title>E10. Diseases of Protein Misfolding and Aggregation</title>
+                </item>
+                <item identifier="T_000267" identifierref="T_000267_R">
+                    <title>E11. Links and References</title>
+                </item>
+                <item identifier="T_000268" identifierref="T_000268_R">
+                    <title>E2. Combinatorial Drug Development</title>
+                </item>
+                <item identifier="T_000269" identifierref="T_000269_R">
+                    <title>E3. Computer Design of Drugs</title>
+                </item>
+                <item identifier="T_000270" identifierref="T_000270_R">
+                    <title>E4. In Situ Click Chemistry in Drug Synthesis</title>
+                </item>
+                <item identifier="T_000271" identifierref="T_000271_R">
+                    <title>E5. DNA Binding Drugs</title>
+                </item>
+                <item identifier="T_000272" identifierref="T_000272_R">
+                    <title>E6. DNA Binding and Genomic Analyses</title>
+                </item>
+                <item identifier="T_000273" identifierref="T_000273_R">
+                    <title>E7. RNA Binding Drugs</title>
+                </item>
+                <item identifier="T_000274" identifierref="T_000274_R">
+                    <title>E8. Multivalent Inhibitors</title>
+                </item>
+                <item identifier="T_000275" identifierref="T_000275_R">
+                    <title>E9. Targeted Delivery of Drugs to Tumors</title>
+                </item>
+                <item identifier="T_000276" identifierref="T_000276_R">
+                    <title>7.6: 5F. Immune System Recognition</title>
+                </item>
+                <item identifier="T_000277" identifierref="T_000277_R">
+                    <title>F1. Introduction to the Immune System</title>
+                </item>
+                <item identifier="T_000278" identifierref="T_000278_R">
+                    <title>F2. B and T Cells</title>
+                </item>
+                <item identifier="T_000279" identifierref="T_000279_R">
+                    <title>F3. T cell activation by Antigen Presenting Cells</title>
+                </item>
+                <item identifier="T_000280" identifierref="T_000280_R">
+                    <title>F4. Cytokines and Activation of Immune Cells</title>
+                </item>
+                <item identifier="T_000281" identifierref="T_000281_R">
+                    <title>F5. Recognition and Response in the Innate Immune System</title>
+                </item>
+                <item identifier="T_000282" identifierref="T_000282_R">
+                    <title>F6. Inflammasome</title>
+                </item>
+                <item identifier="T_000283" identifierref="T_000283_R">
+                    <title>F7. Links and References</title>
+                </item>
+                <item identifier="T_000284" identifierref="T_000284_R">
+                    <title>7.7: Binding 1 - Severe Acute Respiratory Syndrome Coronavirus 3C-like Proteinase</title>
+                </item>
+                <item identifier="T_000285" identifierref="T_000285_R">
+                    <title>KEY</title>
+                </item>
+                <item identifier="T_000286" identifierref="T_000286_R">
+                    <title>7.8:  Binding 2 - Thermodynamics of Conformational Switches in SelB</title>
+                </item>
+                <item identifier="T_000287" identifierref="T_000287_R">
+                    <title>KEY</title>
+                </item>
+            </item>
+            <item identifier="T_000288">
+                <title>8: Transport and Kinetics</title>
+                <item identifier="T_000289" identifierref="T_000289_R">
+                    <title>8.1: Homework Problems - Literature Learning Modules: Enzyme Inhibition 1 - KCAT</title>
+                </item>
+                <item identifier="T_000290" identifierref="T_000290_R">
+                    <title>KEY</title>
+                </item>
+                <item identifier="T_000291" identifierref="T_000291_R">
+                    <title>8.2: Passive and Facilitated Diffusion</title>
+                </item>
+                <item identifier="T_000292" identifierref="T_000292_R">
+                    <title>A1. Simple Diffusion</title>
+                </item>
+                <item identifier="T_000293" identifierref="T_000293_R">
+                    <title>A2. Facilitated Diffusion</title>
+                </item>
+                <item identifier="T_000294" identifierref="T_000294_R">
+                    <title>A3. Receptors in Facilitated Diffusion</title>
+                </item>
+                <item identifier="T_000295" identifierref="T_000295_R">
+                    <title>A4. Membrane Pores</title>
+                </item>
+                <item identifier="T_000296" identifierref="T_000296_R">
+                    <title>A5. Cell Junctions - TBA</title>
+                </item>
+                <item identifier="T_000297" identifierref="T_000297_R">
+                    <title>A6. Links and References</title>
+                </item>
+                <item identifier="T_000298" identifierref="T_000298_R">
+                    <title>8.3: Kinetics of Simple and Enzyme-Catalyzed Reactions</title>
+                </item>
+                <item identifier="T_000299" identifierref="T_000299_R">
+                    <title>B2. Multi-Step Reactions</title>
+                </item>
+                <item identifier="T_000300" identifierref="T_000300_R">
+                    <title>B3. Rapid Equilibrium Enzyme-Catalyzed Reactions</title>
+                </item>
+                <item identifier="T_000301" identifierref="T_000301_R">
+                    <title>B4. Steady State Enzyme-Catalyzed Reactions</title>
+                </item>
+                <item identifier="T_000302" identifierref="T_000302_R">
+                    <title>B5. Analysis of the General Michaelis-Menten Equation</title>
+                </item>
+                <item identifier="T_000303" identifierref="T_000303_R">
+                    <title>B6. More Complicated Enzyme-catalyzed Reactions</title>
+                </item>
+                <item identifier="T_000304" identifierref="T_000304_R">
+                    <title>B7. Meaning of Kinetic Constants</title>
+                </item>
+                <item identifier="T_000305" identifierref="T_000305_R">
+                    <title>B8. Experimental Determination of Kinetic Parameters</title>
+                </item>
+                <item identifier="T_000306" identifierref="T_000306_R">
+                    <title>Single Step Reactions</title>
+                </item>
+                <item identifier="T_000307" identifierref="T_000307_R">
+                    <title>8.4: Enzyme Inhibition</title>
+                </item>
+                <item identifier="T_000308" identifierref="T_000308_R">
+                    <title>C5. Enzyme Inhibition in Vivo</title>
+                </item>
+                <item identifier="T_000309" identifierref="T_000309_R">
+                    <title>C6. Agonist and Antagonist of Ligand Binding to Receptors - An Extension</title>
+                </item>
+                <item identifier="T_000310" identifierref="T_000310_R">
+                    <title>C7. Inhibition by Temperature  and pH Changes</title>
+                </item>
+                <item identifier="T_000311" identifierref="T_000311_R">
+                    <title>C8. Links and References</title>
+                </item>
+                <item identifier="T_000312" identifierref="T_000312_R">
+                    <title>Competitive Inhibition</title>
+                </item>
+                <item identifier="T_000313" identifierref="T_000313_R">
+                    <title>Irreversible Covalent Inhibition</title>
+                </item>
+                <item identifier="T_000314" identifierref="T_000314_R">
+                    <title>Noncompetitive and Mixed Inhibition</title>
+                </item>
+                <item identifier="T_000315" identifierref="T_000315_R">
+                    <title>Uncompetitive Inhibition</title>
+                </item>
+                <item identifier="T_000316" identifierref="T_000316_R">
+                    <title>8.5: More Complicated Enzymes</title>
+                </item>
+                <item identifier="T_000317" identifierref="T_000317_R">
+                    <title>D1. Multi-Substrate Sequential Mechanisms</title>
+                </item>
+                <item identifier="T_000318" identifierref="T_000318_R">
+                    <title>D4. Allosteric Enzymes</title>
+                </item>
+                <item identifier="T_000319" identifierref="T_000319_R">
+                    <title>D5. Integration of Binding, Diffusion and Kinetics</title>
+                </item>
+                <item identifier="T_000320" identifierref="T_000320_R">
+                    <title>D6. Links and References</title>
+                </item>
+                <item identifier="T_000321" identifierref="T_000321_R">
+                    <title>Inhibitors in Multi-substrate Reactions</title>
+                </item>
+                <item identifier="T_000322" identifierref="T_000322_R">
+                    <title>Multi-Substrate Ping-Pong Mechanisms</title>
+                </item>
+            </item>
+            <item identifier="T_000323">
+                <title>9: Catalysis</title>
+                <item identifier="T_000324" identifierref="T_000324_R">
+                    <title>9.1: A. Methods of Catalysis</title>
+                </item>
+                <item identifier="T_000325" identifierref="T_000325_R">
+                    <title>A1.  General Acid and Base Catalysis</title>
+                </item>
+                <item identifier="T_000326" identifierref="T_000326_R">
+                    <title>A2.  Metal Ion or Electrostatic Catalysis</title>
+                </item>
+                <item identifier="T_000327" identifierref="T_000327_R">
+                    <title>A3.  Covalent or Nucleophilic Catalysis</title>
+                </item>
+                <item identifier="T_000328" identifierref="T_000328_R">
+                    <title>A4.  Intramolecular Catalysis</title>
+                </item>
+                <item identifier="T_000329" identifierref="T_000329_R">
+                    <title>A5.  Transition State Stabilization</title>
+                </item>
+                <item identifier="T_000330" identifierref="T_000330_R">
+                    <title>A6.  Links and References</title>
+                </item>
+                <item identifier="T_000331" identifierref="T_000331_R">
+                    <title>9.2: B. Mechanisms of Enzyme-Catalyzed Reactions</title>
+                </item>
+                <item identifier="T_000332" identifierref="T_000332_R">
+                    <title>B0. Introduction to Enzymatic Mechanisms</title>
+                </item>
+                <item identifier="T_000333" identifierref="T_000333_R">
+                    <title>B1.  Carboxypeptidase</title>
+                </item>
+                <item identifier="T_000334" identifierref="T_000334_R">
+                    <title>B2.  Lysozyme</title>
+                </item>
+                <item identifier="T_000335" identifierref="T_000335_R">
+                    <title>B3.  Chymotrypsin</title>
+                </item>
+                <item identifier="T_000336" identifierref="T_000336_R">
+                    <title>B4.  Proteases Mechanisms</title>
+                </item>
+                <item identifier="T_000337" identifierref="T_000337_R">
+                    <title>B5.  Protease Activation and the Proteasome</title>
+                </item>
+                <item identifier="T_000338" identifierref="T_000338_R">
+                    <title>B6.  Motion and Enzyme Catalysis</title>
+                </item>
+                <item identifier="T_000339" identifierref="T_000339_R">
+                    <title>B7.  Quantum Mechanisms (TBD)</title>
+                </item>
+                <item identifier="T_000340" identifierref="T_000340_R">
+                    <title>B8.  Links and References</title>
+                </item>
+                <item identifier="T_000341" identifierref="T_000341_R">
+                    <title>B9. CRISPR</title>
+                </item>
+                <item identifier="T_000342" identifierref="T_000342_R">
+                    <title>CRISPR</title>
+                </item>
+                <item identifier="T_000343" identifierref="T_000343_R">
+                    <title>Cas 9</title>
+                </item>
+                <item identifier="T_000344" identifierref="T_000344_R">
+                    <title>9.3: Sources and Sinks</title>
+                </item>
+                <item identifier="T_000345" identifierref="T_000345_R">
+                    <title>9.4: D. Enzyme Catalyzed Reactions in Organic Solvents</title>
+                </item>
+                <item identifier="T_000346" identifierref="T_000346_R">
+                    <title>9.5: E. Ribozymes and the RNA World</title>
+                </item>
+                <item identifier="T_000347" identifierref="T_000347_R">
+                    <title>E1.  Ribozymes</title>
+                </item>
+                <item identifier="T_000348" identifierref="T_000348_R">
+                    <title>E2.  The Biggest Ribozyme - The Ribosome</title>
+                </item>
+                <item identifier="T_000349" identifierref="T_000349_R">
+                    <title>E3.  The RNA World</title>
+                </item>
+                <item identifier="T_000350" identifierref="T_000350_R">
+                    <title>E4.  Links and References</title>
+                </item>
+                <item identifier="T_000351" identifierref="T_000351_R">
+                    <title>9.6: Homework Problems - Literature Learning Module:  CRISPR</title>
+                </item>
+                <item identifier="T_000352" identifierref="T_000352_R">
+                    <title>9.6: Homework Problems - Literature Learning Module:  CRISPR/Cas 9</title>
+                </item>
+                <item identifier="T_000353" identifierref="T_000353_R">
+                    <title>CRISPR</title>
+                </item>
+                <item identifier="T_000354" identifierref="T_000354_R">
+                    <title>Cas 9 KEY</title>
+                </item>
+                <item identifier="T_000355" identifierref="T_000355_R">
+                    <title>9.7: Homework Problems - Literature Learning Module:  Transpeptidase Inhibition</title>
+                </item>
+                <item identifier="T_000356" identifierref="T_000356_R">
+                    <title>Homework Problems - Literature Learning Module:  Transpeptidase Inhibition - KEY</title>
+                </item>
+                <item identifier="T_000357" identifierref="T_000357_R">
+                    <title>9.8: Organic Chemistry</title>
+                </item>
+            </item>
+            <item identifier="T_000358">
+                <title>10: Oxidation</title>
+                <item identifier="T_000359" identifierref="T_000359_R">
+                    <title>10.1: The Chemistry of Dioxygen</title>
+                </item>
+                <item identifier="T_000360" identifierref="T_000360_R">
+                    <title>A1.  The History of Oxygen</title>
+                </item>
+                <item identifier="T_000361" identifierref="T_000361_R">
+                    <title>A10.  Hypoxia</title>
+                </item>
+                <item identifier="T_000362" identifierref="T_000362_R">
+                    <title>A11.   Links and References</title>
+                </item>
+                <item identifier="T_000363" identifierref="T_000363_R">
+                    <title>A2.  The Properties of Dioxygen</title>
+                </item>
+                <item identifier="T_000364" identifierref="T_000364_R">
+                    <title>A3.  The Reactions of Dioxygen and its Reduction Products</title>
+                </item>
+                <item identifier="T_000365" identifierref="T_000365_R">
+                    <title>A4.  Oxidative Modification of Proteins</title>
+                </item>
+                <item identifier="T_000366" identifierref="T_000366_R">
+                    <title>A5.  Oxidative Modification of Lipids</title>
+                </item>
+                <item identifier="T_000367" identifierref="T_000367_R">
+                    <title>A6.  Oxidative Modification of DNA</title>
+                </item>
+                <item identifier="T_000368" identifierref="T_000368_R">
+                    <title>A7.  Biological Uses for Reactive Oxygen Species - ROS</title>
+                </item>
+                <item identifier="T_000369" identifierref="T_000369_R">
+                    <title>A8.  Just Say NO - The Chemistry of Nitric Oxide</title>
+                </item>
+                <item identifier="T_000370" identifierref="T_000370_R">
+                    <title>A9.  Antioxidants and Disease</title>
+                </item>
+                <item identifier="T_000371" identifierref="T_000371_R">
+                    <title>10.2: Oxidative Enzymes</title>
+                </item>
+                <item identifier="T_000372" identifierref="T_000372_R">
+                    <title>B1.  General Oxidizing Agents</title>
+                </item>
+                <item identifier="T_000373" identifierref="T_000373_R">
+                    <title>B10.  Links and References</title>
+                </item>
+                <item identifier="T_000374" identifierref="T_000374_R">
+                    <title>B2.  The Chemistry of NAD  and FAD</title>
+                </item>
+                <item identifier="T_000375" identifierref="T_000375_R">
+                    <title>B3.  Dehydrogenases</title>
+                </item>
+                <item identifier="T_000376" identifierref="T_000376_R">
+                    <title>B4.  Another role of NAD - Sirtuins</title>
+                </item>
+                <item identifier="T_000377" identifierref="T_000377_R">
+                    <title>B5.  Hydrogenases (not dehydrogenases)</title>
+                </item>
+                <item identifier="T_000378" identifierref="T_000378_R">
+                    <title>B6.  Monooxygenases</title>
+                </item>
+                <item identifier="T_000379" identifierref="T_000379_R">
+                    <title>B7.  Dioxygenases</title>
+                </item>
+                <item identifier="T_000380" identifierref="T_000380_R">
+                    <title>B8.  Oxidases</title>
+                </item>
+                <item identifier="T_000381" identifierref="T_000381_R">
+                    <title>B9.  Heme Proteins</title>
+                </item>
+                <item identifier="T_000382" identifierref="T_000382_R">
+                    <title>10.3: ATP and Oxidative Phosphorylation</title>
+                </item>
+                <item identifier="T_000383" identifierref="T_000383_R">
+                    <title>C1.  ATP</title>
+                </item>
+                <item identifier="T_000384" identifierref="T_000384_R">
+                    <title>C10.  Proton Gradient Collapse and ATP synthesis - Structure</title>
+                </item>
+                <item identifier="T_000385" identifierref="T_000385_R">
+                    <title>C11.  Proton Gradient Collapse and ATP synthesis - Thermodynamics</title>
+                </item>
+                <item identifier="T_000386" identifierref="T_000386_R">
+                    <title>C12.   Metabolic Needs in Nonproliferating and Proliferating Cells</title>
+                </item>
+                <item identifier="T_000387" identifierref="T_000387_R">
+                    <title>C13.  PPARs and the Regulation of Metabolism</title>
+                </item>
+                <item identifier="T_000388" identifierref="T_000388_R">
+                    <title>C14.  Links and References</title>
+                </item>
+                <item identifier="T_000389" identifierref="T_000389_R">
+                    <title>C2.  Anerobic Coupling of Oxidation and ATP Synthesis</title>
+                </item>
+                <item identifier="T_000390" identifierref="T_000390_R">
+                    <title>C3.  Aerobic Coupling of Oxidation and ATP Synthesis</title>
+                </item>
+                <item identifier="T_000391" identifierref="T_000391_R">
+                    <title>C4.  An Overview of Mitochondrial Electron Transport</title>
+                </item>
+                <item identifier="T_000392" identifierref="T_000392_R">
+                    <title>C5.  Complex I - NADH-quinone oxidoreductase</title>
+                </item>
+                <item identifier="T_000393" identifierref="T_000393_R">
+                    <title>C6.  Complex III</title>
+                </item>
+                <item identifier="T_000394" identifierref="T_000394_R">
+                    <title>C7.  Complex IV - Cytochrome C oxidase (CCOx)</title>
+                </item>
+                <item identifier="T_000395" identifierref="T_000395_R">
+                    <title>C8.  Overall Coupling Oxidation and ATP Synthesis</title>
+                </item>
+                <item identifier="T_000396" identifierref="T_000396_R">
+                    <title>C9.   ATP synthase</title>
+                </item>
+                <item identifier="T_000397" identifierref="T_000397_R">
+                    <title>10.4: Photosynthesis - The Light Reaction</title>
+                </item>
+                <item identifier="T_000398" identifierref="T_000398_R">
+                    <title>D1. Introduction</title>
+                </item>
+                <item identifier="T_000399" identifierref="T_000399_R">
+                    <title>D10.  Links and References</title>
+                </item>
+                <item identifier="T_000400" identifierref="T_000400_R">
+                    <title>D2. Photoexcitation and Electron Transfer</title>
+                </item>
+                <item identifier="T_000401" identifierref="T_000401_R">
+                    <title>D3.  The Light Reactions of Photosynthesis</title>
+                </item>
+                <item identifier="T_000402" identifierref="T_000402_R">
+                    <title>D4.  Photosystem II</title>
+                </item>
+                <item identifier="T_000403" identifierref="T_000403_R">
+                    <title>D5.  The Oxygen Evolving Complex (OEC)</title>
+                </item>
+                <item identifier="T_000404" identifierref="T_000404_R">
+                    <title>D6.  Water Oxidation - The Kok Cycle</title>
+                </item>
+                <item identifier="T_000405" identifierref="T_000405_R">
+                    <title>D7.  Chlorophylls and the Reaction Center</title>
+                </item>
+                <item identifier="T_000406" identifierref="T_000406_R">
+                    <title>D8.  Plant Protection</title>
+                </item>
+                <item identifier="T_000407" identifierref="T_000407_R">
+                    <title>Hydrogenases</title>
+                </item>
+                <item identifier="T_000408" identifierref="T_000408_R">
+                    <title>10.5:  Nitrogenase - A Reductive Use of Metal Clusters</title>
+                </item>
+                <item identifier="T_000409" identifierref="T_000409_R">
+                    <title>E1.  Nitrogenase - An Introduction</title>
+                </item>
+                <item identifier="T_000410" identifierref="T_000410_R">
+                    <title>E2.  The Structure of Nitrogenase</title>
+                </item>
+                <item identifier="T_000411" identifierref="T_000411_R">
+                    <title>E5.  Oxidation States of Nitrogenase Fe centers</title>
+                </item>
+                <item identifier="T_000412" identifierref="T_000412_R">
+                    <title>E6.  Links and References</title>
+                </item>
+                <item identifier="T_000413" identifierref="T_000413_R">
+                    <title>Nitrogenase Reaction I - Addition of Electrons and Protons</title>
+                </item>
+                <item identifier="T_000414" identifierref="T_000414_R">
+                    <title>Part 2 - Reduction of N2</title>
+                </item>
+                <item identifier="T_000415" identifierref="T_000415_R">
+                    <title>10.6:  Regulation of Oxidative Phosphorylation by Cytochrome C Phosphorylation</title>
+                </item>
+                <item identifier="T_000416" identifierref="T_000416_R">
+                    <title>KEY</title>
+                </item>
+            </item>
+            <item identifier="T_000417">
+                <title>11: Metabolic and Signal Tranduction</title>
+                <item identifier="T_000418" identifierref="T_000418_R">
+                    <title>11.1: Active Transport</title>
+                </item>
+                <item identifier="T_000419" identifierref="T_000419_R">
+                    <title>A1.  Introduction to Active Transport</title>
+                </item>
+                <item identifier="T_000420" identifierref="T_000420_R">
+                    <title>A2.  Transport of Ions</title>
+                </item>
+                <item identifier="T_000421" identifierref="T_000421_R">
+                    <title>A3.  Transport of Sugars</title>
+                </item>
+                <item identifier="T_000422" identifierref="T_000422_R">
+                    <title>A4.  Transport of Protons</title>
+                </item>
+                <item identifier="T_000423" identifierref="T_000423_R">
+                    <title>A5.  Other ATP-Powered Transporters</title>
+                </item>
+                <item identifier="T_000424" identifierref="T_000424_R">
+                    <title>A6.  Links and References</title>
+                </item>
+                <item identifier="T_000425" identifierref="T_000425_R">
+                    <title>11.2: Neural Signaling</title>
+                </item>
+                <item identifier="T_000426" identifierref="T_000426_R">
+                    <title>B1.  Introduction to Neural Signaling</title>
+                </item>
+                <item identifier="T_000427" identifierref="T_000427_R">
+                    <title>B10.   Inhibitory Neurotransmitters</title>
+                </item>
+                <item identifier="T_000428" identifierref="T_000428_R">
+                    <title>B11.  The Senses</title>
+                </item>
+                <item identifier="T_000429" identifierref="T_000429_R">
+                    <title>B12.  Touch</title>
+                </item>
+                <item identifier="T_000430" identifierref="T_000430_R">
+                    <title>B13.  Summary</title>
+                </item>
+                <item identifier="T_000431" identifierref="T_000431_R">
+                    <title>B14.  Links and References</title>
+                </item>
+                <item identifier="T_000432" identifierref="T_000432_R">
+                    <title>B2.  Transmembrane Potentials</title>
+                </item>
+                <item identifier="T_000433" identifierref="T_000433_R">
+                    <title>B3.  Thermodynamics of Membrane Potential</title>
+                </item>
+                <item identifier="T_000434" identifierref="T_000434_R">
+                    <title>B4.  Neurotransmitter Activation of Neurons</title>
+                </item>
+                <item identifier="T_000435" identifierref="T_000435_R">
+                    <title>B5.  Proteins of the Neural Synapse</title>
+                </item>
+                <item identifier="T_000436" identifierref="T_000436_R">
+                    <title>B6.  Ligand-Gated Acetylcholine Receptor of the Neuromuscular Junction</title>
+                </item>
+                <item identifier="T_000437" identifierref="T_000437_R">
+                    <title>B7.  Voltage-Gated Sodium Channel</title>
+                </item>
+                <item identifier="T_000438" identifierref="T_000438_R">
+                    <title>B8.  Voltage-Gated Potassium Channel</title>
+                </item>
+                <item identifier="T_000439" identifierref="T_000439_R">
+                    <title>B9.  Excitatory  Neurotransmitters</title>
+                </item>
+                <item identifier="T_000440" identifierref="T_000440_R">
+                    <title>11.3: Signaling Proteins</title>
+                </item>
+                <item identifier="T_000441" identifierref="T_000441_R">
+                    <title>C1.  Signaling Kinases</title>
+                </item>
+                <item identifier="T_000442" identifierref="T_000442_R">
+                    <title>C10.  AMP dependent protein kinase (AMPK)</title>
+                </item>
+                <item identifier="T_000443" identifierref="T_000443_R">
+                    <title>C11.  Phosphatases</title>
+                </item>
+                <item identifier="T_000444" identifierref="T_000444_R">
+                    <title>C12.  Signal Transduction and Reactive Oxygen Species</title>
+                </item>
+                <item identifier="T_000445" identifierref="T_000445_R">
+                    <title>C13.  Metabotropic Neural Receptors</title>
+                </item>
+                <item identifier="T_000446" identifierref="T_000446_R">
+                    <title>C14.  The Human Genome and Signal Transduction</title>
+                </item>
+                <item identifier="T_000447" identifierref="T_000447_R">
+                    <title>C15.  Links and References</title>
+                </item>
+                <item identifier="T_000448" identifierref="T_000448_R">
+                    <title>C2.  Protein Kinase A (PKA)</title>
+                </item>
+                <item identifier="T_000449" identifierref="T_000449_R">
+                    <title>C3.  Protein Kinase C (PKC)  and Calmodulin-Dependent Kinase (CAM-PK)</title>
+                </item>
+                <item identifier="T_000450" identifierref="T_000450_R">
+                    <title>C4.  Receptor Tyrosine Kinases (RTK)</title>
+                </item>
+                <item identifier="T_000451" identifierref="T_000451_R">
+                    <title>C5.  Protein Kinase G (PKG)</title>
+                </item>
+                <item identifier="T_000452" identifierref="T_000452_R">
+                    <title>C6.  G Protein Coupled Receptors (GPCR) and G proteins</title>
+                </item>
+                <item identifier="T_000453" identifierref="T_000453_R">
+                    <title>C7.  GAPs and GEFs - TBA</title>
+                </item>
+                <item identifier="T_000454" identifierref="T_000454_R">
+                    <title>C8.  Mitogen Activated Protein Kinases</title>
+                </item>
+                <item identifier="T_000455" identifierref="T_000455_R">
+                    <title>C9.  Insulin Signaling - PI3K and Akt (Protein Kinase B)</title>
+                </item>
+                <item identifier="T_000456" identifierref="T_000456_R">
+                    <title>11.4: mTOR and Nutrient Signaling</title>
+                </item>
+                <item identifier="T_000457" identifierref="T_000457_R">
+                    <title>D1.   Introduction of Nutrient Signaling</title>
+                </item>
+                <item identifier="T_000458" identifierref="T_000458_R">
+                    <title>D2.  mTOR Inhibition by Rapamycin</title>
+                </item>
+                <item identifier="T_000459" identifierref="T_000459_R">
+                    <title>D3.    mTOR Protein Kinase Structure and Activity</title>
+                </item>
+                <item identifier="T_000460" identifierref="T_000460_R">
+                    <title>D4.   Regulation of mTORC1 by Leucine</title>
+                </item>
+                <item identifier="T_000461" identifierref="T_000461_R">
+                    <title>D5.   Regulation of mTORC1 by Energy Availability - AMP Kinase</title>
+                </item>
+                <item identifier="T_000462" identifierref="T_000462_R">
+                    <title>D6.   Regulation of mTORC1 by Insulin and Growth Factors</title>
+                </item>
+                <item identifier="T_000463" identifierref="T_000463_R">
+                    <title>D7.   Links and References</title>
+                </item>
+                <item identifier="T_000464" identifierref="T_000464_R">
+                    <title>11.5: Metabolic Control Analysis and Systems Biology</title>
+                </item>
+                <item identifier="T_000465" identifierref="T_000465_R">
+                    <title>E1. Introduction to Metabolic Control Analysis</title>
+                </item>
+                <item identifier="T_000466" identifierref="T_000466_R">
+                    <title>E2. Basic Principles of Metabolic Control Analysis (MCA)</title>
+                </item>
+                <item identifier="T_000467" identifierref="T_000467_R">
+                    <title>E3. Metabolic Control Analysis and Simple Enzyme Inhibition</title>
+                </item>
+                <item identifier="T_000468" identifierref="T_000468_R">
+                    <title>E4. The Flux Control Coefficient</title>
+                </item>
+                <item identifier="T_000469" identifierref="T_000469_R">
+                    <title>E5. Concentration Control and Elasticity Coefficients</title>
+                </item>
+                <item identifier="T_000470" identifierref="T_000470_R">
+                    <title>E6. Links and References</title>
+                </item>
+                <item identifier="T_000471" identifierref="T_000471_R">
+                    <title>11.6: Homework Problems - Literature Learning Module:  Transcription factor Ikaros Represses Protein Phosphatase 2A</title>
+                </item>
+                <item identifier="T_000472" identifierref="T_000472_R">
+                    <title>KEY</title>
+                </item>
+            </item>
+            <item identifier="T_000473">
+                <title>12: Metabolic Pathways</title>
+                <item identifier="T_000474" identifierref="T_000474_R">
+                    <title>12.1: Metabolic Maps Home Page</title>
+                </item>
+                <item identifier="T_000475" identifierref="T_000475_R">
+                    <title>12.2: Regulation of Metabolic Pathways A - How is Enzyme Activity Regulated?</title>
+                </item>
+                <item identifier="T_000476" identifierref="T_000476_R">
+                    <title>12.3: Regulation of Metabolic Pathways B - Which Enzymes Are Optimal for Regulation?</title>
+                </item>
+                <item identifier="T_000477" identifierref="T_000477_R">
+                    <title>12.4: An Overview of Metabolic Pathways - Catabolism</title>
+                </item>
+                <item identifier="T_000478" identifierref="T_000478_R">
+                    <title>12.5: An Overview of Metabolic Pathways - Anabolism</title>
+                </item>
+            </item>
+            <item identifier="T_000479">
+                <title>13: Origin of Life</title>
+                <item identifier="T_000480" identifierref="T_000480_R">
+                    <title>13.1: A. The Origin of Life</title>
+                </item>
+                <item identifier="T_000481" identifierref="T_000481_R">
+                    <title>A1. The Start of Life</title>
+                </item>
+                <item identifier="T_000482" identifierref="T_000482_R">
+                    <title>A10.  Hydrothermal Vents or Primoridal Soup?</title>
+                </item>
+                <item identifier="T_000483" identifierref="T_000483_R">
+                    <title>A11.  Fixing CO2</title>
+                </item>
+                <item identifier="T_000484" identifierref="T_000484_R">
+                    <title>A12.  The Role of Fe</title>
+                </item>
+                <item identifier="T_000485" identifierref="T_000485_R">
+                    <title>S Centers</title>
+                </item>
+                <item identifier="T_000486" identifierref="T_000486_R">
+                    <title>A13.  The Minimal Genome</title>
+                </item>
+                <item identifier="T_000487" identifierref="T_000487_R">
+                    <title>A14.  Links and References</title>
+                </item>
+                <item identifier="T_000488" identifierref="T_000488_R">
+                    <title>A2.  Abiotic Synthesis of Amino Acids and Peptides</title>
+                </item>
+                <item identifier="T_000489" identifierref="T_000489_R">
+                    <title>A3.  Abiotic Synthesis of Sugars</title>
+                </item>
+                <item identifier="T_000490" identifierref="T_000490_R">
+                    <title>A4.  Abiotic Synthesis of Nucleobases</title>
+                </item>
+                <item identifier="T_000491" identifierref="T_000491_R">
+                    <title>A5.  Abiotic Synthesis of Genetic Polymers</title>
+                </item>
+                <item identifier="T_000492" identifierref="T_000492_R">
+                    <title>A6.  Polyanions as Carriers of Genetic Information</title>
+                </item>
+                <item identifier="T_000493" identifierref="T_000493_R">
+                    <title>A7.  The Lipid World</title>
+                </item>
+                <item identifier="T_000494" identifierref="T_000494_R">
+                    <title>A8.  Protocells</title>
+                </item>
+                <item identifier="T_000495" identifierref="T_000495_R">
+                    <title>A9.    Energy Transduction in Protocells</title>
+                </item>
+            </item>
+            <item identifier="T_000496">
+                <title>14: Appendices</title>
+                <item identifier="T_000497" identifierref="T_000497_R">
+                    <title>14: Appendices</title>
+                </item>
+            </item>
+        </item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="T_000002_R" type="imswl_xmlv1p1">
+            <file href="T_000002_F.xml"/>
+        </resource>
+        <resource identifier="T_000003_R" type="imswl_xmlv1p1">
+            <file href="T_000003_F.xml"/>
+        </resource>
+        <resource identifier="T_000004_R" type="imswl_xmlv1p1">
+            <file href="T_000004_F.xml"/>
+        </resource>
+        <resource identifier="T_000005_R" type="imswl_xmlv1p1">
+            <file href="T_000005_F.xml"/>
+        </resource>
+        <resource identifier="T_000006_R" type="imswl_xmlv1p1">
+            <file href="T_000006_F.xml"/>
+        </resource>
+        <resource identifier="T_000007_R" type="imswl_xmlv1p1">
+            <file href="T_000007_F.xml"/>
+        </resource>
+        <resource identifier="T_000009_R" type="imswl_xmlv1p1">
+            <file href="T_000009_F.xml"/>
+        </resource>
+        <resource identifier="T_000010_R" type="imswl_xmlv1p1">
+            <file href="T_000010_F.xml"/>
+        </resource>
+        <resource identifier="T_000011_R" type="imswl_xmlv1p1">
+            <file href="T_000011_F.xml"/>
+        </resource>
+        <resource identifier="T_000012_R" type="imswl_xmlv1p1">
+            <file href="T_000012_F.xml"/>
+        </resource>
+        <resource identifier="T_000013_R" type="imswl_xmlv1p1">
+            <file href="T_000013_F.xml"/>
+        </resource>
+        <resource identifier="T_000015_R" type="imswl_xmlv1p1">
+            <file href="T_000015_F.xml"/>
+        </resource>
+        <resource identifier="T_000016_R" type="imswl_xmlv1p1">
+            <file href="T_000016_F.xml"/>
+        </resource>
+        <resource identifier="T_000017_R" type="imswl_xmlv1p1">
+            <file href="T_000017_F.xml"/>
+        </resource>
+        <resource identifier="T_000018_R" type="imswl_xmlv1p1">
+            <file href="T_000018_F.xml"/>
+        </resource>
+        <resource identifier="T_000019_R" type="imswl_xmlv1p1">
+            <file href="T_000019_F.xml"/>
+        </resource>
+        <resource identifier="T_000020_R" type="imswl_xmlv1p1">
+            <file href="T_000020_F.xml"/>
+        </resource>
+        <resource identifier="T_000021_R" type="imswl_xmlv1p1">
+            <file href="T_000021_F.xml"/>
+        </resource>
+        <resource identifier="T_000022_R" type="imswl_xmlv1p1">
+            <file href="T_000022_F.xml"/>
+        </resource>
+        <resource identifier="T_000023_R" type="imswl_xmlv1p1">
+            <file href="T_000023_F.xml"/>
+        </resource>
+        <resource identifier="T_000024_R" type="imswl_xmlv1p1">
+            <file href="T_000024_F.xml"/>
+        </resource>
+        <resource identifier="T_000025_R" type="imswl_xmlv1p1">
+            <file href="T_000025_F.xml"/>
+        </resource>
+        <resource identifier="T_000026_R" type="imswl_xmlv1p1">
+            <file href="T_000026_F.xml"/>
+        </resource>
+        <resource identifier="T_000027_R" type="imswl_xmlv1p1">
+            <file href="T_000027_F.xml"/>
+        </resource>
+        <resource identifier="T_000028_R" type="imswl_xmlv1p1">
+            <file href="T_000028_F.xml"/>
+        </resource>
+        <resource identifier="T_000029_R" type="imswl_xmlv1p1">
+            <file href="T_000029_F.xml"/>
+        </resource>
+        <resource identifier="T_000030_R" type="imswl_xmlv1p1">
+            <file href="T_000030_F.xml"/>
+        </resource>
+        <resource identifier="T_000031_R" type="imswl_xmlv1p1">
+            <file href="T_000031_F.xml"/>
+        </resource>
+        <resource identifier="T_000032_R" type="imswl_xmlv1p1">
+            <file href="T_000032_F.xml"/>
+        </resource>
+        <resource identifier="T_000033_R" type="imswl_xmlv1p1">
+            <file href="T_000033_F.xml"/>
+        </resource>
+        <resource identifier="T_000034_R" type="imswl_xmlv1p1">
+            <file href="T_000034_F.xml"/>
+        </resource>
+        <resource identifier="T_000035_R" type="imswl_xmlv1p1">
+            <file href="T_000035_F.xml"/>
+        </resource>
+        <resource identifier="T_000036_R" type="imswl_xmlv1p1">
+            <file href="T_000036_F.xml"/>
+        </resource>
+        <resource identifier="T_000037_R" type="imswl_xmlv1p1">
+            <file href="T_000037_F.xml"/>
+        </resource>
+        <resource identifier="T_000038_R" type="imswl_xmlv1p1">
+            <file href="T_000038_F.xml"/>
+        </resource>
+        <resource identifier="T_000039_R" type="imswl_xmlv1p1">
+            <file href="T_000039_F.xml"/>
+        </resource>
+        <resource identifier="T_000040_R" type="imswl_xmlv1p1">
+            <file href="T_000040_F.xml"/>
+        </resource>
+        <resource identifier="T_000041_R" type="imswl_xmlv1p1">
+            <file href="T_000041_F.xml"/>
+        </resource>
+        <resource identifier="T_000042_R" type="imswl_xmlv1p1">
+            <file href="T_000042_F.xml"/>
+        </resource>
+        <resource identifier="T_000043_R" type="imswl_xmlv1p1">
+            <file href="T_000043_F.xml"/>
+        </resource>
+        <resource identifier="T_000044_R" type="imswl_xmlv1p1">
+            <file href="T_000044_F.xml"/>
+        </resource>
+        <resource identifier="T_000045_R" type="imswl_xmlv1p1">
+            <file href="T_000045_F.xml"/>
+        </resource>
+        <resource identifier="T_000046_R" type="imswl_xmlv1p1">
+            <file href="T_000046_F.xml"/>
+        </resource>
+        <resource identifier="T_000047_R" type="imswl_xmlv1p1">
+            <file href="T_000047_F.xml"/>
+        </resource>
+        <resource identifier="T_000048_R" type="imswl_xmlv1p1">
+            <file href="T_000048_F.xml"/>
+        </resource>
+        <resource identifier="T_000049_R" type="imswl_xmlv1p1">
+            <file href="T_000049_F.xml"/>
+        </resource>
+        <resource identifier="T_000050_R" type="imswl_xmlv1p1">
+            <file href="T_000050_F.xml"/>
+        </resource>
+        <resource identifier="T_000051_R" type="imswl_xmlv1p1">
+            <file href="T_000051_F.xml"/>
+        </resource>
+        <resource identifier="T_000052_R" type="imswl_xmlv1p1">
+            <file href="T_000052_F.xml"/>
+        </resource>
+        <resource identifier="T_000053_R" type="imswl_xmlv1p1">
+            <file href="T_000053_F.xml"/>
+        </resource>
+        <resource identifier="T_000054_R" type="imswl_xmlv1p1">
+            <file href="T_000054_F.xml"/>
+        </resource>
+        <resource identifier="T_000055_R" type="imswl_xmlv1p1">
+            <file href="T_000055_F.xml"/>
+        </resource>
+        <resource identifier="T_000057_R" type="imswl_xmlv1p1">
+            <file href="T_000057_F.xml"/>
+        </resource>
+        <resource identifier="T_000058_R" type="imswl_xmlv1p1">
+            <file href="T_000058_F.xml"/>
+        </resource>
+        <resource identifier="T_000059_R" type="imswl_xmlv1p1">
+            <file href="T_000059_F.xml"/>
+        </resource>
+        <resource identifier="T_000060_R" type="imswl_xmlv1p1">
+            <file href="T_000060_F.xml"/>
+        </resource>
+        <resource identifier="T_000061_R" type="imswl_xmlv1p1">
+            <file href="T_000061_F.xml"/>
+        </resource>
+        <resource identifier="T_000062_R" type="imswl_xmlv1p1">
+            <file href="T_000062_F.xml"/>
+        </resource>
+        <resource identifier="T_000063_R" type="imswl_xmlv1p1">
+            <file href="T_000063_F.xml"/>
+        </resource>
+        <resource identifier="T_000064_R" type="imswl_xmlv1p1">
+            <file href="T_000064_F.xml"/>
+        </resource>
+        <resource identifier="T_000065_R" type="imswl_xmlv1p1">
+            <file href="T_000065_F.xml"/>
+        </resource>
+        <resource identifier="T_000066_R" type="imswl_xmlv1p1">
+            <file href="T_000066_F.xml"/>
+        </resource>
+        <resource identifier="T_000067_R" type="imswl_xmlv1p1">
+            <file href="T_000067_F.xml"/>
+        </resource>
+        <resource identifier="T_000068_R" type="imswl_xmlv1p1">
+            <file href="T_000068_F.xml"/>
+        </resource>
+        <resource identifier="T_000069_R" type="imswl_xmlv1p1">
+            <file href="T_000069_F.xml"/>
+        </resource>
+        <resource identifier="T_000070_R" type="imswl_xmlv1p1">
+            <file href="T_000070_F.xml"/>
+        </resource>
+        <resource identifier="T_000071_R" type="imswl_xmlv1p1">
+            <file href="T_000071_F.xml"/>
+        </resource>
+        <resource identifier="T_000072_R" type="imswl_xmlv1p1">
+            <file href="T_000072_F.xml"/>
+        </resource>
+        <resource identifier="T_000073_R" type="imswl_xmlv1p1">
+            <file href="T_000073_F.xml"/>
+        </resource>
+        <resource identifier="T_000074_R" type="imswl_xmlv1p1">
+            <file href="T_000074_F.xml"/>
+        </resource>
+        <resource identifier="T_000075_R" type="imswl_xmlv1p1">
+            <file href="T_000075_F.xml"/>
+        </resource>
+        <resource identifier="T_000076_R" type="imswl_xmlv1p1">
+            <file href="T_000076_F.xml"/>
+        </resource>
+        <resource identifier="T_000077_R" type="imswl_xmlv1p1">
+            <file href="T_000077_F.xml"/>
+        </resource>
+        <resource identifier="T_000078_R" type="imswl_xmlv1p1">
+            <file href="T_000078_F.xml"/>
+        </resource>
+        <resource identifier="T_000079_R" type="imswl_xmlv1p1">
+            <file href="T_000079_F.xml"/>
+        </resource>
+        <resource identifier="T_000080_R" type="imswl_xmlv1p1">
+            <file href="T_000080_F.xml"/>
+        </resource>
+        <resource identifier="T_000081_R" type="imswl_xmlv1p1">
+            <file href="T_000081_F.xml"/>
+        </resource>
+        <resource identifier="T_000082_R" type="imswl_xmlv1p1">
+            <file href="T_000082_F.xml"/>
+        </resource>
+        <resource identifier="T_000083_R" type="imswl_xmlv1p1">
+            <file href="T_000083_F.xml"/>
+        </resource>
+        <resource identifier="T_000084_R" type="imswl_xmlv1p1">
+            <file href="T_000084_F.xml"/>
+        </resource>
+        <resource identifier="T_000085_R" type="imswl_xmlv1p1">
+            <file href="T_000085_F.xml"/>
+        </resource>
+        <resource identifier="T_000086_R" type="imswl_xmlv1p1">
+            <file href="T_000086_F.xml"/>
+        </resource>
+        <resource identifier="T_000087_R" type="imswl_xmlv1p1">
+            <file href="T_000087_F.xml"/>
+        </resource>
+        <resource identifier="T_000088_R" type="imswl_xmlv1p1">
+            <file href="T_000088_F.xml"/>
+        </resource>
+        <resource identifier="T_000089_R" type="imswl_xmlv1p1">
+            <file href="T_000089_F.xml"/>
+        </resource>
+        <resource identifier="T_000090_R" type="imswl_xmlv1p1">
+            <file href="T_000090_F.xml"/>
+        </resource>
+        <resource identifier="T_000091_R" type="imswl_xmlv1p1">
+            <file href="T_000091_F.xml"/>
+        </resource>
+        <resource identifier="T_000092_R" type="imswl_xmlv1p1">
+            <file href="T_000092_F.xml"/>
+        </resource>
+        <resource identifier="T_000093_R" type="imswl_xmlv1p1">
+            <file href="T_000093_F.xml"/>
+        </resource>
+        <resource identifier="T_000094_R" type="imswl_xmlv1p1">
+            <file href="T_000094_F.xml"/>
+        </resource>
+        <resource identifier="T_000095_R" type="imswl_xmlv1p1">
+            <file href="T_000095_F.xml"/>
+        </resource>
+        <resource identifier="T_000096_R" type="imswl_xmlv1p1">
+            <file href="T_000096_F.xml"/>
+        </resource>
+        <resource identifier="T_000097_R" type="imswl_xmlv1p1">
+            <file href="T_000097_F.xml"/>
+        </resource>
+        <resource identifier="T_000098_R" type="imswl_xmlv1p1">
+            <file href="T_000098_F.xml"/>
+        </resource>
+        <resource identifier="T_000099_R" type="imswl_xmlv1p1">
+            <file href="T_000099_F.xml"/>
+        </resource>
+        <resource identifier="T_000100_R" type="imswl_xmlv1p1">
+            <file href="T_000100_F.xml"/>
+        </resource>
+        <resource identifier="T_000101_R" type="imswl_xmlv1p1">
+            <file href="T_000101_F.xml"/>
+        </resource>
+        <resource identifier="T_000102_R" type="imswl_xmlv1p1">
+            <file href="T_000102_F.xml"/>
+        </resource>
+        <resource identifier="T_000103_R" type="imswl_xmlv1p1">
+            <file href="T_000103_F.xml"/>
+        </resource>
+        <resource identifier="T_000104_R" type="imswl_xmlv1p1">
+            <file href="T_000104_F.xml"/>
+        </resource>
+        <resource identifier="T_000105_R" type="imswl_xmlv1p1">
+            <file href="T_000105_F.xml"/>
+        </resource>
+        <resource identifier="T_000106_R" type="imswl_xmlv1p1">
+            <file href="T_000106_F.xml"/>
+        </resource>
+        <resource identifier="T_000107_R" type="imswl_xmlv1p1">
+            <file href="T_000107_F.xml"/>
+        </resource>
+        <resource identifier="T_000108_R" type="imswl_xmlv1p1">
+            <file href="T_000108_F.xml"/>
+        </resource>
+        <resource identifier="T_000109_R" type="imswl_xmlv1p1">
+            <file href="T_000109_F.xml"/>
+        </resource>
+        <resource identifier="T_000110_R" type="imswl_xmlv1p1">
+            <file href="T_000110_F.xml"/>
+        </resource>
+        <resource identifier="T_000111_R" type="imswl_xmlv1p1">
+            <file href="T_000111_F.xml"/>
+        </resource>
+        <resource identifier="T_000112_R" type="imswl_xmlv1p1">
+            <file href="T_000112_F.xml"/>
+        </resource>
+        <resource identifier="T_000113_R" type="imswl_xmlv1p1">
+            <file href="T_000113_F.xml"/>
+        </resource>
+        <resource identifier="T_000114_R" type="imswl_xmlv1p1">
+            <file href="T_000114_F.xml"/>
+        </resource>
+        <resource identifier="T_000115_R" type="imswl_xmlv1p1">
+            <file href="T_000115_F.xml"/>
+        </resource>
+        <resource identifier="T_000116_R" type="imswl_xmlv1p1">
+            <file href="T_000116_F.xml"/>
+        </resource>
+        <resource identifier="T_000117_R" type="imswl_xmlv1p1">
+            <file href="T_000117_F.xml"/>
+        </resource>
+        <resource identifier="T_000118_R" type="imswl_xmlv1p1">
+            <file href="T_000118_F.xml"/>
+        </resource>
+        <resource identifier="T_000119_R" type="imswl_xmlv1p1">
+            <file href="T_000119_F.xml"/>
+        </resource>
+        <resource identifier="T_000120_R" type="imswl_xmlv1p1">
+            <file href="T_000120_F.xml"/>
+        </resource>
+        <resource identifier="T_000121_R" type="imswl_xmlv1p1">
+            <file href="T_000121_F.xml"/>
+        </resource>
+        <resource identifier="T_000122_R" type="imswl_xmlv1p1">
+            <file href="T_000122_F.xml"/>
+        </resource>
+        <resource identifier="T_000123_R" type="imswl_xmlv1p1">
+            <file href="T_000123_F.xml"/>
+        </resource>
+        <resource identifier="T_000124_R" type="imswl_xmlv1p1">
+            <file href="T_000124_F.xml"/>
+        </resource>
+        <resource identifier="T_000126_R" type="imswl_xmlv1p1">
+            <file href="T_000126_F.xml"/>
+        </resource>
+        <resource identifier="T_000127_R" type="imswl_xmlv1p1">
+            <file href="T_000127_F.xml"/>
+        </resource>
+        <resource identifier="T_000128_R" type="imswl_xmlv1p1">
+            <file href="T_000128_F.xml"/>
+        </resource>
+        <resource identifier="T_000129_R" type="imswl_xmlv1p1">
+            <file href="T_000129_F.xml"/>
+        </resource>
+        <resource identifier="T_000130_R" type="imswl_xmlv1p1">
+            <file href="T_000130_F.xml"/>
+        </resource>
+        <resource identifier="T_000131_R" type="imswl_xmlv1p1">
+            <file href="T_000131_F.xml"/>
+        </resource>
+        <resource identifier="T_000132_R" type="imswl_xmlv1p1">
+            <file href="T_000132_F.xml"/>
+        </resource>
+        <resource identifier="T_000133_R" type="imswl_xmlv1p1">
+            <file href="T_000133_F.xml"/>
+        </resource>
+        <resource identifier="T_000134_R" type="imswl_xmlv1p1">
+            <file href="T_000134_F.xml"/>
+        </resource>
+        <resource identifier="T_000135_R" type="imswl_xmlv1p1">
+            <file href="T_000135_F.xml"/>
+        </resource>
+        <resource identifier="T_000136_R" type="imswl_xmlv1p1">
+            <file href="T_000136_F.xml"/>
+        </resource>
+        <resource identifier="T_000137_R" type="imswl_xmlv1p1">
+            <file href="T_000137_F.xml"/>
+        </resource>
+        <resource identifier="T_000138_R" type="imswl_xmlv1p1">
+            <file href="T_000138_F.xml"/>
+        </resource>
+        <resource identifier="T_000139_R" type="imswl_xmlv1p1">
+            <file href="T_000139_F.xml"/>
+        </resource>
+        <resource identifier="T_000140_R" type="imswl_xmlv1p1">
+            <file href="T_000140_F.xml"/>
+        </resource>
+        <resource identifier="T_000141_R" type="imswl_xmlv1p1">
+            <file href="T_000141_F.xml"/>
+        </resource>
+        <resource identifier="T_000142_R" type="imswl_xmlv1p1">
+            <file href="T_000142_F.xml"/>
+        </resource>
+        <resource identifier="T_000143_R" type="imswl_xmlv1p1">
+            <file href="T_000143_F.xml"/>
+        </resource>
+        <resource identifier="T_000144_R" type="imswl_xmlv1p1">
+            <file href="T_000144_F.xml"/>
+        </resource>
+        <resource identifier="T_000145_R" type="imswl_xmlv1p1">
+            <file href="T_000145_F.xml"/>
+        </resource>
+        <resource identifier="T_000146_R" type="imswl_xmlv1p1">
+            <file href="T_000146_F.xml"/>
+        </resource>
+        <resource identifier="T_000147_R" type="imswl_xmlv1p1">
+            <file href="T_000147_F.xml"/>
+        </resource>
+        <resource identifier="T_000148_R" type="imswl_xmlv1p1">
+            <file href="T_000148_F.xml"/>
+        </resource>
+        <resource identifier="T_000149_R" type="imswl_xmlv1p1">
+            <file href="T_000149_F.xml"/>
+        </resource>
+        <resource identifier="T_000150_R" type="imswl_xmlv1p1">
+            <file href="T_000150_F.xml"/>
+        </resource>
+        <resource identifier="T_000151_R" type="imswl_xmlv1p1">
+            <file href="T_000151_F.xml"/>
+        </resource>
+        <resource identifier="T_000152_R" type="imswl_xmlv1p1">
+            <file href="T_000152_F.xml"/>
+        </resource>
+        <resource identifier="T_000153_R" type="imswl_xmlv1p1">
+            <file href="T_000153_F.xml"/>
+        </resource>
+        <resource identifier="T_000154_R" type="imswl_xmlv1p1">
+            <file href="T_000154_F.xml"/>
+        </resource>
+        <resource identifier="T_000155_R" type="imswl_xmlv1p1">
+            <file href="T_000155_F.xml"/>
+        </resource>
+        <resource identifier="T_000156_R" type="imswl_xmlv1p1">
+            <file href="T_000156_F.xml"/>
+        </resource>
+        <resource identifier="T_000157_R" type="imswl_xmlv1p1">
+            <file href="T_000157_F.xml"/>
+        </resource>
+        <resource identifier="T_000158_R" type="imswl_xmlv1p1">
+            <file href="T_000158_F.xml"/>
+        </resource>
+        <resource identifier="T_000159_R" type="imswl_xmlv1p1">
+            <file href="T_000159_F.xml"/>
+        </resource>
+        <resource identifier="T_000160_R" type="imswl_xmlv1p1">
+            <file href="T_000160_F.xml"/>
+        </resource>
+        <resource identifier="T_000161_R" type="imswl_xmlv1p1">
+            <file href="T_000161_F.xml"/>
+        </resource>
+        <resource identifier="T_000162_R" type="imswl_xmlv1p1">
+            <file href="T_000162_F.xml"/>
+        </resource>
+        <resource identifier="T_000163_R" type="imswl_xmlv1p1">
+            <file href="T_000163_F.xml"/>
+        </resource>
+        <resource identifier="T_000164_R" type="imswl_xmlv1p1">
+            <file href="T_000164_F.xml"/>
+        </resource>
+        <resource identifier="T_000165_R" type="imswl_xmlv1p1">
+            <file href="T_000165_F.xml"/>
+        </resource>
+        <resource identifier="T_000166_R" type="imswl_xmlv1p1">
+            <file href="T_000166_F.xml"/>
+        </resource>
+        <resource identifier="T_000167_R" type="imswl_xmlv1p1">
+            <file href="T_000167_F.xml"/>
+        </resource>
+        <resource identifier="T_000168_R" type="imswl_xmlv1p1">
+            <file href="T_000168_F.xml"/>
+        </resource>
+        <resource identifier="T_000169_R" type="imswl_xmlv1p1">
+            <file href="T_000169_F.xml"/>
+        </resource>
+        <resource identifier="T_000170_R" type="imswl_xmlv1p1">
+            <file href="T_000170_F.xml"/>
+        </resource>
+        <resource identifier="T_000171_R" type="imswl_xmlv1p1">
+            <file href="T_000171_F.xml"/>
+        </resource>
+        <resource identifier="T_000172_R" type="imswl_xmlv1p1">
+            <file href="T_000172_F.xml"/>
+        </resource>
+        <resource identifier="T_000173_R" type="imswl_xmlv1p1">
+            <file href="T_000173_F.xml"/>
+        </resource>
+        <resource identifier="T_000174_R" type="imswl_xmlv1p1">
+            <file href="T_000174_F.xml"/>
+        </resource>
+        <resource identifier="T_000175_R" type="imswl_xmlv1p1">
+            <file href="T_000175_F.xml"/>
+        </resource>
+        <resource identifier="T_000176_R" type="imswl_xmlv1p1">
+            <file href="T_000176_F.xml"/>
+        </resource>
+        <resource identifier="T_000177_R" type="imswl_xmlv1p1">
+            <file href="T_000177_F.xml"/>
+        </resource>
+        <resource identifier="T_000178_R" type="imswl_xmlv1p1">
+            <file href="T_000178_F.xml"/>
+        </resource>
+        <resource identifier="T_000179_R" type="imswl_xmlv1p1">
+            <file href="T_000179_F.xml"/>
+        </resource>
+        <resource identifier="T_000180_R" type="imswl_xmlv1p1">
+            <file href="T_000180_F.xml"/>
+        </resource>
+        <resource identifier="T_000181_R" type="imswl_xmlv1p1">
+            <file href="T_000181_F.xml"/>
+        </resource>
+        <resource identifier="T_000182_R" type="imswl_xmlv1p1">
+            <file href="T_000182_F.xml"/>
+        </resource>
+        <resource identifier="T_000183_R" type="imswl_xmlv1p1">
+            <file href="T_000183_F.xml"/>
+        </resource>
+        <resource identifier="T_000184_R" type="imswl_xmlv1p1">
+            <file href="T_000184_F.xml"/>
+        </resource>
+        <resource identifier="T_000185_R" type="imswl_xmlv1p1">
+            <file href="T_000185_F.xml"/>
+        </resource>
+        <resource identifier="T_000186_R" type="imswl_xmlv1p1">
+            <file href="T_000186_F.xml"/>
+        </resource>
+        <resource identifier="T_000187_R" type="imswl_xmlv1p1">
+            <file href="T_000187_F.xml"/>
+        </resource>
+        <resource identifier="T_000188_R" type="imswl_xmlv1p1">
+            <file href="T_000188_F.xml"/>
+        </resource>
+        <resource identifier="T_000189_R" type="imswl_xmlv1p1">
+            <file href="T_000189_F.xml"/>
+        </resource>
+        <resource identifier="T_000190_R" type="imswl_xmlv1p1">
+            <file href="T_000190_F.xml"/>
+        </resource>
+        <resource identifier="T_000191_R" type="imswl_xmlv1p1">
+            <file href="T_000191_F.xml"/>
+        </resource>
+        <resource identifier="T_000192_R" type="imswl_xmlv1p1">
+            <file href="T_000192_F.xml"/>
+        </resource>
+        <resource identifier="T_000193_R" type="imswl_xmlv1p1">
+            <file href="T_000193_F.xml"/>
+        </resource>
+        <resource identifier="T_000194_R" type="imswl_xmlv1p1">
+            <file href="T_000194_F.xml"/>
+        </resource>
+        <resource identifier="T_000195_R" type="imswl_xmlv1p1">
+            <file href="T_000195_F.xml"/>
+        </resource>
+        <resource identifier="T_000196_R" type="imswl_xmlv1p1">
+            <file href="T_000196_F.xml"/>
+        </resource>
+        <resource identifier="T_000197_R" type="imswl_xmlv1p1">
+            <file href="T_000197_F.xml"/>
+        </resource>
+        <resource identifier="T_000198_R" type="imswl_xmlv1p1">
+            <file href="T_000198_F.xml"/>
+        </resource>
+        <resource identifier="T_000199_R" type="imswl_xmlv1p1">
+            <file href="T_000199_F.xml"/>
+        </resource>
+        <resource identifier="T_000200_R" type="imswl_xmlv1p1">
+            <file href="T_000200_F.xml"/>
+        </resource>
+        <resource identifier="T_000201_R" type="imswl_xmlv1p1">
+            <file href="T_000201_F.xml"/>
+        </resource>
+        <resource identifier="T_000202_R" type="imswl_xmlv1p1">
+            <file href="T_000202_F.xml"/>
+        </resource>
+        <resource identifier="T_000203_R" type="imswl_xmlv1p1">
+            <file href="T_000203_F.xml"/>
+        </resource>
+        <resource identifier="T_000204_R" type="imswl_xmlv1p1">
+            <file href="T_000204_F.xml"/>
+        </resource>
+        <resource identifier="T_000205_R" type="imswl_xmlv1p1">
+            <file href="T_000205_F.xml"/>
+        </resource>
+        <resource identifier="T_000206_R" type="imswl_xmlv1p1">
+            <file href="T_000206_F.xml"/>
+        </resource>
+        <resource identifier="T_000207_R" type="imswl_xmlv1p1">
+            <file href="T_000207_F.xml"/>
+        </resource>
+        <resource identifier="T_000208_R" type="imswl_xmlv1p1">
+            <file href="T_000208_F.xml"/>
+        </resource>
+        <resource identifier="T_000209_R" type="imswl_xmlv1p1">
+            <file href="T_000209_F.xml"/>
+        </resource>
+        <resource identifier="T_000210_R" type="imswl_xmlv1p1">
+            <file href="T_000210_F.xml"/>
+        </resource>
+        <resource identifier="T_000211_R" type="imswl_xmlv1p1">
+            <file href="T_000211_F.xml"/>
+        </resource>
+        <resource identifier="T_000212_R" type="imswl_xmlv1p1">
+            <file href="T_000212_F.xml"/>
+        </resource>
+        <resource identifier="T_000213_R" type="imswl_xmlv1p1">
+            <file href="T_000213_F.xml"/>
+        </resource>
+        <resource identifier="T_000215_R" type="imswl_xmlv1p1">
+            <file href="T_000215_F.xml"/>
+        </resource>
+        <resource identifier="T_000216_R" type="imswl_xmlv1p1">
+            <file href="T_000216_F.xml"/>
+        </resource>
+        <resource identifier="T_000217_R" type="imswl_xmlv1p1">
+            <file href="T_000217_F.xml"/>
+        </resource>
+        <resource identifier="T_000219_R" type="imswl_xmlv1p1">
+            <file href="T_000219_F.xml"/>
+        </resource>
+        <resource identifier="T_000220_R" type="imswl_xmlv1p1">
+            <file href="T_000220_F.xml"/>
+        </resource>
+        <resource identifier="T_000221_R" type="imswl_xmlv1p1">
+            <file href="T_000221_F.xml"/>
+        </resource>
+        <resource identifier="T_000222_R" type="imswl_xmlv1p1">
+            <file href="T_000222_F.xml"/>
+        </resource>
+        <resource identifier="T_000223_R" type="imswl_xmlv1p1">
+            <file href="T_000223_F.xml"/>
+        </resource>
+        <resource identifier="T_000224_R" type="imswl_xmlv1p1">
+            <file href="T_000224_F.xml"/>
+        </resource>
+        <resource identifier="T_000225_R" type="imswl_xmlv1p1">
+            <file href="T_000225_F.xml"/>
+        </resource>
+        <resource identifier="T_000226_R" type="imswl_xmlv1p1">
+            <file href="T_000226_F.xml"/>
+        </resource>
+        <resource identifier="T_000227_R" type="imswl_xmlv1p1">
+            <file href="T_000227_F.xml"/>
+        </resource>
+        <resource identifier="T_000228_R" type="imswl_xmlv1p1">
+            <file href="T_000228_F.xml"/>
+        </resource>
+        <resource identifier="T_000229_R" type="imswl_xmlv1p1">
+            <file href="T_000229_F.xml"/>
+        </resource>
+        <resource identifier="T_000230_R" type="imswl_xmlv1p1">
+            <file href="T_000230_F.xml"/>
+        </resource>
+        <resource identifier="T_000231_R" type="imswl_xmlv1p1">
+            <file href="T_000231_F.xml"/>
+        </resource>
+        <resource identifier="T_000232_R" type="imswl_xmlv1p1">
+            <file href="T_000232_F.xml"/>
+        </resource>
+        <resource identifier="T_000233_R" type="imswl_xmlv1p1">
+            <file href="T_000233_F.xml"/>
+        </resource>
+        <resource identifier="T_000234_R" type="imswl_xmlv1p1">
+            <file href="T_000234_F.xml"/>
+        </resource>
+        <resource identifier="T_000235_R" type="imswl_xmlv1p1">
+            <file href="T_000235_F.xml"/>
+        </resource>
+        <resource identifier="T_000236_R" type="imswl_xmlv1p1">
+            <file href="T_000236_F.xml"/>
+        </resource>
+        <resource identifier="T_000237_R" type="imswl_xmlv1p1">
+            <file href="T_000237_F.xml"/>
+        </resource>
+        <resource identifier="T_000238_R" type="imswl_xmlv1p1">
+            <file href="T_000238_F.xml"/>
+        </resource>
+        <resource identifier="T_000239_R" type="imswl_xmlv1p1">
+            <file href="T_000239_F.xml"/>
+        </resource>
+        <resource identifier="T_000240_R" type="imswl_xmlv1p1">
+            <file href="T_000240_F.xml"/>
+        </resource>
+        <resource identifier="T_000241_R" type="imswl_xmlv1p1">
+            <file href="T_000241_F.xml"/>
+        </resource>
+        <resource identifier="T_000242_R" type="imswl_xmlv1p1">
+            <file href="T_000242_F.xml"/>
+        </resource>
+        <resource identifier="T_000243_R" type="imswl_xmlv1p1">
+            <file href="T_000243_F.xml"/>
+        </resource>
+        <resource identifier="T_000244_R" type="imswl_xmlv1p1">
+            <file href="T_000244_F.xml"/>
+        </resource>
+        <resource identifier="T_000245_R" type="imswl_xmlv1p1">
+            <file href="T_000245_F.xml"/>
+        </resource>
+        <resource identifier="T_000246_R" type="imswl_xmlv1p1">
+            <file href="T_000246_F.xml"/>
+        </resource>
+        <resource identifier="T_000247_R" type="imswl_xmlv1p1">
+            <file href="T_000247_F.xml"/>
+        </resource>
+        <resource identifier="T_000248_R" type="imswl_xmlv1p1">
+            <file href="T_000248_F.xml"/>
+        </resource>
+        <resource identifier="T_000249_R" type="imswl_xmlv1p1">
+            <file href="T_000249_F.xml"/>
+        </resource>
+        <resource identifier="T_000250_R" type="imswl_xmlv1p1">
+            <file href="T_000250_F.xml"/>
+        </resource>
+        <resource identifier="T_000251_R" type="imswl_xmlv1p1">
+            <file href="T_000251_F.xml"/>
+        </resource>
+        <resource identifier="T_000252_R" type="imswl_xmlv1p1">
+            <file href="T_000252_F.xml"/>
+        </resource>
+        <resource identifier="T_000253_R" type="imswl_xmlv1p1">
+            <file href="T_000253_F.xml"/>
+        </resource>
+        <resource identifier="T_000254_R" type="imswl_xmlv1p1">
+            <file href="T_000254_F.xml"/>
+        </resource>
+        <resource identifier="T_000255_R" type="imswl_xmlv1p1">
+            <file href="T_000255_F.xml"/>
+        </resource>
+        <resource identifier="T_000256_R" type="imswl_xmlv1p1">
+            <file href="T_000256_F.xml"/>
+        </resource>
+        <resource identifier="T_000257_R" type="imswl_xmlv1p1">
+            <file href="T_000257_F.xml"/>
+        </resource>
+        <resource identifier="T_000258_R" type="imswl_xmlv1p1">
+            <file href="T_000258_F.xml"/>
+        </resource>
+        <resource identifier="T_000259_R" type="imswl_xmlv1p1">
+            <file href="T_000259_F.xml"/>
+        </resource>
+        <resource identifier="T_000260_R" type="imswl_xmlv1p1">
+            <file href="T_000260_F.xml"/>
+        </resource>
+        <resource identifier="T_000261_R" type="imswl_xmlv1p1">
+            <file href="T_000261_F.xml"/>
+        </resource>
+        <resource identifier="T_000262_R" type="imswl_xmlv1p1">
+            <file href="T_000262_F.xml"/>
+        </resource>
+        <resource identifier="T_000263_R" type="imswl_xmlv1p1">
+            <file href="T_000263_F.xml"/>
+        </resource>
+        <resource identifier="T_000264_R" type="imswl_xmlv1p1">
+            <file href="T_000264_F.xml"/>
+        </resource>
+        <resource identifier="T_000265_R" type="imswl_xmlv1p1">
+            <file href="T_000265_F.xml"/>
+        </resource>
+        <resource identifier="T_000266_R" type="imswl_xmlv1p1">
+            <file href="T_000266_F.xml"/>
+        </resource>
+        <resource identifier="T_000267_R" type="imswl_xmlv1p1">
+            <file href="T_000267_F.xml"/>
+        </resource>
+        <resource identifier="T_000268_R" type="imswl_xmlv1p1">
+            <file href="T_000268_F.xml"/>
+        </resource>
+        <resource identifier="T_000269_R" type="imswl_xmlv1p1">
+            <file href="T_000269_F.xml"/>
+        </resource>
+        <resource identifier="T_000270_R" type="imswl_xmlv1p1">
+            <file href="T_000270_F.xml"/>
+        </resource>
+        <resource identifier="T_000271_R" type="imswl_xmlv1p1">
+            <file href="T_000271_F.xml"/>
+        </resource>
+        <resource identifier="T_000272_R" type="imswl_xmlv1p1">
+            <file href="T_000272_F.xml"/>
+        </resource>
+        <resource identifier="T_000273_R" type="imswl_xmlv1p1">
+            <file href="T_000273_F.xml"/>
+        </resource>
+        <resource identifier="T_000274_R" type="imswl_xmlv1p1">
+            <file href="T_000274_F.xml"/>
+        </resource>
+        <resource identifier="T_000275_R" type="imswl_xmlv1p1">
+            <file href="T_000275_F.xml"/>
+        </resource>
+        <resource identifier="T_000276_R" type="imswl_xmlv1p1">
+            <file href="T_000276_F.xml"/>
+        </resource>
+        <resource identifier="T_000277_R" type="imswl_xmlv1p1">
+            <file href="T_000277_F.xml"/>
+        </resource>
+        <resource identifier="T_000278_R" type="imswl_xmlv1p1">
+            <file href="T_000278_F.xml"/>
+        </resource>
+        <resource identifier="T_000279_R" type="imswl_xmlv1p1">
+            <file href="T_000279_F.xml"/>
+        </resource>
+        <resource identifier="T_000280_R" type="imswl_xmlv1p1">
+            <file href="T_000280_F.xml"/>
+        </resource>
+        <resource identifier="T_000281_R" type="imswl_xmlv1p1">
+            <file href="T_000281_F.xml"/>
+        </resource>
+        <resource identifier="T_000282_R" type="imswl_xmlv1p1">
+            <file href="T_000282_F.xml"/>
+        </resource>
+        <resource identifier="T_000283_R" type="imswl_xmlv1p1">
+            <file href="T_000283_F.xml"/>
+        </resource>
+        <resource identifier="T_000284_R" type="imswl_xmlv1p1">
+            <file href="T_000284_F.xml"/>
+        </resource>
+        <resource identifier="T_000285_R" type="imswl_xmlv1p1">
+            <file href="T_000285_F.xml"/>
+        </resource>
+        <resource identifier="T_000286_R" type="imswl_xmlv1p1">
+            <file href="T_000286_F.xml"/>
+        </resource>
+        <resource identifier="T_000287_R" type="imswl_xmlv1p1">
+            <file href="T_000287_F.xml"/>
+        </resource>
+        <resource identifier="T_000289_R" type="imswl_xmlv1p1">
+            <file href="T_000289_F.xml"/>
+        </resource>
+        <resource identifier="T_000290_R" type="imswl_xmlv1p1">
+            <file href="T_000290_F.xml"/>
+        </resource>
+        <resource identifier="T_000291_R" type="imswl_xmlv1p1">
+            <file href="T_000291_F.xml"/>
+        </resource>
+        <resource identifier="T_000292_R" type="imswl_xmlv1p1">
+            <file href="T_000292_F.xml"/>
+        </resource>
+        <resource identifier="T_000293_R" type="imswl_xmlv1p1">
+            <file href="T_000293_F.xml"/>
+        </resource>
+        <resource identifier="T_000294_R" type="imswl_xmlv1p1">
+            <file href="T_000294_F.xml"/>
+        </resource>
+        <resource identifier="T_000295_R" type="imswl_xmlv1p1">
+            <file href="T_000295_F.xml"/>
+        </resource>
+        <resource identifier="T_000296_R" type="imswl_xmlv1p1">
+            <file href="T_000296_F.xml"/>
+        </resource>
+        <resource identifier="T_000297_R" type="imswl_xmlv1p1">
+            <file href="T_000297_F.xml"/>
+        </resource>
+        <resource identifier="T_000298_R" type="imswl_xmlv1p1">
+            <file href="T_000298_F.xml"/>
+        </resource>
+        <resource identifier="T_000299_R" type="imswl_xmlv1p1">
+            <file href="T_000299_F.xml"/>
+        </resource>
+        <resource identifier="T_000300_R" type="imswl_xmlv1p1">
+            <file href="T_000300_F.xml"/>
+        </resource>
+        <resource identifier="T_000301_R" type="imswl_xmlv1p1">
+            <file href="T_000301_F.xml"/>
+        </resource>
+        <resource identifier="T_000302_R" type="imswl_xmlv1p1">
+            <file href="T_000302_F.xml"/>
+        </resource>
+        <resource identifier="T_000303_R" type="imswl_xmlv1p1">
+            <file href="T_000303_F.xml"/>
+        </resource>
+        <resource identifier="T_000304_R" type="imswl_xmlv1p1">
+            <file href="T_000304_F.xml"/>
+        </resource>
+        <resource identifier="T_000305_R" type="imswl_xmlv1p1">
+            <file href="T_000305_F.xml"/>
+        </resource>
+        <resource identifier="T_000306_R" type="imswl_xmlv1p1">
+            <file href="T_000306_F.xml"/>
+        </resource>
+        <resource identifier="T_000307_R" type="imswl_xmlv1p1">
+            <file href="T_000307_F.xml"/>
+        </resource>
+        <resource identifier="T_000308_R" type="imswl_xmlv1p1">
+            <file href="T_000308_F.xml"/>
+        </resource>
+        <resource identifier="T_000309_R" type="imswl_xmlv1p1">
+            <file href="T_000309_F.xml"/>
+        </resource>
+        <resource identifier="T_000310_R" type="imswl_xmlv1p1">
+            <file href="T_000310_F.xml"/>
+        </resource>
+        <resource identifier="T_000311_R" type="imswl_xmlv1p1">
+            <file href="T_000311_F.xml"/>
+        </resource>
+        <resource identifier="T_000312_R" type="imswl_xmlv1p1">
+            <file href="T_000312_F.xml"/>
+        </resource>
+        <resource identifier="T_000313_R" type="imswl_xmlv1p1">
+            <file href="T_000313_F.xml"/>
+        </resource>
+        <resource identifier="T_000314_R" type="imswl_xmlv1p1">
+            <file href="T_000314_F.xml"/>
+        </resource>
+        <resource identifier="T_000315_R" type="imswl_xmlv1p1">
+            <file href="T_000315_F.xml"/>
+        </resource>
+        <resource identifier="T_000316_R" type="imswl_xmlv1p1">
+            <file href="T_000316_F.xml"/>
+        </resource>
+        <resource identifier="T_000317_R" type="imswl_xmlv1p1">
+            <file href="T_000317_F.xml"/>
+        </resource>
+        <resource identifier="T_000318_R" type="imswl_xmlv1p1">
+            <file href="T_000318_F.xml"/>
+        </resource>
+        <resource identifier="T_000319_R" type="imswl_xmlv1p1">
+            <file href="T_000319_F.xml"/>
+        </resource>
+        <resource identifier="T_000320_R" type="imswl_xmlv1p1">
+            <file href="T_000320_F.xml"/>
+        </resource>
+        <resource identifier="T_000321_R" type="imswl_xmlv1p1">
+            <file href="T_000321_F.xml"/>
+        </resource>
+        <resource identifier="T_000322_R" type="imswl_xmlv1p1">
+            <file href="T_000322_F.xml"/>
+        </resource>
+        <resource identifier="T_000324_R" type="imswl_xmlv1p1">
+            <file href="T_000324_F.xml"/>
+        </resource>
+        <resource identifier="T_000325_R" type="imswl_xmlv1p1">
+            <file href="T_000325_F.xml"/>
+        </resource>
+        <resource identifier="T_000326_R" type="imswl_xmlv1p1">
+            <file href="T_000326_F.xml"/>
+        </resource>
+        <resource identifier="T_000327_R" type="imswl_xmlv1p1">
+            <file href="T_000327_F.xml"/>
+        </resource>
+        <resource identifier="T_000328_R" type="imswl_xmlv1p1">
+            <file href="T_000328_F.xml"/>
+        </resource>
+        <resource identifier="T_000329_R" type="imswl_xmlv1p1">
+            <file href="T_000329_F.xml"/>
+        </resource>
+        <resource identifier="T_000330_R" type="imswl_xmlv1p1">
+            <file href="T_000330_F.xml"/>
+        </resource>
+        <resource identifier="T_000331_R" type="imswl_xmlv1p1">
+            <file href="T_000331_F.xml"/>
+        </resource>
+        <resource identifier="T_000332_R" type="imswl_xmlv1p1">
+            <file href="T_000332_F.xml"/>
+        </resource>
+        <resource identifier="T_000333_R" type="imswl_xmlv1p1">
+            <file href="T_000333_F.xml"/>
+        </resource>
+        <resource identifier="T_000334_R" type="imswl_xmlv1p1">
+            <file href="T_000334_F.xml"/>
+        </resource>
+        <resource identifier="T_000335_R" type="imswl_xmlv1p1">
+            <file href="T_000335_F.xml"/>
+        </resource>
+        <resource identifier="T_000336_R" type="imswl_xmlv1p1">
+            <file href="T_000336_F.xml"/>
+        </resource>
+        <resource identifier="T_000337_R" type="imswl_xmlv1p1">
+            <file href="T_000337_F.xml"/>
+        </resource>
+        <resource identifier="T_000338_R" type="imswl_xmlv1p1">
+            <file href="T_000338_F.xml"/>
+        </resource>
+        <resource identifier="T_000339_R" type="imswl_xmlv1p1">
+            <file href="T_000339_F.xml"/>
+        </resource>
+        <resource identifier="T_000340_R" type="imswl_xmlv1p1">
+            <file href="T_000340_F.xml"/>
+        </resource>
+        <resource identifier="T_000341_R" type="imswl_xmlv1p1">
+            <file href="T_000341_F.xml"/>
+        </resource>
+        <resource identifier="T_000342_R" type="imswl_xmlv1p1">
+            <file href="T_000342_F.xml"/>
+        </resource>
+        <resource identifier="T_000343_R" type="imswl_xmlv1p1">
+            <file href="T_000343_F.xml"/>
+        </resource>
+        <resource identifier="T_000344_R" type="imswl_xmlv1p1">
+            <file href="T_000344_F.xml"/>
+        </resource>
+        <resource identifier="T_000345_R" type="imswl_xmlv1p1">
+            <file href="T_000345_F.xml"/>
+        </resource>
+        <resource identifier="T_000346_R" type="imswl_xmlv1p1">
+            <file href="T_000346_F.xml"/>
+        </resource>
+        <resource identifier="T_000347_R" type="imswl_xmlv1p1">
+            <file href="T_000347_F.xml"/>
+        </resource>
+        <resource identifier="T_000348_R" type="imswl_xmlv1p1">
+            <file href="T_000348_F.xml"/>
+        </resource>
+        <resource identifier="T_000349_R" type="imswl_xmlv1p1">
+            <file href="T_000349_F.xml"/>
+        </resource>
+        <resource identifier="T_000350_R" type="imswl_xmlv1p1">
+            <file href="T_000350_F.xml"/>
+        </resource>
+        <resource identifier="T_000351_R" type="imswl_xmlv1p1">
+            <file href="T_000351_F.xml"/>
+        </resource>
+        <resource identifier="T_000352_R" type="imswl_xmlv1p1">
+            <file href="T_000352_F.xml"/>
+        </resource>
+        <resource identifier="T_000353_R" type="imswl_xmlv1p1">
+            <file href="T_000353_F.xml"/>
+        </resource>
+        <resource identifier="T_000354_R" type="imswl_xmlv1p1">
+            <file href="T_000354_F.xml"/>
+        </resource>
+        <resource identifier="T_000355_R" type="imswl_xmlv1p1">
+            <file href="T_000355_F.xml"/>
+        </resource>
+        <resource identifier="T_000356_R" type="imswl_xmlv1p1">
+            <file href="T_000356_F.xml"/>
+        </resource>
+        <resource identifier="T_000357_R" type="imswl_xmlv1p1">
+            <file href="T_000357_F.xml"/>
+        </resource>
+        <resource identifier="T_000359_R" type="imswl_xmlv1p1">
+            <file href="T_000359_F.xml"/>
+        </resource>
+        <resource identifier="T_000360_R" type="imswl_xmlv1p1">
+            <file href="T_000360_F.xml"/>
+        </resource>
+        <resource identifier="T_000361_R" type="imswl_xmlv1p1">
+            <file href="T_000361_F.xml"/>
+        </resource>
+        <resource identifier="T_000362_R" type="imswl_xmlv1p1">
+            <file href="T_000362_F.xml"/>
+        </resource>
+        <resource identifier="T_000363_R" type="imswl_xmlv1p1">
+            <file href="T_000363_F.xml"/>
+        </resource>
+        <resource identifier="T_000364_R" type="imswl_xmlv1p1">
+            <file href="T_000364_F.xml"/>
+        </resource>
+        <resource identifier="T_000365_R" type="imswl_xmlv1p1">
+            <file href="T_000365_F.xml"/>
+        </resource>
+        <resource identifier="T_000366_R" type="imswl_xmlv1p1">
+            <file href="T_000366_F.xml"/>
+        </resource>
+        <resource identifier="T_000367_R" type="imswl_xmlv1p1">
+            <file href="T_000367_F.xml"/>
+        </resource>
+        <resource identifier="T_000368_R" type="imswl_xmlv1p1">
+            <file href="T_000368_F.xml"/>
+        </resource>
+        <resource identifier="T_000369_R" type="imswl_xmlv1p1">
+            <file href="T_000369_F.xml"/>
+        </resource>
+        <resource identifier="T_000370_R" type="imswl_xmlv1p1">
+            <file href="T_000370_F.xml"/>
+        </resource>
+        <resource identifier="T_000371_R" type="imswl_xmlv1p1">
+            <file href="T_000371_F.xml"/>
+        </resource>
+        <resource identifier="T_000372_R" type="imswl_xmlv1p1">
+            <file href="T_000372_F.xml"/>
+        </resource>
+        <resource identifier="T_000373_R" type="imswl_xmlv1p1">
+            <file href="T_000373_F.xml"/>
+        </resource>
+        <resource identifier="T_000374_R" type="imswl_xmlv1p1">
+            <file href="T_000374_F.xml"/>
+        </resource>
+        <resource identifier="T_000375_R" type="imswl_xmlv1p1">
+            <file href="T_000375_F.xml"/>
+        </resource>
+        <resource identifier="T_000376_R" type="imswl_xmlv1p1">
+            <file href="T_000376_F.xml"/>
+        </resource>
+        <resource identifier="T_000377_R" type="imswl_xmlv1p1">
+            <file href="T_000377_F.xml"/>
+        </resource>
+        <resource identifier="T_000378_R" type="imswl_xmlv1p1">
+            <file href="T_000378_F.xml"/>
+        </resource>
+        <resource identifier="T_000379_R" type="imswl_xmlv1p1">
+            <file href="T_000379_F.xml"/>
+        </resource>
+        <resource identifier="T_000380_R" type="imswl_xmlv1p1">
+            <file href="T_000380_F.xml"/>
+        </resource>
+        <resource identifier="T_000381_R" type="imswl_xmlv1p1">
+            <file href="T_000381_F.xml"/>
+        </resource>
+        <resource identifier="T_000382_R" type="imswl_xmlv1p1">
+            <file href="T_000382_F.xml"/>
+        </resource>
+        <resource identifier="T_000383_R" type="imswl_xmlv1p1">
+            <file href="T_000383_F.xml"/>
+        </resource>
+        <resource identifier="T_000384_R" type="imswl_xmlv1p1">
+            <file href="T_000384_F.xml"/>
+        </resource>
+        <resource identifier="T_000385_R" type="imswl_xmlv1p1">
+            <file href="T_000385_F.xml"/>
+        </resource>
+        <resource identifier="T_000386_R" type="imswl_xmlv1p1">
+            <file href="T_000386_F.xml"/>
+        </resource>
+        <resource identifier="T_000387_R" type="imswl_xmlv1p1">
+            <file href="T_000387_F.xml"/>
+        </resource>
+        <resource identifier="T_000388_R" type="imswl_xmlv1p1">
+            <file href="T_000388_F.xml"/>
+        </resource>
+        <resource identifier="T_000389_R" type="imswl_xmlv1p1">
+            <file href="T_000389_F.xml"/>
+        </resource>
+        <resource identifier="T_000390_R" type="imswl_xmlv1p1">
+            <file href="T_000390_F.xml"/>
+        </resource>
+        <resource identifier="T_000391_R" type="imswl_xmlv1p1">
+            <file href="T_000391_F.xml"/>
+        </resource>
+        <resource identifier="T_000392_R" type="imswl_xmlv1p1">
+            <file href="T_000392_F.xml"/>
+        </resource>
+        <resource identifier="T_000393_R" type="imswl_xmlv1p1">
+            <file href="T_000393_F.xml"/>
+        </resource>
+        <resource identifier="T_000394_R" type="imswl_xmlv1p1">
+            <file href="T_000394_F.xml"/>
+        </resource>
+        <resource identifier="T_000395_R" type="imswl_xmlv1p1">
+            <file href="T_000395_F.xml"/>
+        </resource>
+        <resource identifier="T_000396_R" type="imswl_xmlv1p1">
+            <file href="T_000396_F.xml"/>
+        </resource>
+        <resource identifier="T_000397_R" type="imswl_xmlv1p1">
+            <file href="T_000397_F.xml"/>
+        </resource>
+        <resource identifier="T_000398_R" type="imswl_xmlv1p1">
+            <file href="T_000398_F.xml"/>
+        </resource>
+        <resource identifier="T_000399_R" type="imswl_xmlv1p1">
+            <file href="T_000399_F.xml"/>
+        </resource>
+        <resource identifier="T_000400_R" type="imswl_xmlv1p1">
+            <file href="T_000400_F.xml"/>
+        </resource>
+        <resource identifier="T_000401_R" type="imswl_xmlv1p1">
+            <file href="T_000401_F.xml"/>
+        </resource>
+        <resource identifier="T_000402_R" type="imswl_xmlv1p1">
+            <file href="T_000402_F.xml"/>
+        </resource>
+        <resource identifier="T_000403_R" type="imswl_xmlv1p1">
+            <file href="T_000403_F.xml"/>
+        </resource>
+        <resource identifier="T_000404_R" type="imswl_xmlv1p1">
+            <file href="T_000404_F.xml"/>
+        </resource>
+        <resource identifier="T_000405_R" type="imswl_xmlv1p1">
+            <file href="T_000405_F.xml"/>
+        </resource>
+        <resource identifier="T_000406_R" type="imswl_xmlv1p1">
+            <file href="T_000406_F.xml"/>
+        </resource>
+        <resource identifier="T_000407_R" type="imswl_xmlv1p1">
+            <file href="T_000407_F.xml"/>
+        </resource>
+        <resource identifier="T_000408_R" type="imswl_xmlv1p1">
+            <file href="T_000408_F.xml"/>
+        </resource>
+        <resource identifier="T_000409_R" type="imswl_xmlv1p1">
+            <file href="T_000409_F.xml"/>
+        </resource>
+        <resource identifier="T_000410_R" type="imswl_xmlv1p1">
+            <file href="T_000410_F.xml"/>
+        </resource>
+        <resource identifier="T_000411_R" type="imswl_xmlv1p1">
+            <file href="T_000411_F.xml"/>
+        </resource>
+        <resource identifier="T_000412_R" type="imswl_xmlv1p1">
+            <file href="T_000412_F.xml"/>
+        </resource>
+        <resource identifier="T_000413_R" type="imswl_xmlv1p1">
+            <file href="T_000413_F.xml"/>
+        </resource>
+        <resource identifier="T_000414_R" type="imswl_xmlv1p1">
+            <file href="T_000414_F.xml"/>
+        </resource>
+        <resource identifier="T_000415_R" type="imswl_xmlv1p1">
+            <file href="T_000415_F.xml"/>
+        </resource>
+        <resource identifier="T_000416_R" type="imswl_xmlv1p1">
+            <file href="T_000416_F.xml"/>
+        </resource>
+        <resource identifier="T_000418_R" type="imswl_xmlv1p1">
+            <file href="T_000418_F.xml"/>
+        </resource>
+        <resource identifier="T_000419_R" type="imswl_xmlv1p1">
+            <file href="T_000419_F.xml"/>
+        </resource>
+        <resource identifier="T_000420_R" type="imswl_xmlv1p1">
+            <file href="T_000420_F.xml"/>
+        </resource>
+        <resource identifier="T_000421_R" type="imswl_xmlv1p1">
+            <file href="T_000421_F.xml"/>
+        </resource>
+        <resource identifier="T_000422_R" type="imswl_xmlv1p1">
+            <file href="T_000422_F.xml"/>
+        </resource>
+        <resource identifier="T_000423_R" type="imswl_xmlv1p1">
+            <file href="T_000423_F.xml"/>
+        </resource>
+        <resource identifier="T_000424_R" type="imswl_xmlv1p1">
+            <file href="T_000424_F.xml"/>
+        </resource>
+        <resource identifier="T_000425_R" type="imswl_xmlv1p1">
+            <file href="T_000425_F.xml"/>
+        </resource>
+        <resource identifier="T_000426_R" type="imswl_xmlv1p1">
+            <file href="T_000426_F.xml"/>
+        </resource>
+        <resource identifier="T_000427_R" type="imswl_xmlv1p1">
+            <file href="T_000427_F.xml"/>
+        </resource>
+        <resource identifier="T_000428_R" type="imswl_xmlv1p1">
+            <file href="T_000428_F.xml"/>
+        </resource>
+        <resource identifier="T_000429_R" type="imswl_xmlv1p1">
+            <file href="T_000429_F.xml"/>
+        </resource>
+        <resource identifier="T_000430_R" type="imswl_xmlv1p1">
+            <file href="T_000430_F.xml"/>
+        </resource>
+        <resource identifier="T_000431_R" type="imswl_xmlv1p1">
+            <file href="T_000431_F.xml"/>
+        </resource>
+        <resource identifier="T_000432_R" type="imswl_xmlv1p1">
+            <file href="T_000432_F.xml"/>
+        </resource>
+        <resource identifier="T_000433_R" type="imswl_xmlv1p1">
+            <file href="T_000433_F.xml"/>
+        </resource>
+        <resource identifier="T_000434_R" type="imswl_xmlv1p1">
+            <file href="T_000434_F.xml"/>
+        </resource>
+        <resource identifier="T_000435_R" type="imswl_xmlv1p1">
+            <file href="T_000435_F.xml"/>
+        </resource>
+        <resource identifier="T_000436_R" type="imswl_xmlv1p1">
+            <file href="T_000436_F.xml"/>
+        </resource>
+        <resource identifier="T_000437_R" type="imswl_xmlv1p1">
+            <file href="T_000437_F.xml"/>
+        </resource>
+        <resource identifier="T_000438_R" type="imswl_xmlv1p1">
+            <file href="T_000438_F.xml"/>
+        </resource>
+        <resource identifier="T_000439_R" type="imswl_xmlv1p1">
+            <file href="T_000439_F.xml"/>
+        </resource>
+        <resource identifier="T_000440_R" type="imswl_xmlv1p1">
+            <file href="T_000440_F.xml"/>
+        </resource>
+        <resource identifier="T_000441_R" type="imswl_xmlv1p1">
+            <file href="T_000441_F.xml"/>
+        </resource>
+        <resource identifier="T_000442_R" type="imswl_xmlv1p1">
+            <file href="T_000442_F.xml"/>
+        </resource>
+        <resource identifier="T_000443_R" type="imswl_xmlv1p1">
+            <file href="T_000443_F.xml"/>
+        </resource>
+        <resource identifier="T_000444_R" type="imswl_xmlv1p1">
+            <file href="T_000444_F.xml"/>
+        </resource>
+        <resource identifier="T_000445_R" type="imswl_xmlv1p1">
+            <file href="T_000445_F.xml"/>
+        </resource>
+        <resource identifier="T_000446_R" type="imswl_xmlv1p1">
+            <file href="T_000446_F.xml"/>
+        </resource>
+        <resource identifier="T_000447_R" type="imswl_xmlv1p1">
+            <file href="T_000447_F.xml"/>
+        </resource>
+        <resource identifier="T_000448_R" type="imswl_xmlv1p1">
+            <file href="T_000448_F.xml"/>
+        </resource>
+        <resource identifier="T_000449_R" type="imswl_xmlv1p1">
+            <file href="T_000449_F.xml"/>
+        </resource>
+        <resource identifier="T_000450_R" type="imswl_xmlv1p1">
+            <file href="T_000450_F.xml"/>
+        </resource>
+        <resource identifier="T_000451_R" type="imswl_xmlv1p1">
+            <file href="T_000451_F.xml"/>
+        </resource>
+        <resource identifier="T_000452_R" type="imswl_xmlv1p1">
+            <file href="T_000452_F.xml"/>
+        </resource>
+        <resource identifier="T_000453_R" type="imswl_xmlv1p1">
+            <file href="T_000453_F.xml"/>
+        </resource>
+        <resource identifier="T_000454_R" type="imswl_xmlv1p1">
+            <file href="T_000454_F.xml"/>
+        </resource>
+        <resource identifier="T_000455_R" type="imswl_xmlv1p1">
+            <file href="T_000455_F.xml"/>
+        </resource>
+        <resource identifier="T_000456_R" type="imswl_xmlv1p1">
+            <file href="T_000456_F.xml"/>
+        </resource>
+        <resource identifier="T_000457_R" type="imswl_xmlv1p1">
+            <file href="T_000457_F.xml"/>
+        </resource>
+        <resource identifier="T_000458_R" type="imswl_xmlv1p1">
+            <file href="T_000458_F.xml"/>
+        </resource>
+        <resource identifier="T_000459_R" type="imswl_xmlv1p1">
+            <file href="T_000459_F.xml"/>
+        </resource>
+        <resource identifier="T_000460_R" type="imswl_xmlv1p1">
+            <file href="T_000460_F.xml"/>
+        </resource>
+        <resource identifier="T_000461_R" type="imswl_xmlv1p1">
+            <file href="T_000461_F.xml"/>
+        </resource>
+        <resource identifier="T_000462_R" type="imswl_xmlv1p1">
+            <file href="T_000462_F.xml"/>
+        </resource>
+        <resource identifier="T_000463_R" type="imswl_xmlv1p1">
+            <file href="T_000463_F.xml"/>
+        </resource>
+        <resource identifier="T_000464_R" type="imswl_xmlv1p1">
+            <file href="T_000464_F.xml"/>
+        </resource>
+        <resource identifier="T_000465_R" type="imswl_xmlv1p1">
+            <file href="T_000465_F.xml"/>
+        </resource>
+        <resource identifier="T_000466_R" type="imswl_xmlv1p1">
+            <file href="T_000466_F.xml"/>
+        </resource>
+        <resource identifier="T_000467_R" type="imswl_xmlv1p1">
+            <file href="T_000467_F.xml"/>
+        </resource>
+        <resource identifier="T_000468_R" type="imswl_xmlv1p1">
+            <file href="T_000468_F.xml"/>
+        </resource>
+        <resource identifier="T_000469_R" type="imswl_xmlv1p1">
+            <file href="T_000469_F.xml"/>
+        </resource>
+        <resource identifier="T_000470_R" type="imswl_xmlv1p1">
+            <file href="T_000470_F.xml"/>
+        </resource>
+        <resource identifier="T_000471_R" type="imswl_xmlv1p1">
+            <file href="T_000471_F.xml"/>
+        </resource>
+        <resource identifier="T_000472_R" type="imswl_xmlv1p1">
+            <file href="T_000472_F.xml"/>
+        </resource>
+        <resource identifier="T_000474_R" type="imswl_xmlv1p1">
+            <file href="T_000474_F.xml"/>
+        </resource>
+        <resource identifier="T_000475_R" type="imswl_xmlv1p1">
+            <file href="T_000475_F.xml"/>
+        </resource>
+        <resource identifier="T_000476_R" type="imswl_xmlv1p1">
+            <file href="T_000476_F.xml"/>
+        </resource>
+        <resource identifier="T_000477_R" type="imswl_xmlv1p1">
+            <file href="T_000477_F.xml"/>
+        </resource>
+        <resource identifier="T_000478_R" type="imswl_xmlv1p1">
+            <file href="T_000478_F.xml"/>
+        </resource>
+        <resource identifier="T_000480_R" type="imswl_xmlv1p1">
+            <file href="T_000480_F.xml"/>
+        </resource>
+        <resource identifier="T_000481_R" type="imswl_xmlv1p1">
+            <file href="T_000481_F.xml"/>
+        </resource>
+        <resource identifier="T_000482_R" type="imswl_xmlv1p1">
+            <file href="T_000482_F.xml"/>
+        </resource>
+        <resource identifier="T_000483_R" type="imswl_xmlv1p1">
+            <file href="T_000483_F.xml"/>
+        </resource>
+        <resource identifier="T_000484_R" type="imswl_xmlv1p1">
+            <file href="T_000484_F.xml"/>
+        </resource>
+        <resource identifier="T_000485_R" type="imswl_xmlv1p1">
+            <file href="T_000485_F.xml"/>
+        </resource>
+        <resource identifier="T_000486_R" type="imswl_xmlv1p1">
+            <file href="T_000486_F.xml"/>
+        </resource>
+        <resource identifier="T_000487_R" type="imswl_xmlv1p1">
+            <file href="T_000487_F.xml"/>
+        </resource>
+        <resource identifier="T_000488_R" type="imswl_xmlv1p1">
+            <file href="T_000488_F.xml"/>
+        </resource>
+        <resource identifier="T_000489_R" type="imswl_xmlv1p1">
+            <file href="T_000489_F.xml"/>
+        </resource>
+        <resource identifier="T_000490_R" type="imswl_xmlv1p1">
+            <file href="T_000490_F.xml"/>
+        </resource>
+        <resource identifier="T_000491_R" type="imswl_xmlv1p1">
+            <file href="T_000491_F.xml"/>
+        </resource>
+        <resource identifier="T_000492_R" type="imswl_xmlv1p1">
+            <file href="T_000492_F.xml"/>
+        </resource>
+        <resource identifier="T_000493_R" type="imswl_xmlv1p1">
+            <file href="T_000493_F.xml"/>
+        </resource>
+        <resource identifier="T_000494_R" type="imswl_xmlv1p1">
+            <file href="T_000494_F.xml"/>
+        </resource>
+        <resource identifier="T_000495_R" type="imswl_xmlv1p1">
+            <file href="T_000495_F.xml"/>
+        </resource>
+        <resource identifier="T_000497_R" type="imswl_xmlv1p1">
+            <file href="T_000497_F.xml"/>
+        </resource>
+    </resources>
+</manifest>
