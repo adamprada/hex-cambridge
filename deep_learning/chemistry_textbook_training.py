@@ -86,6 +86,7 @@ vectorize_layer = TextVectorization(
     output_mode='int',
     )
 
+
 # Make a text-only dataset (without labels), then call adapt
 train_text = raw_train_ds.map(lambda x, y: x)
 vectorize_layer.adapt(train_text)
