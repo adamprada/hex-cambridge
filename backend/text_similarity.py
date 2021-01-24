@@ -104,7 +104,7 @@ def categorise(filename):
 def main():
     # eq_chapter = FileParser("/home/cdt1901/Projects/hackbridge/hex-cambridge/backend/sample_inputs/eq_chapter.pdf")
     # carb_chapter = FileParser("/home/cdt1901/Projects/hackbridge/hex-cambridge/backend/sample_inputs/carbonyl_chapter.pdf")
-    in_file = "/home/cdt1901/Projects/hackbridge/hex-cambridge/backend/sample_inputs/Camera_flash.jpg"
+    in_file = "sample_inputs/Camera_flash.jpg"
     out = categorise(in_file)
     print(out)
 

@@ -1,5 +1,9 @@
-from flask import Flask, jsonify
-import task_similarity.categorise as cat
+from flask import Flask, jsonify, request
+from text_similarity import categorise
+from werkzeug import secure_filename
+from shutil import copyfile
+import tempfile
+import os
 
 app = Flask(__name__)
 
@@ -16,10 +20,14 @@ app = Flask(__name__)
 #     return text
 
 
-@app.route("/categories", methods=["GET"])
-def categorise(file):
-    # this is a list, [0] is major category, [1:] are top three minor matches
-    category = cat(text)
+@app.route("/machine_learning", methods=["GET"])
+def machine_learning():
+    f = request.files['file'].read()
+    new_file, filename = tempfile.mkstemp()
+    os.write(new_file, f)
+    # # this is a list, [0] is major category, [1:] are top three minor matches
+    categories = categorise(filename)
+    os.close(new_file)
     return jsonify({"major": categories[0], "minor": [categories[1:]]})
 
 
