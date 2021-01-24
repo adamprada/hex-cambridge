@@ -45,17 +45,17 @@ def FileParser(filename):
     return out
 
 
-def main():
-    path = "../data_harvesting/harvested_data/chemistry"
+def main(branch):
+    path = "../data_harvesting/similarity_data/chemistry/{}_chemistry".format(branch)
     d = {}
-    for dir in os.listdir(path):
-        for file in os.listdir(path + "/" + dir):
-            with open(path + "/" + dir + "/" + file, "r") as f:
-                data = f.read().replace("\n", "")
-                d[dir + "_" + file] = data
-    with open("textbooks", "wb") as outfile:
+    for file in os.listdir(path):
+        with open(path + "/" + file, "r") as f:
+            data = f.read().replace("\n", "")
+            d[file] = data
+    with open("textbooks_{}".format(branch), "wb") as outfile:
         pickle.dump(d, outfile)
 
 
 if __name__ == "__main__":
-    main()
+    for branch in ("biological", "inorganic", "organic", "physical"):
+        main(branch)
