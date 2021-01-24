@@ -1,0 +1,2116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imsccv1p1/imscp_v1p1" xmlns:lom="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/resource" xmlns:lomimscc="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/manifest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="cctd0015" xsi:schemaLocation="http://www.imsglobal.org/xsd/imslticc_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticc_v1p0.xsd http://www.imsglobal.org/xsd/imslticp_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticp_v1p0.xsd http://www.imsglobal.org/xsd/imslticm_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticm_v1p0.xsd http://www.imsglobal.org/xsd/imsbasiclti_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imsbasiclti_v1p0p1.xsd">
+    <metadata>
+        <schema>IMS Common Cartridge</schema>
+        <schemaversion>1.1.0</schemaversion>
+    <lomimscc:lom>
+      <lomimscc:general>
+        <lomimscc:title>
+          <lomimscc:string language="en-US">Thermodynamics and Chemical Equilibrium</lomimscc:string>
+        </lomimscc:title>
+      </lomimscc:general>
+    </lomimscc:lom>
+    </metadata>
+    <organizations>
+        <organization identifier="T_1000" structure="rooted-hierarchy">
+        <item identifier="T_00000">
+            <item identifier="T_000001">
+                <title>1: Introduction - Background and a Look Ahead</title>
+                <item identifier="T_000002" identifierref="T_000002_R">
+                    <title>1.1: The Role of the Ideal Gas</title>
+                </item>
+                <item identifier="T_000003" identifierref="T_000003_R">
+                    <title>1.2: Chemical Kinetics</title>
+                </item>
+                <item identifier="T_000004" identifierref="T_000004_R">
+                    <title>1.3: Classical Thermodynamics</title>
+                </item>
+                <item identifier="T_000005" identifierref="T_000005_R">
+                    <title>1.4: Statistical Thermodynamics</title>
+                </item>
+                <item identifier="T_000006" identifierref="T_000006_R">
+                    <title>1.5: Heat Transfer in Practical Devices</title>
+                </item>
+                <item identifier="T_000007" identifierref="T_000007_R">
+                    <title>1.6: The Concept of Equilibrium</title>
+                </item>
+                <item identifier="T_000008" identifierref="T_000008_R">
+                    <title>1.7: Chemical Equilibrium and Predicting Chemical Change</title>
+                </item>
+                <item identifier="T_000009" identifierref="T_000009_R">
+                    <title>1.8: Equilibrium and Classical Thermodynamics</title>
+                </item>
+                <item identifier="T_000010" identifierref="T_000010_R">
+                    <title>1.9: A Few Ideas from the Philosophy of Science</title>
+                </item>
+                <item identifier="T_000011" identifierref="T_000011_R">
+                    <title>1.10: A Few Ideas from Formal Logic</title>
+                </item>
+                <item identifier="T_000012" identifierref="T_000012_R">
+                    <title>1.11: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000013">
+                <title>2: Gas Laws</title>
+                <item identifier="T_000014" identifierref="T_000014_R">
+                    <title>2.1: Boyle&apos;s Law</title>
+                </item>
+                <item identifier="T_000015" identifierref="T_000015_R">
+                    <title>2.2: Charles&apos; Law</title>
+                </item>
+                <item identifier="T_000016" identifierref="T_000016_R">
+                    <title>2.3: Avogadro&apos;s Hypothesis</title>
+                </item>
+                <item identifier="T_000017" identifierref="T_000017_R">
+                    <title>2.4: Finding Avogadro&apos;s Number</title>
+                </item>
+                <item identifier="T_000018" identifierref="T_000018_R">
+                    <title>2.5: The Kelvin Temperature Scale</title>
+                </item>
+                <item identifier="T_000019" identifierref="T_000019_R">
+                    <title>2.6: Deriving the Ideal Gas Law from Boyle&apos;s and Charles&apos; Laws</title>
+                </item>
+                <item identifier="T_000020" identifierref="T_000020_R">
+                    <title>2.7: The Ideal Gas Constant and Boltzmann&apos;s Constant</title>
+                </item>
+                <item identifier="T_000021" identifierref="T_000021_R">
+                    <title>2.8: Real Gases Versus Ideal Gases</title>
+                </item>
+                <item identifier="T_000022" identifierref="T_000022_R">
+                    <title>2.9: Temperature and the Ideal Gas Thermometer</title>
+                </item>
+                <item identifier="T_000023" identifierref="T_000023_R">
+                    <title>2.10: Deriving Boyle&apos;s Law from Newtonian Mechanics</title>
+                </item>
+                <item identifier="T_000024" identifierref="T_000024_R">
+                    <title>2.11: The Barometric Formula</title>
+                </item>
+                <item identifier="T_000025" identifierref="T_000025_R">
+                    <title>2.12: Van der Waals&apos; Equation</title>
+                </item>
+                <item identifier="T_000026" identifierref="T_000026_R">
+                    <title>2.13: Virial Equations</title>
+                </item>
+                <item identifier="T_000027" identifierref="T_000027_R">
+                    <title>2.14: Gas Mixtures - Dalton&apos;s Law of Partial Pressures</title>
+                </item>
+                <item identifier="T_000028" identifierref="T_000028_R">
+                    <title>2.15: Gas Mixtures - Amagat&apos;s Law of Partial Volums</title>
+                </item>
+                <item identifier="T_000029" identifierref="T_000029_R">
+                    <title>2.16: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000030">
+                <title>3: Distributions, Probability, and Expected Values</title>
+                <item identifier="T_000031" identifierref="T_000031_R">
+                    <title>3.1: The Distribution Function as a Summary of Experimental Results</title>
+                </item>
+                <item identifier="T_000032" identifierref="T_000032_R">
+                    <title>3.2: Outcomes, Events, and Probability</title>
+                </item>
+                <item identifier="T_000033" identifierref="T_000033_R">
+                    <title>3.3: Some Important Properties of Events</title>
+                </item>
+                <item identifier="T_000034" identifierref="T_000034_R">
+                    <title>3.4: Applying the Laws of Probability</title>
+                </item>
+                <item identifier="T_000035" identifierref="T_000035_R">
+                    <title>3.5: Bar Graphs and Histograms</title>
+                </item>
+                <item identifier="T_000036" identifierref="T_000036_R">
+                    <title>3.6: Continuous Distribution Functions - the Envelope Function is the Derivative of the Area</title>
+                </item>
+                <item identifier="T_000037" identifierref="T_000037_R">
+                    <title>3.7: A Heuristic View of the Probability Density Function</title>
+                </item>
+                <item identifier="T_000038" identifierref="T_000038_R">
+                    <title>3.8: A Heuristic View of the Cumulative Distribution Function</title>
+                </item>
+                <item identifier="T_000039" identifierref="T_000039_R">
+                    <title>3.9: Random Variables, Expected Values, and Population Sets</title>
+                </item>
+                <item identifier="T_000040" identifierref="T_000040_R">
+                    <title>3.10: Statistics - the Mean and the Variance of a Distribution</title>
+                </item>
+                <item identifier="T_000041" identifierref="T_000041_R">
+                    <title>3.11: The Variance of the Average- The Central Limit Theorem</title>
+                </item>
+                <item identifier="T_000042" identifierref="T_000042_R">
+                    <title>3.12: The Normal Distribution</title>
+                </item>
+                <item identifier="T_000043" identifierref="T_000043_R">
+                    <title>3.13: The Expected Value of a Function of Several Variables and the Central Limit Theorem</title>
+                </item>
+                <item identifier="T_000044" identifierref="T_000044_R">
+                    <title>3.14: Where Does the N - 1 Come from?</title>
+                </item>
+                <item identifier="T_000045" identifierref="T_000045_R">
+                    <title>3.15: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000046">
+                <title>4: The Distribution of Gas Velocities</title>
+                <item identifier="T_000047" identifierref="T_000047_R">
+                    <title>4.1: Distribution Functions for Gas-velocity Components</title>
+                </item>
+                <item identifier="T_000048" identifierref="T_000048_R">
+                    <title>4.2: Probability Density Functions for Velocity Components in Spherical Coordinates</title>
+                </item>
+                <item identifier="T_000049" identifierref="T_000049_R">
+                    <title>4.3: Maxwell&apos;s Derivation of the Gas-velocity Probability-density Function</title>
+                </item>
+                <item identifier="T_000050" identifierref="T_000050_R">
+                    <title>4.4: The Probability-density Function for Gas Velocities in One Dimension</title>
+                </item>
+                <item identifier="T_000051" identifierref="T_000051_R">
+                    <title>4.5: Combining the One-dimensional Probability Density Functions</title>
+                </item>
+                <item identifier="T_000052" identifierref="T_000052_R">
+                    <title>4.6: Boyle&apos;s Law from the Maxwell-Boltzmann Probability Density</title>
+                </item>
+                <item identifier="T_000053" identifierref="T_000053_R">
+                    <title>4.7: Experimental Test of the Maxwell-Boltzmann Probability Density</title>
+                </item>
+                <item identifier="T_000054" identifierref="T_000054_R">
+                    <title>4.8: Statistics for Molecular Speeds</title>
+                </item>
+                <item identifier="T_000055" identifierref="T_000055_R">
+                    <title>4.9: Pressure Variations for Macroscopic Samples</title>
+                </item>
+                <item identifier="T_000056" identifierref="T_000056_R">
+                    <title>4.10: Collisions between Gas Molecules Relative Velocity Coordinates</title>
+                </item>
+                <item identifier="T_000057" identifierref="T_000057_R">
+                    <title>4.11: The Probability Density Function for the Relative Velocity</title>
+                </item>
+                <item identifier="T_000058" identifierref="T_000058_R">
+                    <title>4.12: The Frequency of Collisions between Unlike Gas Molecules</title>
+                </item>
+                <item identifier="T_000059" identifierref="T_000059_R">
+                    <title>4.13: The Rate of Collisions between Unlike Gas Molecules</title>
+                </item>
+                <item identifier="T_000060" identifierref="T_000060_R">
+                    <title>4.14: Collisions between like Gas Molecules</title>
+                </item>
+                <item identifier="T_000061" identifierref="T_000061_R">
+                    <title>4.15: The Geometry of A Collision between Spherical Molecules</title>
+                </item>
+                <item identifier="T_000062" identifierref="T_000062_R">
+                    <title>4.16: The Energy of A Collision between Gas Molecules</title>
+                </item>
+                <item identifier="T_000063" identifierref="T_000063_R">
+                    <title>4.17: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000064">
+                <title>5: Chemical Kinetics, Reaction Mechanisms, and Chemical Equilibrium</title>
+                <item identifier="T_000065" identifierref="T_000065_R">
+                    <title>5.1: Chemical Kinetics</title>
+                </item>
+                <item identifier="T_000066" identifierref="T_000066_R">
+                    <title>5.2: Reaction Rates and Rate Laws</title>
+                </item>
+                <item identifier="T_000067" identifierref="T_000067_R">
+                    <title>5.3: Simultaneous Processes</title>
+                </item>
+                <item identifier="T_000068" identifierref="T_000068_R">
+                    <title>5.4: The Effect of Temperature on Reaction Rates</title>
+                </item>
+                <item identifier="T_000069" identifierref="T_000069_R">
+                    <title>5.5: Other Factors that Affect Reaction Rates</title>
+                </item>
+                <item identifier="T_000070" identifierref="T_000070_R">
+                    <title>5.6: Mechanisms and Elementary Processes</title>
+                </item>
+                <item identifier="T_000071" identifierref="T_000071_R">
+                    <title>5.7: Rate Laws for Elementary Processes</title>
+                </item>
+                <item identifier="T_000072" identifierref="T_000072_R">
+                    <title>5.8: Experimental Determination of Rate Laws</title>
+                </item>
+                <item identifier="T_000073" identifierref="T_000073_R">
+                    <title>5.9: First-order Rate Processes</title>
+                </item>
+                <item identifier="T_000074" identifierref="T_000074_R">
+                    <title>5.10: Rate Laws by the Study of Initial Rates</title>
+                </item>
+                <item identifier="T_000075" identifierref="T_000075_R">
+                    <title>5.11: Rate Laws from Experiments in a Continuous Stirred Tank Reactor</title>
+                </item>
+                <item identifier="T_000076" identifierref="T_000076_R">
+                    <title>5.12: Predicting Rate Laws from Proposed Mechanisms</title>
+                </item>
+                <item identifier="T_000077" identifierref="T_000077_R">
+                    <title>5.13: The Michaelis-Menten Mechanism for Enzyme-catalyzed Reactions</title>
+                </item>
+                <item identifier="T_000078" identifierref="T_000078_R">
+                    <title>5.14: The Lindemann-Hinshelwood Mechanism for First-order Decay</title>
+                </item>
+                <item identifier="T_000079" identifierref="T_000079_R">
+                    <title>5.15: Why Unimolecular Reactions are First Order</title>
+                </item>
+                <item identifier="T_000080" identifierref="T_000080_R">
+                    <title>5.16: The Mechanism of the Base Hydrolysis of Co(NH₃)₅Xⁿ⁺</title>
+                </item>
+                <item identifier="T_000081" identifierref="T_000081_R">
+                    <title>5.17: Chemical Equilibrium as the Equality of Rates for Opposing Reactions</title>
+                </item>
+                <item identifier="T_000082" identifierref="T_000082_R">
+                    <title>5.18: The Principle of Microscopic Reversibility</title>
+                </item>
+                <item identifier="T_000083" identifierref="T_000083_R">
+                    <title>5.19: Microscopic Reversibility and the Second Law</title>
+                </item>
+                <item identifier="T_000084" identifierref="T_000084_R">
+                    <title>5.20: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000085">
+                <title>6: Equilibrium States and Reversible Processes</title>
+                <item identifier="T_000086" identifierref="T_000086_R">
+                    <title>6.1: The Thermodynamic Perspective</title>
+                </item>
+                <item identifier="T_000087" identifierref="T_000087_R">
+                    <title>6.2: Thermodynamic Systems and Variables</title>
+                </item>
+                <item identifier="T_000088" identifierref="T_000088_R">
+                    <title>6.3: Equilibrium and Reversibility - Phase Equilibria</title>
+                </item>
+                <item identifier="T_000089" identifierref="T_000089_R">
+                    <title>6.4: Distribution Equilibria</title>
+                </item>
+                <item identifier="T_000090" identifierref="T_000090_R">
+                    <title>6.5: Equilibria in Chemical Reactions</title>
+                </item>
+                <item identifier="T_000091" identifierref="T_000091_R">
+                    <title>6.6: Le Chatelier&apos;s Principle</title>
+                </item>
+                <item identifier="T_000092" identifierref="T_000092_R">
+                    <title>6.7: The Number of Variables Required to Specify Some Familiar Systems</title>
+                </item>
+                <item identifier="T_000093" identifierref="T_000093_R">
+                    <title>6.8: Gibbs&apos; Phase Rule</title>
+                </item>
+                <item identifier="T_000094" identifierref="T_000094_R">
+                    <title>6.9: Reversible vs. Irreversible Processes</title>
+                </item>
+                <item identifier="T_000095" identifierref="T_000095_R">
+                    <title>6.10: Duhem&apos;s Theorem - Specifying Reversible Change in A Closed System</title>
+                </item>
+                <item identifier="T_000096" identifierref="T_000096_R">
+                    <title>6.11: Reversible Motion of A Mass in A Constant Gravitational Field</title>
+                </item>
+                <item identifier="T_000097" identifierref="T_000097_R">
+                    <title>6.12: Equilibria and Reversible Processes</title>
+                </item>
+                <item identifier="T_000098" identifierref="T_000098_R">
+                    <title>6.13: The Laws of Thermodynamics</title>
+                </item>
+                <item identifier="T_000099" identifierref="T_000099_R">
+                    <title>6.14: Thermodynamic Criteria for Change</title>
+                </item>
+                <item identifier="T_000100" identifierref="T_000100_R">
+                    <title>6.15: State Functions in Systems Undergoing Spontaneous Change</title>
+                </item>
+                <item identifier="T_000101" identifierref="T_000101_R">
+                    <title>6.16: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000102">
+                <title>7: State Functions and The First Law</title>
+                <item identifier="T_000103" identifierref="T_000103_R">
+                    <title>7.1: Changes in a State Function are Independent of Path</title>
+                </item>
+                <item identifier="T_000104" identifierref="T_000104_R">
+                    <title>7.2: The Total Differential</title>
+                </item>
+                <item identifier="T_000105" identifierref="T_000105_R">
+                    <title>7.3: Line Integrals</title>
+                </item>
+                <item identifier="T_000106" identifierref="T_000106_R">
+                    <title>7.4: Exact Differentials and State Functions</title>
+                </item>
+                <item identifier="T_000107" identifierref="T_000107_R">
+                    <title>7.5: Determining Whether an Expression is an Exact Differential</title>
+                </item>
+                <item identifier="T_000108" identifierref="T_000108_R">
+                    <title>7.6: The Chain Rule and the Divide-through Rule</title>
+                </item>
+                <item identifier="T_000109" identifierref="T_000109_R">
+                    <title>7.7: Measuring Pressure-Volume Work</title>
+                </item>
+                <item identifier="T_000110" identifierref="T_000110_R">
+                    <title>7.8: Measuring Work- Non-Pressure-Volume Work</title>
+                </item>
+                <item identifier="T_000111" identifierref="T_000111_R">
+                    <title>7.9: Measuring Heat</title>
+                </item>
+                <item identifier="T_000112" identifierref="T_000112_R">
+                    <title>7.10: The First Law of Thermodynamics</title>
+                </item>
+                <item identifier="T_000113" identifierref="T_000113_R">
+                    <title>7.11: Other Statements of the First Law</title>
+                </item>
+                <item identifier="T_000114" identifierref="T_000114_R">
+                    <title>7.12: Notation for Changes in Thermodynamic Quantities - E vs. ∆E</title>
+                </item>
+                <item identifier="T_000115" identifierref="T_000115_R">
+                    <title>7.13: Heat Capacities for Gases- Cv, Cp</title>
+                </item>
+                <item identifier="T_000116" identifierref="T_000116_R">
+                    <title>7.14: Heat Capacities of Solids- the Law of Dulong and Petit</title>
+                </item>
+                <item identifier="T_000117" identifierref="T_000117_R">
+                    <title>7.15: Defining Enthalpy, H</title>
+                </item>
+                <item identifier="T_000118" identifierref="T_000118_R">
+                    <title>7.16: Heat Transfer in Reversible Processes</title>
+                </item>
+                <item identifier="T_000119" identifierref="T_000119_R">
+                    <title>7.17: Free Expansion of a Gas</title>
+                </item>
+                <item identifier="T_000120" identifierref="T_000120_R">
+                    <title>7.18: Reversible vs. Irreversible Pressure-Volume Work</title>
+                </item>
+                <item identifier="T_000121" identifierref="T_000121_R">
+                    <title>7.19: Isothermal Expansions of An Ideal Gas</title>
+                </item>
+                <item identifier="T_000122" identifierref="T_000122_R">
+                    <title>7.20: Adiabatic Expansions of An Ideal Gas</title>
+                </item>
+                <item identifier="T_000123" identifierref="T_000123_R">
+                    <title>7.21: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000124">
+                <title>8: Enthalpy and Thermochemical Cycles</title>
+                <item identifier="T_000125" identifierref="T_000125_R">
+                    <title>8.1: Enthalpy</title>
+                </item>
+                <item identifier="T_000126" identifierref="T_000126_R">
+                    <title>8.2: Using Thermochemical Cycles to Find Enthalpy Changes</title>
+                </item>
+                <item identifier="T_000127" identifierref="T_000127_R">
+                    <title>8.3: How Enthalpy Depends on Pressure</title>
+                </item>
+                <item identifier="T_000128" identifierref="T_000128_R">
+                    <title>8.4: Standard States and Enthalpies of Formation</title>
+                </item>
+                <item identifier="T_000129" identifierref="T_000129_R">
+                    <title>8.5: The Ideal Gas Standard State</title>
+                </item>
+                <item identifier="T_000130" identifierref="T_000130_R">
+                    <title>8.6: Standard Enthalpies of Reaction</title>
+                </item>
+                <item identifier="T_000131" identifierref="T_000131_R">
+                    <title>8.7: Standard State Heat Capacities</title>
+                </item>
+                <item identifier="T_000132" identifierref="T_000132_R">
+                    <title>8.8: How The Enthalpy Change for a Reaction Depends on Temperature</title>
+                </item>
+                <item identifier="T_000133" identifierref="T_000133_R">
+                    <title>8.9: Calorimetry</title>
+                </item>
+                <item identifier="T_000134" identifierref="T_000134_R">
+                    <title>8.10: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000135">
+                <title>9: The Second Law - Entropy and Spontaneous Change</title>
+                <item identifier="T_000136" identifierref="T_000136_R">
+                    <title>9.1: The Second Law of Thermodynamics</title>
+                </item>
+                <item identifier="T_000137" identifierref="T_000137_R">
+                    <title>9.2: The Carnot Cycle for an Ideal Gas and the Entropy Concept</title>
+                </item>
+                <item identifier="T_000138" identifierref="T_000138_R">
+                    <title>9.3: The Carnot Cycle for Any Reversible System</title>
+                </item>
+                <item identifier="T_000139" identifierref="T_000139_R">
+                    <title>9.4: The Entropy Change around Any Cycle for Any Reversible System</title>
+                </item>
+                <item identifier="T_000140" identifierref="T_000140_R">
+                    <title>9.5: The Tiling Theorem and the Paths of Cyclic Process in Other Spaces</title>
+                </item>
+                <item identifier="T_000141" identifierref="T_000141_R">
+                    <title>9.6: Entropy Changes for A Reversible Process</title>
+                </item>
+                <item identifier="T_000142" identifierref="T_000142_R">
+                    <title>9.7: Entropy Changes for A Spontaneous Process in An Isolated System</title>
+                </item>
+                <item identifier="T_000143" identifierref="T_000143_R">
+                    <title>9.8: The Entropy of the Universe</title>
+                </item>
+                <item identifier="T_000144" identifierref="T_000144_R">
+                    <title>9.9: The Significance of The Machine-based Statement of The Second Law</title>
+                </item>
+                <item identifier="T_000145" identifierref="T_000145_R">
+                    <title>9.10: A Slightly Philosophical Digression on Energy and Entropy</title>
+                </item>
+                <item identifier="T_000146" identifierref="T_000146_R">
+                    <title>9.11: A Third Statement of the Second Law</title>
+                </item>
+                <item identifier="T_000147" identifierref="T_000147_R">
+                    <title>9.12: Entropy and Predicting Change</title>
+                </item>
+                <item identifier="T_000148" identifierref="T_000148_R">
+                    <title>9.13: Defining the Helmholtz and Gibbs Free Energies</title>
+                </item>
+                <item identifier="T_000149" identifierref="T_000149_R">
+                    <title>9.14: The Fundamental Equation and Other Criteria for Reversible Change</title>
+                </item>
+                <item identifier="T_000150" identifierref="T_000150_R">
+                    <title>9.15: Entropy and Spontaneous Change</title>
+                </item>
+                <item identifier="T_000151" identifierref="T_000151_R">
+                    <title>9.16: Internal Entropy and the Second Law</title>
+                </item>
+                <item identifier="T_000152" identifierref="T_000152_R">
+                    <title>9.17: Notation and Terminology- Conventions for Spontaneous Processes</title>
+                </item>
+                <item identifier="T_000153" identifierref="T_000153_R">
+                    <title>9.18: The Heat Exchanged by A Spontaneous Process at Constant Entropy</title>
+                </item>
+                <item identifier="T_000154" identifierref="T_000154_R">
+                    <title>9.19: The Energy Change for A Spontaneous Process at Constant S and V</title>
+                </item>
+                <item identifier="T_000155" identifierref="T_000155_R">
+                    <title>9.20: The Enthalpy Change for A Spontaneous Process at Constant S and P</title>
+                </item>
+                <item identifier="T_000156" identifierref="T_000156_R">
+                    <title>9.21: The Entropy Change for A Spontaneous Process at Constant E and V</title>
+                </item>
+                <item identifier="T_000157" identifierref="T_000157_R">
+                    <title>9.22: The Entropy Change for A Spontaneous Process at Constant H and P</title>
+                </item>
+                <item identifier="T_000158" identifierref="T_000158_R">
+                    <title>9.23: The Reversible Work is the Minimum Work at Constant Tˆ</title>
+                </item>
+                <item identifier="T_000159" identifierref="T_000159_R">
+                    <title>9.24: The Free Energy Changes for A Spontaneous Process at Constant Tˆ</title>
+                </item>
+                <item identifier="T_000160" identifierref="T_000160_R">
+                    <title>9.25: Summary- Thermodynamic Functions as Criteria for Change</title>
+                </item>
+                <item identifier="T_000161" identifierref="T_000161_R">
+                    <title>9.26: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000162">
+                <title>10: Some Mathematical Consequences of the Fundamental Equation</title>
+                <item identifier="T_000163" identifierref="T_000163_R">
+                    <title>10.1: Thermodynamic Relationships from dE, dH, dA and dG</title>
+                </item>
+                <item identifier="T_000164" identifierref="T_000164_R">
+                    <title>10.2: dE = TdS - PdV and Internal consistency</title>
+                </item>
+                <item identifier="T_000165" identifierref="T_000165_R">
+                    <title>10.3: Expressing Thermodynamic Functions with Other Independent Variables</title>
+                </item>
+                <item identifier="T_000166" identifierref="T_000166_R">
+                    <title>10.4: Expressing Thermodynamic Functions with Independent Variables V and T</title>
+                </item>
+                <item identifier="T_000167" identifierref="T_000167_R">
+                    <title>10.5: Expressing Thermodynamic Functions with Independent Variables P and T</title>
+                </item>
+                <item identifier="T_000168" identifierref="T_000168_R">
+                    <title>10.6: The Transformation of Thermodynamic Variables in General</title>
+                </item>
+                <item identifier="T_000169" identifierref="T_000169_R">
+                    <title>10.7: Reversibility and Thermodynamic Variables in Gerneral</title>
+                </item>
+                <item identifier="T_000170" identifierref="T_000170_R">
+                    <title>10.8: Using the Pair (V, P) or the Pair (T, S) as Independent Variables</title>
+                </item>
+                <item identifier="T_000171" identifierref="T_000171_R">
+                    <title>10.9: The Relationship Between Cv and Cp for Any Substance</title>
+                </item>
+                <item identifier="T_000172" identifierref="T_000172_R">
+                    <title>10.10: The Dependence of Cv on Volume and of Cp on Pressure</title>
+                </item>
+                <item identifier="T_000173" identifierref="T_000173_R">
+                    <title>10.11: The Gibbs-Helmholtz Equation</title>
+                </item>
+                <item identifier="T_000174" identifierref="T_000174_R">
+                    <title>10.12: The Second Law and the Properties of Ideal Gases</title>
+                </item>
+                <item identifier="T_000175" identifierref="T_000175_R">
+                    <title>10.13: The second-dependence of the Energy and Enthalpy of A Real Gas</title>
+                </item>
+                <item identifier="T_000176" identifierref="T_000176_R">
+                    <title>10.14: The Joule-Thomson Effect</title>
+                </item>
+                <item identifier="T_000177" identifierref="T_000177_R">
+                    <title>10.15: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000178">
+                <title>11: The Third Law, Absolute Entropy, and the Gibbs Free Energy of Formation</title>
+                <item identifier="T_000179" identifierref="T_000179_R">
+                    <title>11.1: Heat Capacity as a Function of Temperature</title>
+                </item>
+                <item identifier="T_000180" identifierref="T_000180_R">
+                    <title>11.2: Enthalpy as a function of Temperature</title>
+                </item>
+                <item identifier="T_000181" identifierref="T_000181_R">
+                    <title>11.3: The Third Law</title>
+                </item>
+                <item identifier="T_000182" identifierref="T_000182_R">
+                    <title>11.4: Genesis of the Third Law - the Nernst Heat Theorem</title>
+                </item>
+                <item identifier="T_000183" identifierref="T_000183_R">
+                    <title>11.5: Absolute Entropy</title>
+                </item>
+                <item identifier="T_000184" identifierref="T_000184_R">
+                    <title>11.6: The Standard State for Third-law Entropies</title>
+                </item>
+                <item identifier="T_000185" identifierref="T_000185_R">
+                    <title>11.7: The Fugacity of a Gas</title>
+                </item>
+                <item identifier="T_000186" identifierref="T_000186_R">
+                    <title>11.8: A General Strategy for Expressing the Thermodynamic Properties of a Substance</title>
+                </item>
+                <item identifier="T_000187" identifierref="T_000187_R">
+                    <title>11.9: The Standard Entropy and the Gibbs Free Energy of Formation</title>
+                </item>
+                <item identifier="T_000188" identifierref="T_000188_R">
+                    <title>11.10: The Nature of Hypothetical States</title>
+                </item>
+                <item identifier="T_000189" identifierref="T_000189_R">
+                    <title>11.11: The Fugacity and Gibbs Free Energy of A Substance in Any System</title>
+                </item>
+                <item identifier="T_000190" identifierref="T_000190_R">
+                    <title>11.12: Evaluating Entropy Changes Using Thermochemical Cycles</title>
+                </item>
+                <item identifier="T_000191" identifierref="T_000191_R">
+                    <title>11.13: Absolute Zero is Unattainable</title>
+                </item>
+                <item identifier="T_000192" identifierref="T_000192_R">
+                    <title>11.14: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000193">
+                <title>12: Applications of the Thermodynamic Criteria for Change</title>
+                <item identifier="T_000194" identifierref="T_000194_R">
+                    <title>12.1: Mechanical Processes</title>
+                </item>
+                <item identifier="T_000195" identifierref="T_000195_R">
+                    <title>12.2: The Direction of Spontaneous Heat Transfer</title>
+                </item>
+                <item identifier="T_000196" identifierref="T_000196_R">
+                    <title>12.3: Phase Changes - the Fusion of Ice</title>
+                </item>
+                <item identifier="T_000197" identifierref="T_000197_R">
+                    <title>12.4: Measuring the Entropy Change for Any Reversible Process</title>
+                </item>
+                <item identifier="T_000198" identifierref="T_000198_R">
+                    <title>12.5: Another Perspective on the Principle of Le Chatelier</title>
+                </item>
+                <item identifier="T_000199" identifierref="T_000199_R">
+                    <title>12.6: Phase Equilibria - Temperature Dependence of the Boiling Point</title>
+                </item>
+                <item identifier="T_000200" identifierref="T_000200_R">
+                    <title>12.7: Phase Equilibria - Temperature Dependence of the Melting Point</title>
+                </item>
+                <item identifier="T_000201" identifierref="T_000201_R">
+                    <title>12.8: The Clapeyron Equation</title>
+                </item>
+                <item identifier="T_000202" identifierref="T_000202_R">
+                    <title>12.9: The Clausius-Clapeyron Equation</title>
+                </item>
+                <item identifier="T_000203" identifierref="T_000203_R">
+                    <title>12.10: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000204">
+                <title>13: Equilibria in Reactions of Ideal Gases</title>
+                <item identifier="T_000205" identifierref="T_000205_R">
+                    <title>13.1: The Gibbs Free Energy of an Ideal Gas</title>
+                </item>
+                <item identifier="T_000206" identifierref="T_000206_R">
+                    <title>13.2: The Gibbs Free Energy Change for A Reaction of Ideal Gases</title>
+                </item>
+                <item identifier="T_000207" identifierref="T_000207_R">
+                    <title>13.3: The Thermodynamics of Mixing Ideal Gases</title>
+                </item>
+                <item identifier="T_000208" identifierref="T_000208_R">
+                    <title>13.4: The Gibbs Free Energy Change for Reaction at Constant Partial Pressures</title>
+                </item>
+                <item identifier="T_000209" identifierref="T_000209_R">
+                    <title>13.5: ∆rG is the rate at which the Gibbs Free Energy Changes with The Extent of Reaction</title>
+                </item>
+                <item identifier="T_000210" identifierref="T_000210_R">
+                    <title>13.6: The Standard Gibbs Free Energy Change and Equilibrium in Ideal Gas Reactions</title>
+                </item>
+                <item identifier="T_000211" identifierref="T_000211_R">
+                    <title>13.7: The Gibbs Free Energy of Formation and Equilibrium in Ideal Gas Reactions</title>
+                </item>
+                <item identifier="T_000212" identifierref="T_000212_R">
+                    <title>13.8: Equilibrium When A Component is Also Present as A Condensed Phase</title>
+                </item>
+                <item identifier="T_000213" identifierref="T_000213_R">
+                    <title>13.9: Equilibrium When An Ideal Gas Component is Also Present as A solute</title>
+                </item>
+                <item identifier="T_000214" identifierref="T_000214_R">
+                    <title>13.10: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000215">
+                <title>14: Chemical Potential - Extending the Scope of the Fundamental Equation</title>
+                <item identifier="T_000216" identifierref="T_000216_R">
+                    <title>14.1: Dependence of the Internal Energy on the Composition of the System</title>
+                </item>
+                <item identifier="T_000217" identifierref="T_000217_R">
+                    <title>14.2: Dependence of Other Thermodynamic Functions on the Composition</title>
+                </item>
+                <item identifier="T_000218" identifierref="T_000218_R">
+                    <title>14.3: Partial Molar Quantities</title>
+                </item>
+                <item identifier="T_000219" identifierref="T_000219_R">
+                    <title>14.4: Chemical Potentials and Stoichiometry</title>
+                </item>
+                <item identifier="T_000220" identifierref="T_000220_R">
+                    <title>14.5: ∑µjdnj = 0 and Primitive Vs. Gibbsian Equilibrium</title>
+                </item>
+                <item identifier="T_000221" identifierref="T_000221_R">
+                    <title>14.6: The Change Criteria in A System Composed of Subsystems</title>
+                </item>
+                <item identifier="T_000222" identifierref="T_000222_R">
+                    <title>14.7: At Constant P and T, ∆rµ is the Change in Gibbs Free Energy</title>
+                </item>
+                <item identifier="T_000223" identifierref="T_000223_R">
+                    <title>14.8: Gibbs-Duhem Equation</title>
+                </item>
+                <item identifier="T_000224" identifierref="T_000224_R">
+                    <title>14.9: The Dependence of Chemical Potential on Other Variables</title>
+                </item>
+                <item identifier="T_000225" identifierref="T_000225_R">
+                    <title>14.10: Chemical Activity</title>
+                </item>
+                <item identifier="T_000226" identifierref="T_000226_R">
+                    <title>14.11: Back to the Fugacity- the Fugacity of A Component of A Gas Mixture</title>
+                </item>
+                <item identifier="T_000227" identifierref="T_000227_R">
+                    <title>14.12: Relating Fugacity and Chemical Activity</title>
+                </item>
+                <item identifier="T_000228" identifierref="T_000228_R">
+                    <title>14.13: Relating the Differentials of Chemical Potential and Activity</title>
+                </item>
+                <item identifier="T_000229" identifierref="T_000229_R">
+                    <title>14.14: Dependence of Activity on Temperature- Relative Partial Molar Enthalpies</title>
+                </item>
+                <item identifier="T_000230" identifierref="T_000230_R">
+                    <title>14.15: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000231">
+                <title>15: Chemical Potential, Fugacity, Activity, and Equilibrium</title>
+                <item identifier="T_000232" identifierref="T_000232_R">
+                    <title>15.1: The Chemical Potential and Fugacity of a Gas</title>
+                </item>
+                <item identifier="T_000233" identifierref="T_000233_R">
+                    <title>15.2: The Chemical Potential and Activity of a Gas</title>
+                </item>
+                <item identifier="T_000234" identifierref="T_000234_R">
+                    <title>15.3: The Pressure-dependence of the Fugacity and Activity of a Condensed Phase</title>
+                </item>
+                <item identifier="T_000235" identifierref="T_000235_R">
+                    <title>15.4: Standard States for the Fugacity and Activity of a Pure Solid</title>
+                </item>
+                <item identifier="T_000236" identifierref="T_000236_R">
+                    <title>15.5: The Chemical Potential, Fugacity, and Activity of a Pure Solid</title>
+                </item>
+                <item identifier="T_000237" identifierref="T_000237_R">
+                    <title>15.6: Chemical Potential, Fugacity, and Equilibrium</title>
+                </item>
+                <item identifier="T_000238" identifierref="T_000238_R">
+                    <title>15.7: Chemical Potential, Activity, and Equilibrium</title>
+                </item>
+                <item identifier="T_000239" identifierref="T_000239_R">
+                    <title>15.8: The Rate of Gibbs Free Energy Change with Extent of Reaction</title>
+                </item>
+                <item identifier="T_000240" identifierref="T_000240_R">
+                    <title>15.9: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000241">
+                <title>16: The Chemical Activity of the Components of a Solution</title>
+                <item identifier="T_000242" identifierref="T_000242_R">
+                    <title>16.1: Solutions Whose Components are in Equilibrium with Their Own Gases</title>
+                </item>
+                <item identifier="T_000243" identifierref="T_000243_R">
+                    <title>16.2: Raoult&apos;s Law and Ideal Solutions</title>
+                </item>
+                <item identifier="T_000244" identifierref="T_000244_R">
+                    <title>16.3: Expressing the Activity Coefficient as a Deviation from Raoult&apos;s Law</title>
+                </item>
+                <item identifier="T_000245" identifierref="T_000245_R">
+                    <title>16.4: Henry&apos;s Law and the Fugacity and Activity of A Solution Component</title>
+                </item>
+                <item identifier="T_000246" identifierref="T_000246_R">
+                    <title>16.5: Expressing the Activity Coefficient as A Deviation from Henry&apos;s Law</title>
+                </item>
+                <item identifier="T_000247" identifierref="T_000247_R">
+                    <title>16.6: Henry&apos;s Law and the Hypothetical One-molal Standard State</title>
+                </item>
+                <item identifier="T_000248" identifierref="T_000248_R">
+                    <title>16.7: Finding the Activity of a Solute from the Activity of the Solvent</title>
+                </item>
+                <item identifier="T_000249" identifierref="T_000249_R">
+                    <title>16.8: When the Solute Obeys Henry&apos;s Law, the Solvent Obeys Raoult&apos;s Law</title>
+                </item>
+                <item identifier="T_000250" identifierref="T_000250_R">
+                    <title>16.9: Properties of Ideal Solutions</title>
+                </item>
+                <item identifier="T_000251" identifierref="T_000251_R">
+                    <title>16.10: Colligative Properties - Boiling-point Elevation</title>
+                </item>
+                <item identifier="T_000252" identifierref="T_000252_R">
+                    <title>16.11: Colligative Properties - Freezing-point Depression</title>
+                </item>
+                <item identifier="T_000253" identifierref="T_000253_R">
+                    <title>16.12: Colligative Properties - Osmotic Pressure</title>
+                </item>
+                <item identifier="T_000254" identifierref="T_000254_R">
+                    <title>16.13: Colligative Properties - Solubility of a Solute in an Ideal Solution</title>
+                </item>
+                <item identifier="T_000255" identifierref="T_000255_R">
+                    <title>16.14: Colligative Properties - Solubility of a Gas</title>
+                </item>
+                <item identifier="T_000256" identifierref="T_000256_R">
+                    <title>16.15: Solvent Activity Coefficients from Freezing-point Depression Measurements</title>
+                </item>
+                <item identifier="T_000257" identifierref="T_000257_R">
+                    <title>16.16: Electrolytic Solutions</title>
+                </item>
+                <item identifier="T_000258" identifierref="T_000258_R">
+                    <title>16.17: Activities of Electrolytes - The Mean Activity Coefficient</title>
+                </item>
+                <item identifier="T_000259" identifierref="T_000259_R">
+                    <title>16.18: Activities of Electrolytes - The Debye-Hückel Theory</title>
+                </item>
+                <item identifier="T_000260" identifierref="T_000260_R">
+                    <title>16.19: Finding Solute Activity Using the Hypothetical One-molal Standard State</title>
+                </item>
+                <item identifier="T_000261" identifierref="T_000261_R">
+                    <title>16.20: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000262">
+                <title>17: Electrochemistry</title>
+                <item identifier="T_000263" identifierref="T_000263_R">
+                    <title>17.1: Oxidation-reduction Reactions</title>
+                </item>
+                <item identifier="T_000264" identifierref="T_000264_R">
+                    <title>17.2: Electrochemical Cells</title>
+                </item>
+                <item identifier="T_000265" identifierref="T_000265_R">
+                    <title>17.3: Defining Oxidation States</title>
+                </item>
+                <item identifier="T_000266" identifierref="T_000266_R">
+                    <title>17.4: Balancing Oxidation-reduction Reactions</title>
+                </item>
+                <item identifier="T_000267" identifierref="T_000267_R">
+                    <title>17.5: Electrical Potential</title>
+                </item>
+                <item identifier="T_000268" identifierref="T_000268_R">
+                    <title>17.6: Electrochemical Cells as Circuit Elements</title>
+                </item>
+                <item identifier="T_000269" identifierref="T_000269_R">
+                    <title>17.7: The Direction of Electron Flow and its Implications</title>
+                </item>
+                <item identifier="T_000270" identifierref="T_000270_R">
+                    <title>17.8: Electrolysis and the Faraday</title>
+                </item>
+                <item identifier="T_000271" identifierref="T_000271_R">
+                    <title>17.9: Electrochemistry and Conductivity</title>
+                </item>
+                <item identifier="T_000272" identifierref="T_000272_R">
+                    <title>17.10: The Standard Hydrogen Electrode (S.H.E)</title>
+                </item>
+                <item identifier="T_000273" identifierref="T_000273_R">
+                    <title>17.11: Half-reactions and Half-cells</title>
+                </item>
+                <item identifier="T_000274" identifierref="T_000274_R">
+                    <title>17.12: Standard Electrode Potentials</title>
+                </item>
+                <item identifier="T_000275" identifierref="T_000275_R">
+                    <title>17.13: Predicting the Direction of Spontaneous Change</title>
+                </item>
+                <item identifier="T_000276" identifierref="T_000276_R">
+                    <title>17.14: Cell Potentials and the Gibbs Free Energy</title>
+                </item>
+                <item identifier="T_000277" identifierref="T_000277_R">
+                    <title>17.15: The Nernst Equation</title>
+                </item>
+                <item identifier="T_000278" identifierref="T_000278_R">
+                    <title>17.16: The Nernst Equation for Half-cells</title>
+                </item>
+                <item identifier="T_000279" identifierref="T_000279_R">
+                    <title>17.17: Combining two Half-cell Equations to Obtain a new Half-cell Equation</title>
+                </item>
+                <item identifier="T_000280" identifierref="T_000280_R">
+                    <title>17.18: The Nernst Equation and the Criterion for Equilibrium</title>
+                </item>
+                <item identifier="T_000281" identifierref="T_000281_R">
+                    <title>17.19: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000282">
+                <title>18: Quantum Mechanics and Molecular Energy Levels</title>
+                <item identifier="T_000283" identifierref="T_000283_R">
+                    <title>18.1: Energy Distributions and Energy Levels</title>
+                </item>
+                <item identifier="T_000284" identifierref="T_000284_R">
+                    <title>18.2: Quantized Energy - De Broglie&apos;s Hypothesis and the Schroedinger Equation</title>
+                </item>
+                <item identifier="T_000285" identifierref="T_000285_R">
+                    <title>18.3: The Schrödinger Equation for A Particle in A Box</title>
+                </item>
+                <item identifier="T_000286" identifierref="T_000286_R">
+                    <title>18.4: The Schrödinger Equation for a Molecule</title>
+                </item>
+                <item identifier="T_000287" identifierref="T_000287_R">
+                    <title>18.5: Solutions to Schroedinger Equations for Harmonic Oscillators and Rigid Rotors</title>
+                </item>
+                <item identifier="T_000288" identifierref="T_000288_R">
+                    <title>18.6: Wave Functions, Quantum States, Energy Levels, and Degeneracies</title>
+                </item>
+                <item identifier="T_000289" identifierref="T_000289_R">
+                    <title>18.7: Particle Spins and Statistics- Bose-Einstein and Fermi-Dirac Statistics</title>
+                </item>
+            </item>
+            <item identifier="T_000290">
+                <title>19: The Distribution of Outcomes for Multiple Trials</title>
+                <item identifier="T_000291" identifierref="T_000291_R">
+                    <title>19.1: Distribution of Results for Multiple Trials with Two Possible Outcomes</title>
+                </item>
+                <item identifier="T_000292" identifierref="T_000292_R">
+                    <title>19.2: Distribution of Results for Multiple Trials with Three Possible Outcomes</title>
+                </item>
+                <item identifier="T_000293" identifierref="T_000293_R">
+                    <title>19.3: Distribution of Results for Multiple Trials with Many Possible Outcomes</title>
+                </item>
+                <item identifier="T_000294" identifierref="T_000294_R">
+                    <title>19.4: Stirling&apos;s Approximation</title>
+                </item>
+                <item identifier="T_000295" identifierref="T_000295_R">
+                    <title>19.5: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000296">
+                <title>20: Boltzmann Statistics</title>
+                <item identifier="T_000297" identifierref="T_000297_R">
+                    <title>20.1: The Independent-Molecule Approximation</title>
+                </item>
+                <item identifier="T_000298" identifierref="T_000298_R">
+                    <title>20.2: The Probability of An Energy Level at Constant N, V, and T</title>
+                </item>
+                <item identifier="T_000299" identifierref="T_000299_R">
+                    <title>20.3: The Population Sets of a System at Equilibrium at Constant N, V, and T</title>
+                </item>
+                <item identifier="T_000300" identifierref="T_000300_R">
+                    <title>20.4: How can Infinitely Many Probabilities Sum to Unity?</title>
+                </item>
+                <item identifier="T_000301" identifierref="T_000301_R">
+                    <title>20.5: The Total Probability Sum at Constant N, V, and T</title>
+                </item>
+                <item identifier="T_000302" identifierref="T_000302_R">
+                    <title>20.6: The Most Probable Population Set at Constant N, V, and T</title>
+                </item>
+                <item identifier="T_000303" identifierref="T_000303_R">
+                    <title>20.7: The Microstates of a Given Population Set</title>
+                </item>
+                <item identifier="T_000304" identifierref="T_000304_R">
+                    <title>20.8: The Probabilities of Microstates that Have the Same Energy</title>
+                </item>
+                <item identifier="T_000305" identifierref="T_000305_R">
+                    <title>20.9: The Probabilities of the Population Sets of an Isolated System</title>
+                </item>
+                <item identifier="T_000306" identifierref="T_000306_R">
+                    <title>20.10: Entropy and Equilibrium in an Isolated System</title>
+                </item>
+                <item identifier="T_000307" identifierref="T_000307_R">
+                    <title>20.11: Thermodynamic Probability and Equilibrium in an Isomerization Reaction</title>
+                </item>
+                <item identifier="T_000308" identifierref="T_000308_R">
+                    <title>20.12: The Degeneracy of an Isolated System and Its Entropy</title>
+                </item>
+                <item identifier="T_000309" identifierref="T_000309_R">
+                    <title>20.13: The Degeneracy of an Isolated System and its Entropy</title>
+                </item>
+                <item identifier="T_000310" identifierref="T_000310_R">
+                    <title>20.14: Effective Equivalence of the Isothermal and Constant-energy Conditions</title>
+                </item>
+                <item identifier="T_000311" identifierref="T_000311_R">
+                    <title>20.15: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000312">
+                <title>21: The Boltzmann Distribution Function</title>
+                <item identifier="T_000313" identifierref="T_000313_R">
+                    <title>21.1: Finding the Boltzmann Equation</title>
+                </item>
+                <item identifier="T_000314" identifierref="T_000314_R">
+                    <title>21.2: Lagrange&apos;s Method of Undetermined Multipliers</title>
+                </item>
+                <item identifier="T_000315" identifierref="T_000315_R">
+                    <title>21.3: Deriving the Boltzmann Equation I</title>
+                </item>
+                <item identifier="T_000316" identifierref="T_000316_R">
+                    <title>21.4: Deriving the Boltzmann Equation II</title>
+                </item>
+                <item identifier="T_000317" identifierref="T_000317_R">
+                    <title>21.5: Partition Functions and Equilibrium - Isomeric Molecules</title>
+                </item>
+                <item identifier="T_000318" identifierref="T_000318_R">
+                    <title>21.6: Finding ß and the Thermodynamic Functions for Distinguishable Molecules</title>
+                </item>
+                <item identifier="T_000319" identifierref="T_000319_R">
+                    <title>21.7: The Microscopic Model for Reversible Change</title>
+                </item>
+                <item identifier="T_000320" identifierref="T_000320_R">
+                    <title>21.8: The Third Law of Thermodynamics</title>
+                </item>
+                <item identifier="T_000321" identifierref="T_000321_R">
+                    <title>21.9: The Partition Function for a System of N Molecules</title>
+                </item>
+                <item identifier="T_000322" identifierref="T_000322_R">
+                    <title>21.10: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000323">
+                <title>22: Some Basic Applications of Statistical Thermodynamics</title>
+                <item identifier="T_000324" identifierref="T_000324_R">
+                    <title>22.1: Interpreting the Partition Function</title>
+                </item>
+                <item identifier="T_000325" identifierref="T_000325_R">
+                    <title>22.2: Conditions under which Integrals Approximate Partition Functions</title>
+                </item>
+                <item identifier="T_000326" identifierref="T_000326_R">
+                    <title>22.3: Probability Density Functions from the Energies of Classical-mechanical Models</title>
+                </item>
+                <item identifier="T_000327" identifierref="T_000327_R">
+                    <title>22.4: Partition Functions and Average Energies at High Temperatures</title>
+                </item>
+                <item identifier="T_000328" identifierref="T_000328_R">
+                    <title>22.5: Energy Levels for a Three-dimensional Harmonic Oscillator</title>
+                </item>
+                <item identifier="T_000329" identifierref="T_000329_R">
+                    <title>22.6: Energy and Heat Capacity of the &quot;Einstein Crystal&quot;</title>
+                </item>
+                <item identifier="T_000330" identifierref="T_000330_R">
+                    <title>22.7: Applications of Other Entropy Relationships</title>
+                </item>
+                <item identifier="T_000331" identifierref="T_000331_R">
+                    <title>22.8: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000332">
+                <title>23: The Ensemble Treatment</title>
+                <item identifier="T_000333" identifierref="T_000333_R">
+                    <title>23.1: Ensembles of N-molecule Systems</title>
+                </item>
+                <item identifier="T_000334" identifierref="T_000334_R">
+                    <title>23.2: The Ensemble Entropy and the Value of ß</title>
+                </item>
+                <item identifier="T_000335" identifierref="T_000335_R">
+                    <title>23.3: The Thermodynamic Functions of the N-molecule System</title>
+                </item>
+            </item>
+            <item identifier="T_000336">
+                <title>24: Indistinguishable Molecules - Statistical Thermodynamics of Ideal Gases</title>
+                <item identifier="T_000337" identifierref="T_000337_R">
+                    <title>24.1: The Partition Function for N Distinguishable, Non-interacting Molecules</title>
+                </item>
+                <item identifier="T_000338" identifierref="T_000338_R">
+                    <title>24.2: The Partition Function for N Indistinguishable, Non-interacting Molecules</title>
+                </item>
+                <item identifier="T_000339" identifierref="T_000339_R">
+                    <title>24.3: Occupancy Probabilities for Translational Energy Levels</title>
+                </item>
+                <item identifier="T_000340" identifierref="T_000340_R">
+                    <title>24.4: The Separable-modes molecular Model</title>
+                </item>
+                <item identifier="T_000341" identifierref="T_000341_R">
+                    <title>24.5: The Partition Function for A Gas of Indistinguishable, Non-interacting, Separable-modes Molecules</title>
+                </item>
+                <item identifier="T_000342" identifierref="T_000342_R">
+                    <title>24.6: The Translational Partition Function of An Ideal Gas</title>
+                </item>
+                <item identifier="T_000343" identifierref="T_000343_R">
+                    <title>24.7: The Electronic Partition Function of an Ideal Gas</title>
+                </item>
+                <item identifier="T_000344" identifierref="T_000344_R">
+                    <title>24.8: The Vibrational Partition Function of A Diatomic Ideal Gas</title>
+                </item>
+                <item identifier="T_000345" identifierref="T_000345_R">
+                    <title>24.9: The Rotational Partition Function of A Diatomic Ideal Gas</title>
+                </item>
+                <item identifier="T_000346" identifierref="T_000346_R">
+                    <title>24.10: The Gibbs Free Energy for One Mole of An Ideal Gas</title>
+                </item>
+                <item identifier="T_000347" identifierref="T_000347_R">
+                    <title>24.11: The Standard Gibbs Free Energy for H₂(g), I₂(g), and HI(g)</title>
+                </item>
+                <item identifier="T_000348" identifierref="T_000348_R">
+                    <title>24.12: The Gibbs Free Energy Change for Forming HI(g) from H₂(g) and I₂(g)</title>
+                </item>
+                <item identifier="T_000349" identifierref="T_000349_R">
+                    <title>24.13: The Reference State for Molecular Partition Functions</title>
+                </item>
+                <item identifier="T_000350" identifierref="T_000350_R">
+                    <title>24.14: Problems</title>
+                </item>
+            </item>
+            <item identifier="T_000351">
+                <title>25: Bose-Einstein and Fermi-Dirac Statistics</title>
+                <item identifier="T_000352" identifierref="T_000352_R">
+                    <title>25.1: Quantum Statistics</title>
+                </item>
+                <item identifier="T_000353" identifierref="T_000353_R">
+                    <title>25.2: Fermi-Dirac Statistics and the Fermi-Dirac Distribution Function</title>
+                </item>
+                <item identifier="T_000354" identifierref="T_000354_R">
+                    <title>25.3: Bose-Einstein Statistics and the Bose-Einstein Distribution Function</title>
+                </item>
+            </item>
+            <item identifier="T_000355">
+                <title>26: Appendices</title>
+                <item identifier="T_000356" identifierref="T_000356_R">
+                    <title>26.1: Appendix A. Standard Atomic Weights 1999†</title>
+                </item>
+                <item identifier="T_000357" identifierref="T_000357_R">
+                    <title>26.2: Appendix B.</title>
+                </item>
+                <item identifier="T_000358" identifierref="T_000358_R">
+                    <title>26.3: Appendix B. Fundamental Constants†</title>
+                </item>
+                <item identifier="T_000359" identifierref="T_000359_R">
+                    <title>26.4: Appendix C.</title>
+                </item>
+                <item identifier="T_000360" identifierref="T_000360_R">
+                    <title>26.5: Units and Conversion Factors</title>
+                </item>
+                <item identifier="T_000361" identifierref="T_000361_R">
+                    <title>26.6: Appendix D.</title>
+                </item>
+                <item identifier="T_000362" identifierref="T_000362_R">
+                    <title>26.7: Appendix D. Some Important Definite Integrals</title>
+                </item>
+            </item>
+        </item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="T_000002_R" type="imswl_xmlv1p1">
+            <file href="T_000002_F.xml"/>
+        </resource>
+        <resource identifier="T_000003_R" type="imswl_xmlv1p1">
+            <file href="T_000003_F.xml"/>
+        </resource>
+        <resource identifier="T_000004_R" type="imswl_xmlv1p1">
+            <file href="T_000004_F.xml"/>
+        </resource>
+        <resource identifier="T_000005_R" type="imswl_xmlv1p1">
+            <file href="T_000005_F.xml"/>
+        </resource>
+        <resource identifier="T_000006_R" type="imswl_xmlv1p1">
+            <file href="T_000006_F.xml"/>
+        </resource>
+        <resource identifier="T_000007_R" type="imswl_xmlv1p1">
+            <file href="T_000007_F.xml"/>
+        </resource>
+        <resource identifier="T_000008_R" type="imswl_xmlv1p1">
+            <file href="T_000008_F.xml"/>
+        </resource>
+        <resource identifier="T_000009_R" type="imswl_xmlv1p1">
+            <file href="T_000009_F.xml"/>
+        </resource>
+        <resource identifier="T_000010_R" type="imswl_xmlv1p1">
+            <file href="T_000010_F.xml"/>
+        </resource>
+        <resource identifier="T_000011_R" type="imswl_xmlv1p1">
+            <file href="T_000011_F.xml"/>
+        </resource>
+        <resource identifier="T_000012_R" type="imswl_xmlv1p1">
+            <file href="T_000012_F.xml"/>
+        </resource>
+        <resource identifier="T_000014_R" type="imswl_xmlv1p1">
+            <file href="T_000014_F.xml"/>
+        </resource>
+        <resource identifier="T_000015_R" type="imswl_xmlv1p1">
+            <file href="T_000015_F.xml"/>
+        </resource>
+        <resource identifier="T_000016_R" type="imswl_xmlv1p1">
+            <file href="T_000016_F.xml"/>
+        </resource>
+        <resource identifier="T_000017_R" type="imswl_xmlv1p1">
+            <file href="T_000017_F.xml"/>
+        </resource>
+        <resource identifier="T_000018_R" type="imswl_xmlv1p1">
+            <file href="T_000018_F.xml"/>
+        </resource>
+        <resource identifier="T_000019_R" type="imswl_xmlv1p1">
+            <file href="T_000019_F.xml"/>
+        </resource>
+        <resource identifier="T_000020_R" type="imswl_xmlv1p1">
+            <file href="T_000020_F.xml"/>
+        </resource>
+        <resource identifier="T_000021_R" type="imswl_xmlv1p1">
+            <file href="T_000021_F.xml"/>
+        </resource>
+        <resource identifier="T_000022_R" type="imswl_xmlv1p1">
+            <file href="T_000022_F.xml"/>
+        </resource>
+        <resource identifier="T_000023_R" type="imswl_xmlv1p1">
+            <file href="T_000023_F.xml"/>
+        </resource>
+        <resource identifier="T_000024_R" type="imswl_xmlv1p1">
+            <file href="T_000024_F.xml"/>
+        </resource>
+        <resource identifier="T_000025_R" type="imswl_xmlv1p1">
+            <file href="T_000025_F.xml"/>
+        </resource>
+        <resource identifier="T_000026_R" type="imswl_xmlv1p1">
+            <file href="T_000026_F.xml"/>
+        </resource>
+        <resource identifier="T_000027_R" type="imswl_xmlv1p1">
+            <file href="T_000027_F.xml"/>
+        </resource>
+        <resource identifier="T_000028_R" type="imswl_xmlv1p1">
+            <file href="T_000028_F.xml"/>
+        </resource>
+        <resource identifier="T_000029_R" type="imswl_xmlv1p1">
+            <file href="T_000029_F.xml"/>
+        </resource>
+        <resource identifier="T_000031_R" type="imswl_xmlv1p1">
+            <file href="T_000031_F.xml"/>
+        </resource>
+        <resource identifier="T_000032_R" type="imswl_xmlv1p1">
+            <file href="T_000032_F.xml"/>
+        </resource>
+        <resource identifier="T_000033_R" type="imswl_xmlv1p1">
+            <file href="T_000033_F.xml"/>
+        </resource>
+        <resource identifier="T_000034_R" type="imswl_xmlv1p1">
+            <file href="T_000034_F.xml"/>
+        </resource>
+        <resource identifier="T_000035_R" type="imswl_xmlv1p1">
+            <file href="T_000035_F.xml"/>
+        </resource>
+        <resource identifier="T_000036_R" type="imswl_xmlv1p1">
+            <file href="T_000036_F.xml"/>
+        </resource>
+        <resource identifier="T_000037_R" type="imswl_xmlv1p1">
+            <file href="T_000037_F.xml"/>
+        </resource>
+        <resource identifier="T_000038_R" type="imswl_xmlv1p1">
+            <file href="T_000038_F.xml"/>
+        </resource>
+        <resource identifier="T_000039_R" type="imswl_xmlv1p1">
+            <file href="T_000039_F.xml"/>
+        </resource>
+        <resource identifier="T_000040_R" type="imswl_xmlv1p1">
+            <file href="T_000040_F.xml"/>
+        </resource>
+        <resource identifier="T_000041_R" type="imswl_xmlv1p1">
+            <file href="T_000041_F.xml"/>
+        </resource>
+        <resource identifier="T_000042_R" type="imswl_xmlv1p1">
+            <file href="T_000042_F.xml"/>
+        </resource>
+        <resource identifier="T_000043_R" type="imswl_xmlv1p1">
+            <file href="T_000043_F.xml"/>
+        </resource>
+        <resource identifier="T_000044_R" type="imswl_xmlv1p1">
+            <file href="T_000044_F.xml"/>
+        </resource>
+        <resource identifier="T_000045_R" type="imswl_xmlv1p1">
+            <file href="T_000045_F.xml"/>
+        </resource>
+        <resource identifier="T_000047_R" type="imswl_xmlv1p1">
+            <file href="T_000047_F.xml"/>
+        </resource>
+        <resource identifier="T_000048_R" type="imswl_xmlv1p1">
+            <file href="T_000048_F.xml"/>
+        </resource>
+        <resource identifier="T_000049_R" type="imswl_xmlv1p1">
+            <file href="T_000049_F.xml"/>
+        </resource>
+        <resource identifier="T_000050_R" type="imswl_xmlv1p1">
+            <file href="T_000050_F.xml"/>
+        </resource>
+        <resource identifier="T_000051_R" type="imswl_xmlv1p1">
+            <file href="T_000051_F.xml"/>
+        </resource>
+        <resource identifier="T_000052_R" type="imswl_xmlv1p1">
+            <file href="T_000052_F.xml"/>
+        </resource>
+        <resource identifier="T_000053_R" type="imswl_xmlv1p1">
+            <file href="T_000053_F.xml"/>
+        </resource>
+        <resource identifier="T_000054_R" type="imswl_xmlv1p1">
+            <file href="T_000054_F.xml"/>
+        </resource>
+        <resource identifier="T_000055_R" type="imswl_xmlv1p1">
+            <file href="T_000055_F.xml"/>
+        </resource>
+        <resource identifier="T_000056_R" type="imswl_xmlv1p1">
+            <file href="T_000056_F.xml"/>
+        </resource>
+        <resource identifier="T_000057_R" type="imswl_xmlv1p1">
+            <file href="T_000057_F.xml"/>
+        </resource>
+        <resource identifier="T_000058_R" type="imswl_xmlv1p1">
+            <file href="T_000058_F.xml"/>
+        </resource>
+        <resource identifier="T_000059_R" type="imswl_xmlv1p1">
+            <file href="T_000059_F.xml"/>
+        </resource>
+        <resource identifier="T_000060_R" type="imswl_xmlv1p1">
+            <file href="T_000060_F.xml"/>
+        </resource>
+        <resource identifier="T_000061_R" type="imswl_xmlv1p1">
+            <file href="T_000061_F.xml"/>
+        </resource>
+        <resource identifier="T_000062_R" type="imswl_xmlv1p1">
+            <file href="T_000062_F.xml"/>
+        </resource>
+        <resource identifier="T_000063_R" type="imswl_xmlv1p1">
+            <file href="T_000063_F.xml"/>
+        </resource>
+        <resource identifier="T_000065_R" type="imswl_xmlv1p1">
+            <file href="T_000065_F.xml"/>
+        </resource>
+        <resource identifier="T_000066_R" type="imswl_xmlv1p1">
+            <file href="T_000066_F.xml"/>
+        </resource>
+        <resource identifier="T_000067_R" type="imswl_xmlv1p1">
+            <file href="T_000067_F.xml"/>
+        </resource>
+        <resource identifier="T_000068_R" type="imswl_xmlv1p1">
+            <file href="T_000068_F.xml"/>
+        </resource>
+        <resource identifier="T_000069_R" type="imswl_xmlv1p1">
+            <file href="T_000069_F.xml"/>
+        </resource>
+        <resource identifier="T_000070_R" type="imswl_xmlv1p1">
+            <file href="T_000070_F.xml"/>
+        </resource>
+        <resource identifier="T_000071_R" type="imswl_xmlv1p1">
+            <file href="T_000071_F.xml"/>
+        </resource>
+        <resource identifier="T_000072_R" type="imswl_xmlv1p1">
+            <file href="T_000072_F.xml"/>
+        </resource>
+        <resource identifier="T_000073_R" type="imswl_xmlv1p1">
+            <file href="T_000073_F.xml"/>
+        </resource>
+        <resource identifier="T_000074_R" type="imswl_xmlv1p1">
+            <file href="T_000074_F.xml"/>
+        </resource>
+        <resource identifier="T_000075_R" type="imswl_xmlv1p1">
+            <file href="T_000075_F.xml"/>
+        </resource>
+        <resource identifier="T_000076_R" type="imswl_xmlv1p1">
+            <file href="T_000076_F.xml"/>
+        </resource>
+        <resource identifier="T_000077_R" type="imswl_xmlv1p1">
+            <file href="T_000077_F.xml"/>
+        </resource>
+        <resource identifier="T_000078_R" type="imswl_xmlv1p1">
+            <file href="T_000078_F.xml"/>
+        </resource>
+        <resource identifier="T_000079_R" type="imswl_xmlv1p1">
+            <file href="T_000079_F.xml"/>
+        </resource>
+        <resource identifier="T_000080_R" type="imswl_xmlv1p1">
+            <file href="T_000080_F.xml"/>
+        </resource>
+        <resource identifier="T_000081_R" type="imswl_xmlv1p1">
+            <file href="T_000081_F.xml"/>
+        </resource>
+        <resource identifier="T_000082_R" type="imswl_xmlv1p1">
+            <file href="T_000082_F.xml"/>
+        </resource>
+        <resource identifier="T_000083_R" type="imswl_xmlv1p1">
+            <file href="T_000083_F.xml"/>
+        </resource>
+        <resource identifier="T_000084_R" type="imswl_xmlv1p1">
+            <file href="T_000084_F.xml"/>
+        </resource>
+        <resource identifier="T_000086_R" type="imswl_xmlv1p1">
+            <file href="T_000086_F.xml"/>
+        </resource>
+        <resource identifier="T_000087_R" type="imswl_xmlv1p1">
+            <file href="T_000087_F.xml"/>
+        </resource>
+        <resource identifier="T_000088_R" type="imswl_xmlv1p1">
+            <file href="T_000088_F.xml"/>
+        </resource>
+        <resource identifier="T_000089_R" type="imswl_xmlv1p1">
+            <file href="T_000089_F.xml"/>
+        </resource>
+        <resource identifier="T_000090_R" type="imswl_xmlv1p1">
+            <file href="T_000090_F.xml"/>
+        </resource>
+        <resource identifier="T_000091_R" type="imswl_xmlv1p1">
+            <file href="T_000091_F.xml"/>
+        </resource>
+        <resource identifier="T_000092_R" type="imswl_xmlv1p1">
+            <file href="T_000092_F.xml"/>
+        </resource>
+        <resource identifier="T_000093_R" type="imswl_xmlv1p1">
+            <file href="T_000093_F.xml"/>
+        </resource>
+        <resource identifier="T_000094_R" type="imswl_xmlv1p1">
+            <file href="T_000094_F.xml"/>
+        </resource>
+        <resource identifier="T_000095_R" type="imswl_xmlv1p1">
+            <file href="T_000095_F.xml"/>
+        </resource>
+        <resource identifier="T_000096_R" type="imswl_xmlv1p1">
+            <file href="T_000096_F.xml"/>
+        </resource>
+        <resource identifier="T_000097_R" type="imswl_xmlv1p1">
+            <file href="T_000097_F.xml"/>
+        </resource>
+        <resource identifier="T_000098_R" type="imswl_xmlv1p1">
+            <file href="T_000098_F.xml"/>
+        </resource>
+        <resource identifier="T_000099_R" type="imswl_xmlv1p1">
+            <file href="T_000099_F.xml"/>
+        </resource>
+        <resource identifier="T_000100_R" type="imswl_xmlv1p1">
+            <file href="T_000100_F.xml"/>
+        </resource>
+        <resource identifier="T_000101_R" type="imswl_xmlv1p1">
+            <file href="T_000101_F.xml"/>
+        </resource>
+        <resource identifier="T_000103_R" type="imswl_xmlv1p1">
+            <file href="T_000103_F.xml"/>
+        </resource>
+        <resource identifier="T_000104_R" type="imswl_xmlv1p1">
+            <file href="T_000104_F.xml"/>
+        </resource>
+        <resource identifier="T_000105_R" type="imswl_xmlv1p1">
+            <file href="T_000105_F.xml"/>
+        </resource>
+        <resource identifier="T_000106_R" type="imswl_xmlv1p1">
+            <file href="T_000106_F.xml"/>
+        </resource>
+        <resource identifier="T_000107_R" type="imswl_xmlv1p1">
+            <file href="T_000107_F.xml"/>
+        </resource>
+        <resource identifier="T_000108_R" type="imswl_xmlv1p1">
+            <file href="T_000108_F.xml"/>
+        </resource>
+        <resource identifier="T_000109_R" type="imswl_xmlv1p1">
+            <file href="T_000109_F.xml"/>
+        </resource>
+        <resource identifier="T_000110_R" type="imswl_xmlv1p1">
+            <file href="T_000110_F.xml"/>
+        </resource>
+        <resource identifier="T_000111_R" type="imswl_xmlv1p1">
+            <file href="T_000111_F.xml"/>
+        </resource>
+        <resource identifier="T_000112_R" type="imswl_xmlv1p1">
+            <file href="T_000112_F.xml"/>
+        </resource>
+        <resource identifier="T_000113_R" type="imswl_xmlv1p1">
+            <file href="T_000113_F.xml"/>
+        </resource>
+        <resource identifier="T_000114_R" type="imswl_xmlv1p1">
+            <file href="T_000114_F.xml"/>
+        </resource>
+        <resource identifier="T_000115_R" type="imswl_xmlv1p1">
+            <file href="T_000115_F.xml"/>
+        </resource>
+        <resource identifier="T_000116_R" type="imswl_xmlv1p1">
+            <file href="T_000116_F.xml"/>
+        </resource>
+        <resource identifier="T_000117_R" type="imswl_xmlv1p1">
+            <file href="T_000117_F.xml"/>
+        </resource>
+        <resource identifier="T_000118_R" type="imswl_xmlv1p1">
+            <file href="T_000118_F.xml"/>
+        </resource>
+        <resource identifier="T_000119_R" type="imswl_xmlv1p1">
+            <file href="T_000119_F.xml"/>
+        </resource>
+        <resource identifier="T_000120_R" type="imswl_xmlv1p1">
+            <file href="T_000120_F.xml"/>
+        </resource>
+        <resource identifier="T_000121_R" type="imswl_xmlv1p1">
+            <file href="T_000121_F.xml"/>
+        </resource>
+        <resource identifier="T_000122_R" type="imswl_xmlv1p1">
+            <file href="T_000122_F.xml"/>
+        </resource>
+        <resource identifier="T_000123_R" type="imswl_xmlv1p1">
+            <file href="T_000123_F.xml"/>
+        </resource>
+        <resource identifier="T_000125_R" type="imswl_xmlv1p1">
+            <file href="T_000125_F.xml"/>
+        </resource>
+        <resource identifier="T_000126_R" type="imswl_xmlv1p1">
+            <file href="T_000126_F.xml"/>
+        </resource>
+        <resource identifier="T_000127_R" type="imswl_xmlv1p1">
+            <file href="T_000127_F.xml"/>
+        </resource>
+        <resource identifier="T_000128_R" type="imswl_xmlv1p1">
+            <file href="T_000128_F.xml"/>
+        </resource>
+        <resource identifier="T_000129_R" type="imswl_xmlv1p1">
+            <file href="T_000129_F.xml"/>
+        </resource>
+        <resource identifier="T_000130_R" type="imswl_xmlv1p1">
+            <file href="T_000130_F.xml"/>
+        </resource>
+        <resource identifier="T_000131_R" type="imswl_xmlv1p1">
+            <file href="T_000131_F.xml"/>
+        </resource>
+        <resource identifier="T_000132_R" type="imswl_xmlv1p1">
+            <file href="T_000132_F.xml"/>
+        </resource>
+        <resource identifier="T_000133_R" type="imswl_xmlv1p1">
+            <file href="T_000133_F.xml"/>
+        </resource>
+        <resource identifier="T_000134_R" type="imswl_xmlv1p1">
+            <file href="T_000134_F.xml"/>
+        </resource>
+        <resource identifier="T_000136_R" type="imswl_xmlv1p1">
+            <file href="T_000136_F.xml"/>
+        </resource>
+        <resource identifier="T_000137_R" type="imswl_xmlv1p1">
+            <file href="T_000137_F.xml"/>
+        </resource>
+        <resource identifier="T_000138_R" type="imswl_xmlv1p1">
+            <file href="T_000138_F.xml"/>
+        </resource>
+        <resource identifier="T_000139_R" type="imswl_xmlv1p1">
+            <file href="T_000139_F.xml"/>
+        </resource>
+        <resource identifier="T_000140_R" type="imswl_xmlv1p1">
+            <file href="T_000140_F.xml"/>
+        </resource>
+        <resource identifier="T_000141_R" type="imswl_xmlv1p1">
+            <file href="T_000141_F.xml"/>
+        </resource>
+        <resource identifier="T_000142_R" type="imswl_xmlv1p1">
+            <file href="T_000142_F.xml"/>
+        </resource>
+        <resource identifier="T_000143_R" type="imswl_xmlv1p1">
+            <file href="T_000143_F.xml"/>
+        </resource>
+        <resource identifier="T_000144_R" type="imswl_xmlv1p1">
+            <file href="T_000144_F.xml"/>
+        </resource>
+        <resource identifier="T_000145_R" type="imswl_xmlv1p1">
+            <file href="T_000145_F.xml"/>
+        </resource>
+        <resource identifier="T_000146_R" type="imswl_xmlv1p1">
+            <file href="T_000146_F.xml"/>
+        </resource>
+        <resource identifier="T_000147_R" type="imswl_xmlv1p1">
+            <file href="T_000147_F.xml"/>
+        </resource>
+        <resource identifier="T_000148_R" type="imswl_xmlv1p1">
+            <file href="T_000148_F.xml"/>
+        </resource>
+        <resource identifier="T_000149_R" type="imswl_xmlv1p1">
+            <file href="T_000149_F.xml"/>
+        </resource>
+        <resource identifier="T_000150_R" type="imswl_xmlv1p1">
+            <file href="T_000150_F.xml"/>
+        </resource>
+        <resource identifier="T_000151_R" type="imswl_xmlv1p1">
+            <file href="T_000151_F.xml"/>
+        </resource>
+        <resource identifier="T_000152_R" type="imswl_xmlv1p1">
+            <file href="T_000152_F.xml"/>
+        </resource>
+        <resource identifier="T_000153_R" type="imswl_xmlv1p1">
+            <file href="T_000153_F.xml"/>
+        </resource>
+        <resource identifier="T_000154_R" type="imswl_xmlv1p1">
+            <file href="T_000154_F.xml"/>
+        </resource>
+        <resource identifier="T_000155_R" type="imswl_xmlv1p1">
+            <file href="T_000155_F.xml"/>
+        </resource>
+        <resource identifier="T_000156_R" type="imswl_xmlv1p1">
+            <file href="T_000156_F.xml"/>
+        </resource>
+        <resource identifier="T_000157_R" type="imswl_xmlv1p1">
+            <file href="T_000157_F.xml"/>
+        </resource>
+        <resource identifier="T_000158_R" type="imswl_xmlv1p1">
+            <file href="T_000158_F.xml"/>
+        </resource>
+        <resource identifier="T_000159_R" type="imswl_xmlv1p1">
+            <file href="T_000159_F.xml"/>
+        </resource>
+        <resource identifier="T_000160_R" type="imswl_xmlv1p1">
+            <file href="T_000160_F.xml"/>
+        </resource>
+        <resource identifier="T_000161_R" type="imswl_xmlv1p1">
+            <file href="T_000161_F.xml"/>
+        </resource>
+        <resource identifier="T_000163_R" type="imswl_xmlv1p1">
+            <file href="T_000163_F.xml"/>
+        </resource>
+        <resource identifier="T_000164_R" type="imswl_xmlv1p1">
+            <file href="T_000164_F.xml"/>
+        </resource>
+        <resource identifier="T_000165_R" type="imswl_xmlv1p1">
+            <file href="T_000165_F.xml"/>
+        </resource>
+        <resource identifier="T_000166_R" type="imswl_xmlv1p1">
+            <file href="T_000166_F.xml"/>
+        </resource>
+        <resource identifier="T_000167_R" type="imswl_xmlv1p1">
+            <file href="T_000167_F.xml"/>
+        </resource>
+        <resource identifier="T_000168_R" type="imswl_xmlv1p1">
+            <file href="T_000168_F.xml"/>
+        </resource>
+        <resource identifier="T_000169_R" type="imswl_xmlv1p1">
+            <file href="T_000169_F.xml"/>
+        </resource>
+        <resource identifier="T_000170_R" type="imswl_xmlv1p1">
+            <file href="T_000170_F.xml"/>
+        </resource>
+        <resource identifier="T_000171_R" type="imswl_xmlv1p1">
+            <file href="T_000171_F.xml"/>
+        </resource>
+        <resource identifier="T_000172_R" type="imswl_xmlv1p1">
+            <file href="T_000172_F.xml"/>
+        </resource>
+        <resource identifier="T_000173_R" type="imswl_xmlv1p1">
+            <file href="T_000173_F.xml"/>
+        </resource>
+        <resource identifier="T_000174_R" type="imswl_xmlv1p1">
+            <file href="T_000174_F.xml"/>
+        </resource>
+        <resource identifier="T_000175_R" type="imswl_xmlv1p1">
+            <file href="T_000175_F.xml"/>
+        </resource>
+        <resource identifier="T_000176_R" type="imswl_xmlv1p1">
+            <file href="T_000176_F.xml"/>
+        </resource>
+        <resource identifier="T_000177_R" type="imswl_xmlv1p1">
+            <file href="T_000177_F.xml"/>
+        </resource>
+        <resource identifier="T_000179_R" type="imswl_xmlv1p1">
+            <file href="T_000179_F.xml"/>
+        </resource>
+        <resource identifier="T_000180_R" type="imswl_xmlv1p1">
+            <file href="T_000180_F.xml"/>
+        </resource>
+        <resource identifier="T_000181_R" type="imswl_xmlv1p1">
+            <file href="T_000181_F.xml"/>
+        </resource>
+        <resource identifier="T_000182_R" type="imswl_xmlv1p1">
+            <file href="T_000182_F.xml"/>
+        </resource>
+        <resource identifier="T_000183_R" type="imswl_xmlv1p1">
+            <file href="T_000183_F.xml"/>
+        </resource>
+        <resource identifier="T_000184_R" type="imswl_xmlv1p1">
+            <file href="T_000184_F.xml"/>
+        </resource>
+        <resource identifier="T_000185_R" type="imswl_xmlv1p1">
+            <file href="T_000185_F.xml"/>
+        </resource>
+        <resource identifier="T_000186_R" type="imswl_xmlv1p1">
+            <file href="T_000186_F.xml"/>
+        </resource>
+        <resource identifier="T_000187_R" type="imswl_xmlv1p1">
+            <file href="T_000187_F.xml"/>
+        </resource>
+        <resource identifier="T_000188_R" type="imswl_xmlv1p1">
+            <file href="T_000188_F.xml"/>
+        </resource>
+        <resource identifier="T_000189_R" type="imswl_xmlv1p1">
+            <file href="T_000189_F.xml"/>
+        </resource>
+        <resource identifier="T_000190_R" type="imswl_xmlv1p1">
+            <file href="T_000190_F.xml"/>
+        </resource>
+        <resource identifier="T_000191_R" type="imswl_xmlv1p1">
+            <file href="T_000191_F.xml"/>
+        </resource>
+        <resource identifier="T_000192_R" type="imswl_xmlv1p1">
+            <file href="T_000192_F.xml"/>
+        </resource>
+        <resource identifier="T_000194_R" type="imswl_xmlv1p1">
+            <file href="T_000194_F.xml"/>
+        </resource>
+        <resource identifier="T_000195_R" type="imswl_xmlv1p1">
+            <file href="T_000195_F.xml"/>
+        </resource>
+        <resource identifier="T_000196_R" type="imswl_xmlv1p1">
+            <file href="T_000196_F.xml"/>
+        </resource>
+        <resource identifier="T_000197_R" type="imswl_xmlv1p1">
+            <file href="T_000197_F.xml"/>
+        </resource>
+        <resource identifier="T_000198_R" type="imswl_xmlv1p1">
+            <file href="T_000198_F.xml"/>
+        </resource>
+        <resource identifier="T_000199_R" type="imswl_xmlv1p1">
+            <file href="T_000199_F.xml"/>
+        </resource>
+        <resource identifier="T_000200_R" type="imswl_xmlv1p1">
+            <file href="T_000200_F.xml"/>
+        </resource>
+        <resource identifier="T_000201_R" type="imswl_xmlv1p1">
+            <file href="T_000201_F.xml"/>
+        </resource>
+        <resource identifier="T_000202_R" type="imswl_xmlv1p1">
+            <file href="T_000202_F.xml"/>
+        </resource>
+        <resource identifier="T_000203_R" type="imswl_xmlv1p1">
+            <file href="T_000203_F.xml"/>
+        </resource>
+        <resource identifier="T_000205_R" type="imswl_xmlv1p1">
+            <file href="T_000205_F.xml"/>
+        </resource>
+        <resource identifier="T_000206_R" type="imswl_xmlv1p1">
+            <file href="T_000206_F.xml"/>
+        </resource>
+        <resource identifier="T_000207_R" type="imswl_xmlv1p1">
+            <file href="T_000207_F.xml"/>
+        </resource>
+        <resource identifier="T_000208_R" type="imswl_xmlv1p1">
+            <file href="T_000208_F.xml"/>
+        </resource>
+        <resource identifier="T_000209_R" type="imswl_xmlv1p1">
+            <file href="T_000209_F.xml"/>
+        </resource>
+        <resource identifier="T_000210_R" type="imswl_xmlv1p1">
+            <file href="T_000210_F.xml"/>
+        </resource>
+        <resource identifier="T_000211_R" type="imswl_xmlv1p1">
+            <file href="T_000211_F.xml"/>
+        </resource>
+        <resource identifier="T_000212_R" type="imswl_xmlv1p1">
+            <file href="T_000212_F.xml"/>
+        </resource>
+        <resource identifier="T_000213_R" type="imswl_xmlv1p1">
+            <file href="T_000213_F.xml"/>
+        </resource>
+        <resource identifier="T_000214_R" type="imswl_xmlv1p1">
+            <file href="T_000214_F.xml"/>
+        </resource>
+        <resource identifier="T_000216_R" type="imswl_xmlv1p1">
+            <file href="T_000216_F.xml"/>
+        </resource>
+        <resource identifier="T_000217_R" type="imswl_xmlv1p1">
+            <file href="T_000217_F.xml"/>
+        </resource>
+        <resource identifier="T_000218_R" type="imswl_xmlv1p1">
+            <file href="T_000218_F.xml"/>
+        </resource>
+        <resource identifier="T_000219_R" type="imswl_xmlv1p1">
+            <file href="T_000219_F.xml"/>
+        </resource>
+        <resource identifier="T_000220_R" type="imswl_xmlv1p1">
+            <file href="T_000220_F.xml"/>
+        </resource>
+        <resource identifier="T_000221_R" type="imswl_xmlv1p1">
+            <file href="T_000221_F.xml"/>
+        </resource>
+        <resource identifier="T_000222_R" type="imswl_xmlv1p1">
+            <file href="T_000222_F.xml"/>
+        </resource>
+        <resource identifier="T_000223_R" type="imswl_xmlv1p1">
+            <file href="T_000223_F.xml"/>
+        </resource>
+        <resource identifier="T_000224_R" type="imswl_xmlv1p1">
+            <file href="T_000224_F.xml"/>
+        </resource>
+        <resource identifier="T_000225_R" type="imswl_xmlv1p1">
+            <file href="T_000225_F.xml"/>
+        </resource>
+        <resource identifier="T_000226_R" type="imswl_xmlv1p1">
+            <file href="T_000226_F.xml"/>
+        </resource>
+        <resource identifier="T_000227_R" type="imswl_xmlv1p1">
+            <file href="T_000227_F.xml"/>
+        </resource>
+        <resource identifier="T_000228_R" type="imswl_xmlv1p1">
+            <file href="T_000228_F.xml"/>
+        </resource>
+        <resource identifier="T_000229_R" type="imswl_xmlv1p1">
+            <file href="T_000229_F.xml"/>
+        </resource>
+        <resource identifier="T_000230_R" type="imswl_xmlv1p1">
+            <file href="T_000230_F.xml"/>
+        </resource>
+        <resource identifier="T_000232_R" type="imswl_xmlv1p1">
+            <file href="T_000232_F.xml"/>
+        </resource>
+        <resource identifier="T_000233_R" type="imswl_xmlv1p1">
+            <file href="T_000233_F.xml"/>
+        </resource>
+        <resource identifier="T_000234_R" type="imswl_xmlv1p1">
+            <file href="T_000234_F.xml"/>
+        </resource>
+        <resource identifier="T_000235_R" type="imswl_xmlv1p1">
+            <file href="T_000235_F.xml"/>
+        </resource>
+        <resource identifier="T_000236_R" type="imswl_xmlv1p1">
+            <file href="T_000236_F.xml"/>
+        </resource>
+        <resource identifier="T_000237_R" type="imswl_xmlv1p1">
+            <file href="T_000237_F.xml"/>
+        </resource>
+        <resource identifier="T_000238_R" type="imswl_xmlv1p1">
+            <file href="T_000238_F.xml"/>
+        </resource>
+        <resource identifier="T_000239_R" type="imswl_xmlv1p1">
+            <file href="T_000239_F.xml"/>
+        </resource>
+        <resource identifier="T_000240_R" type="imswl_xmlv1p1">
+            <file href="T_000240_F.xml"/>
+        </resource>
+        <resource identifier="T_000242_R" type="imswl_xmlv1p1">
+            <file href="T_000242_F.xml"/>
+        </resource>
+        <resource identifier="T_000243_R" type="imswl_xmlv1p1">
+            <file href="T_000243_F.xml"/>
+        </resource>
+        <resource identifier="T_000244_R" type="imswl_xmlv1p1">
+            <file href="T_000244_F.xml"/>
+        </resource>
+        <resource identifier="T_000245_R" type="imswl_xmlv1p1">
+            <file href="T_000245_F.xml"/>
+        </resource>
+        <resource identifier="T_000246_R" type="imswl_xmlv1p1">
+            <file href="T_000246_F.xml"/>
+        </resource>
+        <resource identifier="T_000247_R" type="imswl_xmlv1p1">
+            <file href="T_000247_F.xml"/>
+        </resource>
+        <resource identifier="T_000248_R" type="imswl_xmlv1p1">
+            <file href="T_000248_F.xml"/>
+        </resource>
+        <resource identifier="T_000249_R" type="imswl_xmlv1p1">
+            <file href="T_000249_F.xml"/>
+        </resource>
+        <resource identifier="T_000250_R" type="imswl_xmlv1p1">
+            <file href="T_000250_F.xml"/>
+        </resource>
+        <resource identifier="T_000251_R" type="imswl_xmlv1p1">
+            <file href="T_000251_F.xml"/>
+        </resource>
+        <resource identifier="T_000252_R" type="imswl_xmlv1p1">
+            <file href="T_000252_F.xml"/>
+        </resource>
+        <resource identifier="T_000253_R" type="imswl_xmlv1p1">
+            <file href="T_000253_F.xml"/>
+        </resource>
+        <resource identifier="T_000254_R" type="imswl_xmlv1p1">
+            <file href="T_000254_F.xml"/>
+        </resource>
+        <resource identifier="T_000255_R" type="imswl_xmlv1p1">
+            <file href="T_000255_F.xml"/>
+        </resource>
+        <resource identifier="T_000256_R" type="imswl_xmlv1p1">
+            <file href="T_000256_F.xml"/>
+        </resource>
+        <resource identifier="T_000257_R" type="imswl_xmlv1p1">
+            <file href="T_000257_F.xml"/>
+        </resource>
+        <resource identifier="T_000258_R" type="imswl_xmlv1p1">
+            <file href="T_000258_F.xml"/>
+        </resource>
+        <resource identifier="T_000259_R" type="imswl_xmlv1p1">
+            <file href="T_000259_F.xml"/>
+        </resource>
+        <resource identifier="T_000260_R" type="imswl_xmlv1p1">
+            <file href="T_000260_F.xml"/>
+        </resource>
+        <resource identifier="T_000261_R" type="imswl_xmlv1p1">
+            <file href="T_000261_F.xml"/>
+        </resource>
+        <resource identifier="T_000263_R" type="imswl_xmlv1p1">
+            <file href="T_000263_F.xml"/>
+        </resource>
+        <resource identifier="T_000264_R" type="imswl_xmlv1p1">
+            <file href="T_000264_F.xml"/>
+        </resource>
+        <resource identifier="T_000265_R" type="imswl_xmlv1p1">
+            <file href="T_000265_F.xml"/>
+        </resource>
+        <resource identifier="T_000266_R" type="imswl_xmlv1p1">
+            <file href="T_000266_F.xml"/>
+        </resource>
+        <resource identifier="T_000267_R" type="imswl_xmlv1p1">
+            <file href="T_000267_F.xml"/>
+        </resource>
+        <resource identifier="T_000268_R" type="imswl_xmlv1p1">
+            <file href="T_000268_F.xml"/>
+        </resource>
+        <resource identifier="T_000269_R" type="imswl_xmlv1p1">
+            <file href="T_000269_F.xml"/>
+        </resource>
+        <resource identifier="T_000270_R" type="imswl_xmlv1p1">
+            <file href="T_000270_F.xml"/>
+        </resource>
+        <resource identifier="T_000271_R" type="imswl_xmlv1p1">
+            <file href="T_000271_F.xml"/>
+        </resource>
+        <resource identifier="T_000272_R" type="imswl_xmlv1p1">
+            <file href="T_000272_F.xml"/>
+        </resource>
+        <resource identifier="T_000273_R" type="imswl_xmlv1p1">
+            <file href="T_000273_F.xml"/>
+        </resource>
+        <resource identifier="T_000274_R" type="imswl_xmlv1p1">
+            <file href="T_000274_F.xml"/>
+        </resource>
+        <resource identifier="T_000275_R" type="imswl_xmlv1p1">
+            <file href="T_000275_F.xml"/>
+        </resource>
+        <resource identifier="T_000276_R" type="imswl_xmlv1p1">
+            <file href="T_000276_F.xml"/>
+        </resource>
+        <resource identifier="T_000277_R" type="imswl_xmlv1p1">
+            <file href="T_000277_F.xml"/>
+        </resource>
+        <resource identifier="T_000278_R" type="imswl_xmlv1p1">
+            <file href="T_000278_F.xml"/>
+        </resource>
+        <resource identifier="T_000279_R" type="imswl_xmlv1p1">
+            <file href="T_000279_F.xml"/>
+        </resource>
+        <resource identifier="T_000280_R" type="imswl_xmlv1p1">
+            <file href="T_000280_F.xml"/>
+        </resource>
+        <resource identifier="T_000281_R" type="imswl_xmlv1p1">
+            <file href="T_000281_F.xml"/>
+        </resource>
+        <resource identifier="T_000283_R" type="imswl_xmlv1p1">
+            <file href="T_000283_F.xml"/>
+        </resource>
+        <resource identifier="T_000284_R" type="imswl_xmlv1p1">
+            <file href="T_000284_F.xml"/>
+        </resource>
+        <resource identifier="T_000285_R" type="imswl_xmlv1p1">
+            <file href="T_000285_F.xml"/>
+        </resource>
+        <resource identifier="T_000286_R" type="imswl_xmlv1p1">
+            <file href="T_000286_F.xml"/>
+        </resource>
+        <resource identifier="T_000287_R" type="imswl_xmlv1p1">
+            <file href="T_000287_F.xml"/>
+        </resource>
+        <resource identifier="T_000288_R" type="imswl_xmlv1p1">
+            <file href="T_000288_F.xml"/>
+        </resource>
+        <resource identifier="T_000289_R" type="imswl_xmlv1p1">
+            <file href="T_000289_F.xml"/>
+        </resource>
+        <resource identifier="T_000291_R" type="imswl_xmlv1p1">
+            <file href="T_000291_F.xml"/>
+        </resource>
+        <resource identifier="T_000292_R" type="imswl_xmlv1p1">
+            <file href="T_000292_F.xml"/>
+        </resource>
+        <resource identifier="T_000293_R" type="imswl_xmlv1p1">
+            <file href="T_000293_F.xml"/>
+        </resource>
+        <resource identifier="T_000294_R" type="imswl_xmlv1p1">
+            <file href="T_000294_F.xml"/>
+        </resource>
+        <resource identifier="T_000295_R" type="imswl_xmlv1p1">
+            <file href="T_000295_F.xml"/>
+        </resource>
+        <resource identifier="T_000297_R" type="imswl_xmlv1p1">
+            <file href="T_000297_F.xml"/>
+        </resource>
+        <resource identifier="T_000298_R" type="imswl_xmlv1p1">
+            <file href="T_000298_F.xml"/>
+        </resource>
+        <resource identifier="T_000299_R" type="imswl_xmlv1p1">
+            <file href="T_000299_F.xml"/>
+        </resource>
+        <resource identifier="T_000300_R" type="imswl_xmlv1p1">
+            <file href="T_000300_F.xml"/>
+        </resource>
+        <resource identifier="T_000301_R" type="imswl_xmlv1p1">
+            <file href="T_000301_F.xml"/>
+        </resource>
+        <resource identifier="T_000302_R" type="imswl_xmlv1p1">
+            <file href="T_000302_F.xml"/>
+        </resource>
+        <resource identifier="T_000303_R" type="imswl_xmlv1p1">
+            <file href="T_000303_F.xml"/>
+        </resource>
+        <resource identifier="T_000304_R" type="imswl_xmlv1p1">
+            <file href="T_000304_F.xml"/>
+        </resource>
+        <resource identifier="T_000305_R" type="imswl_xmlv1p1">
+            <file href="T_000305_F.xml"/>
+        </resource>
+        <resource identifier="T_000306_R" type="imswl_xmlv1p1">
+            <file href="T_000306_F.xml"/>
+        </resource>
+        <resource identifier="T_000307_R" type="imswl_xmlv1p1">
+            <file href="T_000307_F.xml"/>
+        </resource>
+        <resource identifier="T_000308_R" type="imswl_xmlv1p1">
+            <file href="T_000308_F.xml"/>
+        </resource>
+        <resource identifier="T_000309_R" type="imswl_xmlv1p1">
+            <file href="T_000309_F.xml"/>
+        </resource>
+        <resource identifier="T_000310_R" type="imswl_xmlv1p1">
+            <file href="T_000310_F.xml"/>
+        </resource>
+        <resource identifier="T_000311_R" type="imswl_xmlv1p1">
+            <file href="T_000311_F.xml"/>
+        </resource>
+        <resource identifier="T_000313_R" type="imswl_xmlv1p1">
+            <file href="T_000313_F.xml"/>
+        </resource>
+        <resource identifier="T_000314_R" type="imswl_xmlv1p1">
+            <file href="T_000314_F.xml"/>
+        </resource>
+        <resource identifier="T_000315_R" type="imswl_xmlv1p1">
+            <file href="T_000315_F.xml"/>
+        </resource>
+        <resource identifier="T_000316_R" type="imswl_xmlv1p1">
+            <file href="T_000316_F.xml"/>
+        </resource>
+        <resource identifier="T_000317_R" type="imswl_xmlv1p1">
+            <file href="T_000317_F.xml"/>
+        </resource>
+        <resource identifier="T_000318_R" type="imswl_xmlv1p1">
+            <file href="T_000318_F.xml"/>
+        </resource>
+        <resource identifier="T_000319_R" type="imswl_xmlv1p1">
+            <file href="T_000319_F.xml"/>
+        </resource>
+        <resource identifier="T_000320_R" type="imswl_xmlv1p1">
+            <file href="T_000320_F.xml"/>
+        </resource>
+        <resource identifier="T_000321_R" type="imswl_xmlv1p1">
+            <file href="T_000321_F.xml"/>
+        </resource>
+        <resource identifier="T_000322_R" type="imswl_xmlv1p1">
+            <file href="T_000322_F.xml"/>
+        </resource>
+        <resource identifier="T_000324_R" type="imswl_xmlv1p1">
+            <file href="T_000324_F.xml"/>
+        </resource>
+        <resource identifier="T_000325_R" type="imswl_xmlv1p1">
+            <file href="T_000325_F.xml"/>
+        </resource>
+        <resource identifier="T_000326_R" type="imswl_xmlv1p1">
+            <file href="T_000326_F.xml"/>
+        </resource>
+        <resource identifier="T_000327_R" type="imswl_xmlv1p1">
+            <file href="T_000327_F.xml"/>
+        </resource>
+        <resource identifier="T_000328_R" type="imswl_xmlv1p1">
+            <file href="T_000328_F.xml"/>
+        </resource>
+        <resource identifier="T_000329_R" type="imswl_xmlv1p1">
+            <file href="T_000329_F.xml"/>
+        </resource>
+        <resource identifier="T_000330_R" type="imswl_xmlv1p1">
+            <file href="T_000330_F.xml"/>
+        </resource>
+        <resource identifier="T_000331_R" type="imswl_xmlv1p1">
+            <file href="T_000331_F.xml"/>
+        </resource>
+        <resource identifier="T_000333_R" type="imswl_xmlv1p1">
+            <file href="T_000333_F.xml"/>
+        </resource>
+        <resource identifier="T_000334_R" type="imswl_xmlv1p1">
+            <file href="T_000334_F.xml"/>
+        </resource>
+        <resource identifier="T_000335_R" type="imswl_xmlv1p1">
+            <file href="T_000335_F.xml"/>
+        </resource>
+        <resource identifier="T_000337_R" type="imswl_xmlv1p1">
+            <file href="T_000337_F.xml"/>
+        </resource>
+        <resource identifier="T_000338_R" type="imswl_xmlv1p1">
+            <file href="T_000338_F.xml"/>
+        </resource>
+        <resource identifier="T_000339_R" type="imswl_xmlv1p1">
+            <file href="T_000339_F.xml"/>
+        </resource>
+        <resource identifier="T_000340_R" type="imswl_xmlv1p1">
+            <file href="T_000340_F.xml"/>
+        </resource>
+        <resource identifier="T_000341_R" type="imswl_xmlv1p1">
+            <file href="T_000341_F.xml"/>
+        </resource>
+        <resource identifier="T_000342_R" type="imswl_xmlv1p1">
+            <file href="T_000342_F.xml"/>
+        </resource>
+        <resource identifier="T_000343_R" type="imswl_xmlv1p1">
+            <file href="T_000343_F.xml"/>
+        </resource>
+        <resource identifier="T_000344_R" type="imswl_xmlv1p1">
+            <file href="T_000344_F.xml"/>
+        </resource>
+        <resource identifier="T_000345_R" type="imswl_xmlv1p1">
+            <file href="T_000345_F.xml"/>
+        </resource>
+        <resource identifier="T_000346_R" type="imswl_xmlv1p1">
+            <file href="T_000346_F.xml"/>
+        </resource>
+        <resource identifier="T_000347_R" type="imswl_xmlv1p1">
+            <file href="T_000347_F.xml"/>
+        </resource>
+        <resource identifier="T_000348_R" type="imswl_xmlv1p1">
+            <file href="T_000348_F.xml"/>
+        </resource>
+        <resource identifier="T_000349_R" type="imswl_xmlv1p1">
+            <file href="T_000349_F.xml"/>
+        </resource>
+        <resource identifier="T_000350_R" type="imswl_xmlv1p1">
+            <file href="T_000350_F.xml"/>
+        </resource>
+        <resource identifier="T_000352_R" type="imswl_xmlv1p1">
+            <file href="T_000352_F.xml"/>
+        </resource>
+        <resource identifier="T_000353_R" type="imswl_xmlv1p1">
+            <file href="T_000353_F.xml"/>
+        </resource>
+        <resource identifier="T_000354_R" type="imswl_xmlv1p1">
+            <file href="T_000354_F.xml"/>
+        </resource>
+        <resource identifier="T_000356_R" type="imswl_xmlv1p1">
+            <file href="T_000356_F.xml"/>
+        </resource>
+        <resource identifier="T_000357_R" type="imswl_xmlv1p1">
+            <file href="T_000357_F.xml"/>
+        </resource>
+        <resource identifier="T_000358_R" type="imswl_xmlv1p1">
+            <file href="T_000358_F.xml"/>
+        </resource>
+        <resource identifier="T_000359_R" type="imswl_xmlv1p1">
+            <file href="T_000359_F.xml"/>
+        </resource>
+        <resource identifier="T_000360_R" type="imswl_xmlv1p1">
+            <file href="T_000360_F.xml"/>
+        </resource>
+        <resource identifier="T_000361_R" type="imswl_xmlv1p1">
+            <file href="T_000361_F.xml"/>
+        </resource>
+        <resource identifier="T_000362_R" type="imswl_xmlv1p1">
+            <file href="T_000362_F.xml"/>
+        </resource>
+    </resources>
+</manifest>

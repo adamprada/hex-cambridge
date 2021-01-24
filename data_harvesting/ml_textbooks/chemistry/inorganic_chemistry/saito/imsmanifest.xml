@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imsccv1p1/imscp_v1p1" xmlns:lom="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/resource" xmlns:lomimscc="http://ltsc.ieee.org/xsd/imsccv1p1/LOM/manifest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="cctd0015" xsi:schemaLocation="http://www.imsglobal.org/xsd/imslticc_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticc_v1p0.xsd http://www.imsglobal.org/xsd/imslticp_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticp_v1p0.xsd http://www.imsglobal.org/xsd/imslticm_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticm_v1p0.xsd http://www.imsglobal.org/xsd/imsbasiclti_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imsbasiclti_v1p0p1.xsd">
+    <metadata>
+        <schema>IMS Common Cartridge</schema>
+        <schemaversion>1.1.0</schemaversion>
+    <lomimscc:lom>
+      <lomimscc:general>
+        <lomimscc:title>
+          <lomimscc:string language="en-US">Inorganic Chemistry</lomimscc:string>
+        </lomimscc:title>
+      </lomimscc:general>
+    </lomimscc:lom>
+    </metadata>
+    <organizations>
+        <organization identifier="T_1000" structure="rooted-hierarchy">
+        <item identifier="T_00000">
+            <item identifier="T_000001">
+                <title>1: Elements and Periodicity</title>
+                <item identifier="T_000002" identifierref="T_000002_R">
+                    <title>1.1: The origin of elements and their distribution</title>
+                </item>
+                <item identifier="T_000003" identifierref="T_000003_R">
+                    <title>1.2: Discovery of elements</title>
+                </item>
+                <item identifier="T_000004" identifierref="T_000004_R">
+                    <title>1.3: Electronic Structure of Elements</title>
+                </item>
+                <item identifier="T_000005" identifierref="T_000005_R">
+                    <title>1.4: Block classification of the periodic table and elements</title>
+                </item>
+                <item identifier="T_000006" identifierref="T_000006_R">
+                    <title>1.5: Bonding states of elements</title>
+                </item>
+            </item>
+            <item identifier="T_000007">
+                <title>2: Bonding and Structure</title>
+                <item identifier="T_000008" identifierref="T_000008_R">
+                    <title>2.1: Classification of bonding</title>
+                </item>
+                <item identifier="T_000009" identifierref="T_000009_R">
+                    <title>2.2: Geometrical factors governing bonding and structure</title>
+                </item>
+                <item identifier="T_000010" identifierref="T_000010_R">
+                    <title>2.3: Electronic factors which govern bonding and structure</title>
+                </item>
+            </item>
+            <item identifier="T_000011">
+                <title>3: Reactions</title>
+                <item identifier="T_000012" identifierref="T_000012_R">
+                    <title>3.1: Thermodynamics</title>
+                </item>
+                <item identifier="T_000013" identifierref="T_000013_R">
+                    <title>3.2: Electrochemistry</title>
+                </item>
+                <item identifier="T_000014" identifierref="T_000014_R">
+                    <title>3.3: Oxidation and reduction</title>
+                </item>
+                <item identifier="T_000015" identifierref="T_000015_R">
+                    <title>3.4: Acid and base</title>
+                </item>
+            </item>
+            <item identifier="T_000016">
+                <title>4: Chemistry of Nonmetallic Elements</title>
+                <item identifier="T_000017" identifierref="T_000017_R">
+                    <title>4.1: Hydrogen and hydrides</title>
+                </item>
+                <item identifier="T_000018" identifierref="T_000018_R">
+                    <title>4.2: Main group elements of 2nd and 3rd periods and their compounds</title>
+                </item>
+                <item identifier="T_000019" identifierref="T_000019_R">
+                    <title>4.3: Oxygen and oxides (Part 1)</title>
+                </item>
+                <item identifier="T_000020" identifierref="T_000020_R">
+                    <title>4.4: Oxygen and oxides (Part 2)</title>
+                </item>
+                <item identifier="T_000021" identifierref="T_000021_R">
+                    <title>4.5: Chalcogens and Chalcogenides</title>
+                </item>
+                <item identifier="T_000022" identifierref="T_000022_R">
+                    <title>4.6: Halogens and Halides</title>
+                </item>
+                <item identifier="T_000023" identifierref="T_000023_R">
+                    <title>4.7: Noble Gases and their Compounds</title>
+                </item>
+            </item>
+            <item identifier="T_000024">
+                <title>5: Chemistry of Main-Group Metals</title>
+                <item identifier="T_000025" identifierref="T_000025_R">
+                    <title>5.1: Group 1 Metals</title>
+                </item>
+                <item identifier="T_000026" identifierref="T_000026_R">
+                    <title>5.2: Group 2 Metals</title>
+                </item>
+                <item identifier="T_000027" identifierref="T_000027_R">
+                    <title>5.3: Group 12 Metals</title>
+                </item>
+                <item identifier="T_000028" identifierref="T_000028_R">
+                    <title>5.4: Group 13 Metals</title>
+                </item>
+                <item identifier="T_000029" identifierref="T_000029_R">
+                    <title>5.5: Group 14 Metals</title>
+                </item>
+            </item>
+            <item identifier="T_000030">
+                <title>6: Chemistry of Transition Metals</title>
+                <item identifier="T_000031" identifierref="T_000031_R">
+                    <title>Front Matter</title>
+                </item>
+                <item identifier="T_000032" identifierref="T_000032_R">
+                    <title>TitlePage</title>
+                </item>
+                <item identifier="T_000033" identifierref="T_000033_R">
+                    <title>InfoPage</title>
+                </item>
+                <item identifier="T_000034" identifierref="T_000034_R">
+                    <title>6.1: Structures of Metal Complexes</title>
+                </item>
+                <item identifier="T_000035" identifierref="T_000035_R">
+                    <title>6.2: Electronic Structure of Complexes (Part 1)</title>
+                </item>
+                <item identifier="T_000036" identifierref="T_000036_R">
+                    <title>6.3: Electronic Structure of Complexes (Part 2)</title>
+                </item>
+                <item identifier="T_000037" identifierref="T_000037_R">
+                    <title>6.4: Organometallic Chemistry of d Block Metals (Part 1)</title>
+                </item>
+                <item identifier="T_000038" identifierref="T_000038_R">
+                    <title>6.5: Organometallic Chemistry of d Block Metals (Part 2)</title>
+                </item>
+                <item identifier="T_000039" identifierref="T_000039_R">
+                    <title>6.6: Reactions of Complexes</title>
+                </item>
+                <item identifier="T_000040" identifierref="T_000040_R">
+                    <title>Back Matter</title>
+                </item>
+                <item identifier="T_000041" identifierref="T_000041_R">
+                    <title>Index</title>
+                </item>
+            </item>
+            <item identifier="T_000042">
+                <title>7: Lanthanoids and Actinoids</title>
+                <item identifier="T_000043" identifierref="T_000043_R">
+                    <title>Front Matter</title>
+                </item>
+                <item identifier="T_000044" identifierref="T_000044_R">
+                    <title>TitlePage</title>
+                </item>
+                <item identifier="T_000045" identifierref="T_000045_R">
+                    <title>InfoPage</title>
+                </item>
+                <item identifier="T_000046" identifierref="T_000046_R">
+                    <title>7.1: Lanthanoids</title>
+                </item>
+                <item identifier="T_000047" identifierref="T_000047_R">
+                    <title>7.2: Actinoids</title>
+                </item>
+                <item identifier="T_000048" identifierref="T_000048_R">
+                    <title>Back Matter</title>
+                </item>
+                <item identifier="T_000049" identifierref="T_000049_R">
+                    <title>Index</title>
+                </item>
+            </item>
+            <item identifier="T_000050">
+                <title>8: Reaction and Physical Properties</title>
+                <item identifier="T_000051" identifierref="T_000051_R">
+                    <title>8.1: Catalytic reactions</title>
+                </item>
+                <item identifier="T_000052" identifierref="T_000052_R">
+                    <title>8.2: Bioinorganic chemistry</title>
+                </item>
+                <item identifier="T_000053" identifierref="T_000053_R">
+                    <title>8.3: Physical properties</title>
+                </item>
+            </item>
+            <item identifier="T_000054">
+                <title>9: Solution of problems</title>
+                <item identifier="T_000055" identifierref="T_000055_R">
+                    <title>9.1: Chapter 1</title>
+                </item>
+                <item identifier="T_000056" identifierref="T_000056_R">
+                    <title>9.2: Chapter 2</title>
+                </item>
+                <item identifier="T_000057" identifierref="T_000057_R">
+                    <title>9.3: Chapter 3</title>
+                </item>
+                <item identifier="T_000058" identifierref="T_000058_R">
+                    <title>9.4: Chapter 4</title>
+                </item>
+                <item identifier="T_000059" identifierref="T_000059_R">
+                    <title>9.5: Chapter 5</title>
+                </item>
+                <item identifier="T_000060" identifierref="T_000060_R">
+                    <title>9.6: Chapter 6</title>
+                </item>
+                <item identifier="T_000061" identifierref="T_000061_R">
+                    <title>9.7: Chapter 7</title>
+                </item>
+                <item identifier="T_000062" identifierref="T_000062_R">
+                    <title>9.8: Chapter 8</title>
+                </item>
+            </item>
+        </item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="T_000002_R" type="imswl_xmlv1p1">
+            <file href="T_000002_F.xml"/>
+        </resource>
+        <resource identifier="T_000003_R" type="imswl_xmlv1p1">
+            <file href="T_000003_F.xml"/>
+        </resource>
+        <resource identifier="T_000004_R" type="imswl_xmlv1p1">
+            <file href="T_000004_F.xml"/>
+        </resource>
+        <resource identifier="T_000005_R" type="imswl_xmlv1p1">
+            <file href="T_000005_F.xml"/>
+        </resource>
+        <resource identifier="T_000006_R" type="imswl_xmlv1p1">
+            <file href="T_000006_F.xml"/>
+        </resource>
+        <resource identifier="T_000008_R" type="imswl_xmlv1p1">
+            <file href="T_000008_F.xml"/>
+        </resource>
+        <resource identifier="T_000009_R" type="imswl_xmlv1p1">
+            <file href="T_000009_F.xml"/>
+        </resource>
+        <resource identifier="T_000010_R" type="imswl_xmlv1p1">
+            <file href="T_000010_F.xml"/>
+        </resource>
+        <resource identifier="T_000012_R" type="imswl_xmlv1p1">
+            <file href="T_000012_F.xml"/>
+        </resource>
+        <resource identifier="T_000013_R" type="imswl_xmlv1p1">
+            <file href="T_000013_F.xml"/>
+        </resource>
+        <resource identifier="T_000014_R" type="imswl_xmlv1p1">
+            <file href="T_000014_F.xml"/>
+        </resource>
+        <resource identifier="T_000015_R" type="imswl_xmlv1p1">
+            <file href="T_000015_F.xml"/>
+        </resource>
+        <resource identifier="T_000017_R" type="imswl_xmlv1p1">
+            <file href="T_000017_F.xml"/>
+        </resource>
+        <resource identifier="T_000018_R" type="imswl_xmlv1p1">
+            <file href="T_000018_F.xml"/>
+        </resource>
+        <resource identifier="T_000019_R" type="imswl_xmlv1p1">
+            <file href="T_000019_F.xml"/>
+        </resource>
+        <resource identifier="T_000020_R" type="imswl_xmlv1p1">
+            <file href="T_000020_F.xml"/>
+        </resource>
+        <resource identifier="T_000021_R" type="imswl_xmlv1p1">
+            <file href="T_000021_F.xml"/>
+        </resource>
+        <resource identifier="T_000022_R" type="imswl_xmlv1p1">
+            <file href="T_000022_F.xml"/>
+        </resource>
+        <resource identifier="T_000023_R" type="imswl_xmlv1p1">
+            <file href="T_000023_F.xml"/>
+        </resource>
+        <resource identifier="T_000025_R" type="imswl_xmlv1p1">
+            <file href="T_000025_F.xml"/>
+        </resource>
+        <resource identifier="T_000026_R" type="imswl_xmlv1p1">
+            <file href="T_000026_F.xml"/>
+        </resource>
+        <resource identifier="T_000027_R" type="imswl_xmlv1p1">
+            <file href="T_000027_F.xml"/>
+        </resource>
+        <resource identifier="T_000028_R" type="imswl_xmlv1p1">
+            <file href="T_000028_F.xml"/>
+        </resource>
+        <resource identifier="T_000029_R" type="imswl_xmlv1p1">
+            <file href="T_000029_F.xml"/>
+        </resource>
+        <resource identifier="T_000031_R" type="imswl_xmlv1p1">
+            <file href="T_000031_F.xml"/>
+        </resource>
+        <resource identifier="T_000032_R" type="imswl_xmlv1p1">
+            <file href="T_000032_F.xml"/>
+        </resource>
+        <resource identifier="T_000033_R" type="imswl_xmlv1p1">
+            <file href="T_000033_F.xml"/>
+        </resource>
+        <resource identifier="T_000034_R" type="imswl_xmlv1p1">
+            <file href="T_000034_F.xml"/>
+        </resource>
+        <resource identifier="T_000035_R" type="imswl_xmlv1p1">
+            <file href="T_000035_F.xml"/>
+        </resource>
+        <resource identifier="T_000036_R" type="imswl_xmlv1p1">
+            <file href="T_000036_F.xml"/>
+        </resource>
+        <resource identifier="T_000037_R" type="imswl_xmlv1p1">
+            <file href="T_000037_F.xml"/>
+        </resource>
+        <resource identifier="T_000038_R" type="imswl_xmlv1p1">
+            <file href="T_000038_F.xml"/>
+        </resource>
+        <resource identifier="T_000039_R" type="imswl_xmlv1p1">
+            <file href="T_000039_F.xml"/>
+        </resource>
+        <resource identifier="T_000040_R" type="imswl_xmlv1p1">
+            <file href="T_000040_F.xml"/>
+        </resource>
+        <resource identifier="T_000041_R" type="imswl_xmlv1p1">
+            <file href="T_000041_F.xml"/>
+        </resource>
+        <resource identifier="T_000043_R" type="imswl_xmlv1p1">
+            <file href="T_000043_F.xml"/>
+        </resource>
+        <resource identifier="T_000044_R" type="imswl_xmlv1p1">
+            <file href="T_000044_F.xml"/>
+        </resource>
+        <resource identifier="T_000045_R" type="imswl_xmlv1p1">
+            <file href="T_000045_F.xml"/>
+        </resource>
+        <resource identifier="T_000046_R" type="imswl_xmlv1p1">
+            <file href="T_000046_F.xml"/>
+        </resource>
+        <resource identifier="T_000047_R" type="imswl_xmlv1p1">
+            <file href="T_000047_F.xml"/>
+        </resource>
+        <resource identifier="T_000048_R" type="imswl_xmlv1p1">
+            <file href="T_000048_F.xml"/>
+        </resource>
+        <resource identifier="T_000049_R" type="imswl_xmlv1p1">
+            <file href="T_000049_F.xml"/>
+        </resource>
+        <resource identifier="T_000051_R" type="imswl_xmlv1p1">
+            <file href="T_000051_F.xml"/>
+        </resource>
+        <resource identifier="T_000052_R" type="imswl_xmlv1p1">
+            <file href="T_000052_F.xml"/>
+        </resource>
+        <resource identifier="T_000053_R" type="imswl_xmlv1p1">
+            <file href="T_000053_F.xml"/>
+        </resource>
+        <resource identifier="T_000055_R" type="imswl_xmlv1p1">
+            <file href="T_000055_F.xml"/>
+        </resource>
+        <resource identifier="T_000056_R" type="imswl_xmlv1p1">
+            <file href="T_000056_F.xml"/>
+        </resource>
+        <resource identifier="T_000057_R" type="imswl_xmlv1p1">
+            <file href="T_000057_F.xml"/>
+        </resource>
+        <resource identifier="T_000058_R" type="imswl_xmlv1p1">
+            <file href="T_000058_F.xml"/>
+        </resource>
+        <resource identifier="T_000059_R" type="imswl_xmlv1p1">
+            <file href="T_000059_F.xml"/>
+        </resource>
+        <resource identifier="T_000060_R" type="imswl_xmlv1p1">
+            <file href="T_000060_F.xml"/>
+        </resource>
+        <resource identifier="T_000061_R" type="imswl_xmlv1p1">
+            <file href="T_000061_F.xml"/>
+        </resource>
+        <resource identifier="T_000062_R" type="imswl_xmlv1p1">
+            <file href="T_000062_F.xml"/>
+        </resource>
+    </resources>
+</manifest>
